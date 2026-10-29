@@ -1,0 +1,1608 @@
+{
+ "columns": [
+  "reroute_TEU",
+  "resched_vh",
+  "dCf_pct",
+  "dCc_pct",
+  "dCt_pct",
+  "cancelled_LCS",
+  "extra_trucks",
+  "dLCS_modal_pct",
+  "dLCS_util_pct",
+  "dEarly_TEUh",
+  "dLate_TEUh"
+ ],
+ "note": "Transcribed from Qu et al. (2019) Tables 5-8; Table 5 'S3 <=3h' entered as +3h.",
+ "rows": [
+  {
+   "table": 5,
+   "id": "T5_S2_+0.5h",
+   "events": [
+    [
+     "release",
+     "S2",
+     0.5
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 0,
+    "dCf_pct": 0,
+    "dCc_pct": 0,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 0,
+    "dLCS_modal_pct": 0,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": 0,
+    "dLate_TEUh": 0
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 5,
+   "id": "T5_S2_+1h",
+   "events": [
+    [
+     "release",
+     "S2",
+     1
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 1,
+    "dCf_pct": 0,
+    "dCc_pct": 0,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 0,
+    "dLCS_modal_pct": 0,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": -10,
+    "dLate_TEUh": 50
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 5,
+   "id": "T5_S2_+1.5h",
+   "events": [
+    [
+     "release",
+     "S2",
+     1.5
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 60,
+    "resched_vh": 0,
+    "dCf_pct": 34.09,
+    "dCc_pct": -4.31,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 30,
+    "dLCS_modal_pct": -2.1,
+    "dLCS_util_pct": -4.7,
+    "dEarly_TEUh": -210,
+    "dLate_TEUh": 150
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 5,
+   "id": "T5_S3_+3h",
+   "events": [
+    [
+     "release",
+     "S3",
+     3
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 0,
+    "dCf_pct": 0,
+    "dCc_pct": 0,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 0,
+    "dLCS_modal_pct": 0,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": 0,
+    "dLate_TEUh": 0
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 5,
+   "id": "T5_S3_+3.5h",
+   "events": [
+    [
+     "release",
+     "S3",
+     3.5
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 1,
+    "dCf_pct": 0,
+    "dCc_pct": 0,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 0,
+    "dLCS_modal_pct": 0,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": -25,
+    "dLate_TEUh": 25
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 5,
+   "id": "T5_S3_+4h",
+   "events": [
+    [
+     "release",
+     "S3",
+     4
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 2,
+    "dCf_pct": 0,
+    "dCc_pct": 0,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 0,
+    "dLCS_modal_pct": 0,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": -50,
+    "dLate_TEUh": 50
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 5,
+   "id": "T5_S4_+0.5h",
+   "events": [
+    [
+     "release",
+     "S4",
+     0.5
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 1,
+    "dCf_pct": 0,
+    "dCc_pct": 0,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 0,
+    "dLCS_modal_pct": 0,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": -15,
+    "dLate_TEUh": 25
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 5,
+   "id": "T5_S4_+1h",
+   "events": [
+    [
+     "release",
+     "S4",
+     1
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 2,
+    "dCf_pct": 0,
+    "dCc_pct": 0,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 80,
+    "dLCS_modal_pct": -11.48,
+    "dLCS_util_pct": -8.2,
+    "dEarly_TEUh": -30,
+    "dLate_TEUh": 50
+   },
+   "paper_consistent_trucks_vs_Cf": false
+  },
+  {
+   "table": 5,
+   "id": "T5_S4_+1.5h",
+   "events": [
+    [
+     "release",
+     "S4",
+     1.5
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 80,
+    "resched_vh": 0,
+    "dCf_pct": 22.73,
+    "dCc_pct": -2.88,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 20,
+    "dLCS_modal_pct": 0,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": 140,
+    "dLate_TEUh": 100
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 5,
+   "id": "T5_S5_+0.5h",
+   "events": [
+    [
+     "release",
+     "S5",
+     0.5
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 1,
+    "dCf_pct": 0,
+    "dCc_pct": 0,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 0,
+    "dLCS_modal_pct": 0,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": -15,
+    "dLate_TEUh": 25
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 5,
+   "id": "T5_S5_+1h",
+   "events": [
+    [
+     "release",
+     "S5",
+     1
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 2,
+    "dCf_pct": 0,
+    "dCc_pct": 0,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 0,
+    "dLCS_modal_pct": 0,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": -30,
+    "dLate_TEUh": 50
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 5,
+   "id": "T5_S5_+1.5h",
+   "events": [
+    [
+     "release",
+     "S5",
+     1.5
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 80,
+    "resched_vh": 1.5,
+    "dCf_pct": 34.09,
+    "dCc_pct": 8.17,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 30,
+    "dLCS_modal_pct": -4.8,
+    "dLCS_util_pct": -2.5,
+    "dEarly_TEUh": -10,
+    "dLate_TEUh": 0
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 6,
+   "id": "T6_v0001_+0.5h",
+   "events": [
+    [
+     "lcs_delay",
+     "v0001",
+     0.5
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 0,
+    "dCf_pct": 0,
+    "dCc_pct": 0,
+    "dCt_pct": 0.5,
+    "cancelled_LCS": 0,
+    "extra_trucks": 0,
+    "dLCS_modal_pct": 0,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": -15,
+    "dLate_TEUh": 25
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 6,
+   "id": "T6_v0001_+1h",
+   "events": [
+    [
+     "lcs_delay",
+     "v0001",
+     1
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 1,
+    "dCf_pct": 0,
+    "dCc_pct": 0,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 0,
+    "dLCS_modal_pct": 0,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": -30,
+    "dLate_TEUh": 50
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 6,
+   "id": "T6_v0001_+1.5h",
+   "events": [
+    [
+     "lcs_delay",
+     "v0001",
+     1.5
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 60,
+    "resched_vh": 2,
+    "dCf_pct": 34.09,
+    "dCc_pct": 8.17,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 30,
+    "dLCS_modal_pct": -4.8,
+    "dLCS_util_pct": -2.5,
+    "dEarly_TEUh": -10,
+    "dLate_TEUh": 0
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 6,
+   "id": "T6_v0002_+0.5h",
+   "events": [
+    [
+     "lcs_delay",
+     "v0002",
+     0.5
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 70,
+    "resched_vh": 0.5,
+    "dCf_pct": 0,
+    "dCc_pct": 0,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 0,
+    "dLCS_modal_pct": 0,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": -25,
+    "dLate_TEUh": 25
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 6,
+   "id": "T6_v0002_+1h",
+   "events": [
+    [
+     "lcs_delay",
+     "v0002",
+     1
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 1,
+    "dCf_pct": 0,
+    "dCc_pct": 0,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 0,
+    "dLCS_modal_pct": 0,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": -50,
+    "dLate_TEUh": 50
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 6,
+   "id": "T6_v0002_+1.5h",
+   "events": [
+    [
+     "lcs_delay",
+     "v0002",
+     1.5
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 100,
+    "resched_vh": 1,
+    "dCf_pct": 55.68,
+    "dCc_pct": -7.19,
+    "dCt_pct": 0,
+    "cancelled_LCS": 1,
+    "extra_trucks": 50,
+    "dLCS_modal_pct": -7.7,
+    "dLCS_util_pct": -3.4,
+    "dEarly_TEUh": -335,
+    "dLate_TEUh": 250
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 6,
+   "id": "T6_v0003_+0.5h",
+   "events": [
+    [
+     "lcs_delay",
+     "v0003",
+     0.5
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 0,
+    "dCf_pct": 0,
+    "dCc_pct": 0,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 0,
+    "dLCS_modal_pct": 0,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": 0,
+    "dLate_TEUh": 30
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 6,
+   "id": "T6_v0003_+1h",
+   "events": [
+    [
+     "lcs_delay",
+     "v0003",
+     1
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 0,
+    "dCf_pct": 0,
+    "dCc_pct": 0,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 0,
+    "dLCS_modal_pct": 0,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": 0,
+    "dLate_TEUh": 60
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 6,
+   "id": "T6_v0003_+1.5h",
+   "events": [
+    [
+     "lcs_delay",
+     "v0003",
+     1.5
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 0,
+    "dCf_pct": 0,
+    "dCc_pct": -2.88,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 20,
+    "dLCS_modal_pct": 0,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": 140,
+    "dLate_TEUh": 100
+   },
+   "paper_consistent_trucks_vs_Cf": false
+  },
+  {
+   "table": 6,
+   "id": "T6_v0004_+0.5h",
+   "events": [
+    [
+     "lcs_delay",
+     "v0004",
+     0.5
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 0,
+    "dCf_pct": 0,
+    "dCc_pct": 0,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 0,
+    "dLCS_modal_pct": 0,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": 0,
+    "dLate_TEUh": 90
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 6,
+   "id": "T6_v0004_+1h",
+   "events": [
+    [
+     "lcs_delay",
+     "v0004",
+     1
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 0,
+    "dCf_pct": 0,
+    "dCc_pct": 0,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 0,
+    "dLCS_modal_pct": 0,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": 0,
+    "dLate_TEUh": 40
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 6,
+   "id": "T6_v0004_+1.5h",
+   "events": [
+    [
+     "lcs_delay",
+     "v0004",
+     1.5
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 0,
+    "dCf_pct": 0,
+    "dCc_pct": 0,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 0,
+    "dLCS_modal_pct": 0,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": 0,
+    "dLate_TEUh": 60
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 6,
+   "id": "T6_v0005_+0.5h",
+   "events": [
+    [
+     "lcs_delay",
+     "v0005",
+     0.5
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 0.5,
+    "dCf_pct": 0,
+    "dCc_pct": 0,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 0,
+    "dLCS_modal_pct": 0,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": -15,
+    "dLate_TEUh": 25
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 6,
+   "id": "T6_v0005_+1h",
+   "events": [
+    [
+     "lcs_delay",
+     "v0005",
+     1
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 1,
+    "dCf_pct": 0,
+    "dCc_pct": 0,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 0,
+    "dLCS_modal_pct": 0,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": -30,
+    "dLate_TEUh": 50
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 6,
+   "id": "T6_v0005_+1.5h",
+   "events": [
+    [
+     "lcs_delay",
+     "v0005",
+     1.5
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 80,
+    "resched_vh": 3,
+    "dCf_pct": 154.55,
+    "dCc_pct": 113.62,
+    "dCt_pct": 135.7,
+    "cancelled_LCS": 1,
+    "extra_trucks": 50,
+    "dLCS_modal_pct": -7.3,
+    "dLCS_util_pct": -5.1,
+    "dEarly_TEUh": 320,
+    "dLate_TEUh": 560
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 6,
+   "id": "T6_v0006_+0.5h",
+   "events": [
+    [
+     "lcs_delay",
+     "v0006",
+     0.5
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 0.5,
+    "dCf_pct": 0,
+    "dCc_pct": 0,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 0,
+    "dLCS_modal_pct": 0,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": -25,
+    "dLate_TEUh": 25
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 6,
+   "id": "T6_v0006_+1h",
+   "events": [
+    [
+     "lcs_delay",
+     "v0006",
+     1
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 1,
+    "dCf_pct": 0,
+    "dCc_pct": 0,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 0,
+    "dLCS_modal_pct": 0,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": -50,
+    "dLate_TEUh": 50
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 6,
+   "id": "T6_v0006_+1.5h",
+   "events": [
+    [
+     "lcs_delay",
+     "v0006",
+     1.5
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 1,
+    "dCf_pct": 0,
+    "dCc_pct": 0,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 0,
+    "dLCS_modal_pct": 0,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": -50,
+    "dLate_TEUh": 75
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 7,
+   "id": "T7_S2_+10%",
+   "events": [
+    [
+     "volume",
+     "S2",
+     0.1
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 0,
+    "dCf_pct": 5.68,
+    "dCc_pct": 1.48,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 5,
+    "dLCS_modal_pct": -0.7,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": 0,
+    "dLate_TEUh": 0
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 7,
+   "id": "T7_S2_+20%",
+   "events": [
+    [
+     "volume",
+     "S2",
+     0.2
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 0,
+    "dCf_pct": 11.36,
+    "dCc_pct": 2.96,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 10,
+    "dLCS_modal_pct": -1.4,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": 0,
+    "dLate_TEUh": 0
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 7,
+   "id": "T7_S2_+30%",
+   "events": [
+    [
+     "volume",
+     "S2",
+     0.3
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 0,
+    "dCf_pct": 17.05,
+    "dCc_pct": 4.44,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 15,
+    "dLCS_modal_pct": -2.1,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": 0,
+    "dLate_TEUh": 0
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 7,
+   "id": "T7_S3_+10%",
+   "events": [
+    [
+     "volume",
+     "S3",
+     0.1
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 10,
+    "resched_vh": 0,
+    "dCf_pct": 5.68,
+    "dCc_pct": 0.72,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 5,
+    "dLCS_modal_pct": -0.6,
+    "dLCS_util_pct": -0.6,
+    "dEarly_TEUh": -42.5,
+    "dLate_TEUh": 47.5
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 7,
+   "id": "T7_S3_+20%",
+   "events": [
+    [
+     "volume",
+     "S3",
+     0.2
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 20,
+    "resched_vh": 0,
+    "dCf_pct": 11.36,
+    "dCc_pct": 1.44,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 10,
+    "dLCS_modal_pct": -1.2,
+    "dLCS_util_pct": -1.2,
+    "dEarly_TEUh": -30,
+    "dLate_TEUh": 50
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 7,
+   "id": "T7_S3_+30%",
+   "events": [
+    [
+     "volume",
+     "S3",
+     0.3
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 30,
+    "resched_vh": 0,
+    "dCf_pct": 17.05,
+    "dCc_pct": 2.16,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 15,
+    "dLCS_modal_pct": -1.8,
+    "dLCS_util_pct": -1.8,
+    "dEarly_TEUh": 45,
+    "dLate_TEUh": 75
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 7,
+   "id": "T7_S4_+10%",
+   "events": [
+    [
+     "volume",
+     "S4",
+     0.1
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 20,
+    "resched_vh": 0,
+    "dCf_pct": 11.36,
+    "dCc_pct": 3.37,
+    "dCt_pct": 7.14,
+    "cancelled_LCS": 0,
+    "extra_trucks": 10,
+    "dLCS_modal_pct": -1.2,
+    "dLCS_util_pct": 1.4,
+    "dEarly_TEUh": -70,
+    "dLate_TEUh": 40
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 7,
+   "id": "T7_S4_+20%",
+   "events": [
+    [
+     "volume",
+     "S4",
+     0.2
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 40,
+    "resched_vh": 0,
+    "dCf_pct": 22.73,
+    "dCc_pct": 6.73,
+    "dCt_pct": 14.28,
+    "cancelled_LCS": 0,
+    "extra_trucks": 20,
+    "dLCS_modal_pct": -2.3,
+    "dLCS_util_pct": 2.8,
+    "dEarly_TEUh": -140,
+    "dLate_TEUh": 80
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 7,
+   "id": "T7_S4_+30%",
+   "events": [
+    [
+     "volume",
+     "S4",
+     0.3
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 60,
+    "resched_vh": 0,
+    "dCf_pct": 34.09,
+    "dCc_pct": 10.1,
+    "dCt_pct": 21.43,
+    "cancelled_LCS": 0,
+    "extra_trucks": 30,
+    "dLCS_modal_pct": -3.3,
+    "dLCS_util_pct": 4.3,
+    "dEarly_TEUh": -210,
+    "dLate_TEUh": 120
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 7,
+   "id": "T7_S5_+10%",
+   "events": [
+    [
+     "volume",
+     "S5",
+     0.1
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 20,
+    "resched_vh": 0,
+    "dCf_pct": 11.36,
+    "dCc_pct": 3.6,
+    "dCt_pct": 7.14,
+    "cancelled_LCS": 0,
+    "extra_trucks": 10,
+    "dLCS_modal_pct": -1.0,
+    "dLCS_util_pct": 2.4,
+    "dEarly_TEUh": -70,
+    "dLate_TEUh": 50
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 7,
+   "id": "T7_S5_+20%",
+   "events": [
+    [
+     "volume",
+     "S5",
+     0.2
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 40,
+    "resched_vh": 1,
+    "dCf_pct": 22.73,
+    "dCc_pct": 7.2,
+    "dCt_pct": 14.28,
+    "cancelled_LCS": 0,
+    "extra_trucks": 20,
+    "dLCS_modal_pct": -2.0,
+    "dLCS_util_pct": 4.9,
+    "dEarly_TEUh": -165,
+    "dLate_TEUh": 125
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 7,
+   "id": "T7_S5_+30%",
+   "events": [
+    [
+     "volume",
+     "S5",
+     0.3
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 60,
+    "resched_vh": 0,
+    "dCf_pct": 24.09,
+    "dCc_pct": 10.8,
+    "dCt_pct": 21.43,
+    "cancelled_LCS": 0,
+    "extra_trucks": 30,
+    "dLCS_modal_pct": -2.8,
+    "dLCS_util_pct": 7.4,
+    "dEarly_TEUh": -210,
+    "dLate_TEUh": 150
+   },
+   "paper_consistent_trucks_vs_Cf": false
+  },
+  {
+   "table": 7,
+   "id": "T7_S2_-10%",
+   "events": [
+    [
+     "volume",
+     "S2",
+     -0.1
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 0,
+    "dCf_pct": -5.68,
+    "dCc_pct": -1.48,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": -5,
+    "dLCS_modal_pct": 0.7,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": 0,
+    "dLate_TEUh": 0
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 7,
+   "id": "T7_S2_-20%",
+   "events": [
+    [
+     "volume",
+     "S2",
+     -0.2
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 0,
+    "dCf_pct": -11.36,
+    "dCc_pct": -2.96,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": -10,
+    "dLCS_modal_pct": 1.5,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": 0,
+    "dLate_TEUh": 0
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 7,
+   "id": "T7_S2_-30%",
+   "events": [
+    [
+     "volume",
+     "S2",
+     -0.3
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 0,
+    "dCf_pct": -17.05,
+    "dCc_pct": -4.44,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": -15,
+    "dLCS_modal_pct": 2.3,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": 0,
+    "dLate_TEUh": 0
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 7,
+   "id": "T7_S3_-10%",
+   "events": [
+    [
+     "volume",
+     "S3",
+     -0.1
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 10,
+    "resched_vh": 0,
+    "dCf_pct": -5.68,
+    "dCc_pct": -0.72,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": -5,
+    "dLCS_modal_pct": 0.6,
+    "dLCS_util_pct": -0.6,
+    "dEarly_TEUh": 15,
+    "dLate_TEUh": -25
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 7,
+   "id": "T7_S3_-20%",
+   "events": [
+    [
+     "volume",
+     "S3",
+     -0.2
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 20,
+    "resched_vh": 0,
+    "dCf_pct": -11.36,
+    "dCc_pct": -1.44,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": -10,
+    "dLCS_modal_pct": 1.3,
+    "dLCS_util_pct": -1.2,
+    "dEarly_TEUh": 30,
+    "dLate_TEUh": -50
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 7,
+   "id": "T7_S3_-30%",
+   "events": [
+    [
+     "volume",
+     "S3",
+     -0.3
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 30,
+    "resched_vh": 0,
+    "dCf_pct": -17.05,
+    "dCc_pct": -2.16,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": -15,
+    "dLCS_modal_pct": 2.0,
+    "dLCS_util_pct": -1.9,
+    "dEarly_TEUh": 45,
+    "dLate_TEUh": -75
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 7,
+   "id": "T7_S4_-10%",
+   "events": [
+    [
+     "volume",
+     "S4",
+     -0.1
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 10,
+    "resched_vh": 0,
+    "dCf_pct": -11.36,
+    "dCc_pct": -3.37,
+    "dCt_pct": -7.14,
+    "cancelled_LCS": 0,
+    "extra_trucks": -10,
+    "dLCS_modal_pct": 1.3,
+    "dLCS_util_pct": -1.4,
+    "dEarly_TEUh": 70,
+    "dLate_TEUh": -40
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 7,
+   "id": "T7_S4_-20%",
+   "events": [
+    [
+     "volume",
+     "S4",
+     -0.2
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 20,
+    "resched_vh": 0,
+    "dCf_pct": -22.73,
+    "dCc_pct": -6.73,
+    "dCt_pct": -14.28,
+    "cancelled_LCS": 0,
+    "extra_trucks": -20,
+    "dLCS_modal_pct": 2.7,
+    "dLCS_util_pct": -2.9,
+    "dEarly_TEUh": 140,
+    "dLate_TEUh": -80
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 7,
+   "id": "T7_S4_-30%",
+   "events": [
+    [
+     "volume",
+     "S4",
+     -0.3
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 30,
+    "resched_vh": 0,
+    "dCf_pct": -22.73,
+    "dCc_pct": -11.54,
+    "dCt_pct": -21.43,
+    "cancelled_LCS": 0,
+    "extra_trucks": -20,
+    "dLCS_modal_pct": 2.4,
+    "dLCS_util_pct": -5,
+    "dEarly_TEUh": 140,
+    "dLate_TEUh": -70
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 7,
+   "id": "T7_S5_-10%",
+   "events": [
+    [
+     "volume",
+     "S5",
+     -0.1
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 10,
+    "resched_vh": 0,
+    "dCf_pct": -11.36,
+    "dCc_pct": -3.6,
+    "dCt_pct": -7.14,
+    "cancelled_LCS": 0,
+    "extra_trucks": -10,
+    "dLCS_modal_pct": 1.1,
+    "dLCS_util_pct": -2.5,
+    "dEarly_TEUh": 70,
+    "dLate_TEUh": -50
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 7,
+   "id": "T7_S5_-20%",
+   "events": [
+    [
+     "volume",
+     "S5",
+     -0.2
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 20,
+    "resched_vh": 1,
+    "dCf_pct": -22.73,
+    "dCc_pct": -7.2,
+    "dCt_pct": -14.28,
+    "cancelled_LCS": 0,
+    "extra_trucks": -20,
+    "dLCS_modal_pct": 2.4,
+    "dLCS_util_pct": -4.9,
+    "dEarly_TEUh": 115,
+    "dLate_TEUh": -75
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 7,
+   "id": "T7_S5_-30%",
+   "events": [
+    [
+     "volume",
+     "S5",
+     -0.3
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 20,
+    "resched_vh": 0,
+    "dCf_pct": -22.73,
+    "dCc_pct": -12.24,
+    "dCt_pct": -21.43,
+    "cancelled_LCS": 0,
+    "extra_trucks": -20,
+    "dLCS_modal_pct": 2.0,
+    "dLCS_util_pct": -8.1,
+    "dEarly_TEUh": 140,
+    "dLate_TEUh": -100
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 8,
+   "id": "T8_S2+2h&S3+2h",
+   "events": [
+    [
+     "release",
+     "S2",
+     2
+    ],
+    [
+     "release",
+     "S3",
+     2
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 60,
+    "resched_vh": 0,
+    "dCf_pct": 34.09,
+    "dCc_pct": -4.32,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 30,
+    "dLCS_modal_pct": -4.7,
+    "dLCS_util_pct": -2.1,
+    "dEarly_TEUh": 210,
+    "dLate_TEUh": 150
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 8,
+   "id": "T8_S2+2h&S5+2h",
+   "events": [
+    [
+     "release",
+     "S2",
+     2
+    ],
+    [
+     "release",
+     "S5",
+     2
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 70,
+    "resched_vh": 3,
+    "dCf_pct": 34.09,
+    "dCc_pct": 8.17,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 30,
+    "dLCS_modal_pct": -4.8,
+    "dLCS_util_pct": -2.5,
+    "dEarly_TEUh": -10,
+    "dLate_TEUh": 0
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 8,
+   "id": "T8_S3+2h&S4+2h",
+   "events": [
+    [
+     "release",
+     "S3",
+     2
+    ],
+    [
+     "release",
+     "S4",
+     2
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 150,
+    "resched_vh": 3,
+    "dCf_pct": 54.54,
+    "dCc_pct": 13.62,
+    "dCt_pct": 35.71,
+    "cancelled_LCS": 1,
+    "extra_trucks": 50,
+    "dLCS_modal_pct": -7.4,
+    "dLCS_util_pct": -5.2,
+    "dEarly_TEUh": -90,
+    "dLate_TEUh": 150
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 8,
+   "id": "T8_S4+2h&S5+2h",
+   "events": [
+    [
+     "release",
+     "S4",
+     2
+    ],
+    [
+     "release",
+     "S5",
+     2
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 70,
+    "resched_vh": 3,
+    "dCf_pct": 34.09,
+    "dCc_pct": 8.17,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 30,
+    "dLCS_modal_pct": -4.8,
+    "dLCS_util_pct": -2.5,
+    "dEarly_TEUh": -10,
+    "dLate_TEUh": 0
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 8,
+   "id": "T8_v0001+1h&v0002+1h",
+   "events": [
+    [
+     "lcs_delay",
+     "v0001",
+     1
+    ],
+    [
+     "lcs_delay",
+     "v0002",
+     1
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 0,
+    "resched_vh": 2,
+    "dCf_pct": 0,
+    "dCc_pct": 0,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 0,
+    "dLCS_modal_pct": 0,
+    "dLCS_util_pct": 0,
+    "dEarly_TEUh": -80,
+    "dLate_TEUh": 100
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 8,
+   "id": "T8_v0001+1h&v0004+1h",
+   "events": [
+    [
+     "lcs_delay",
+     "v0001",
+     1
+    ],
+    [
+     "lcs_delay",
+     "v0004",
+     1
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 100,
+    "resched_vh": 1,
+    "dCf_pct": 22.73,
+    "dCc_pct": -2.88,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 20,
+    "dLCS_modal_pct": -3.14,
+    "dLCS_util_pct": -1.37,
+    "dEarly_TEUh": 90,
+    "dLate_TEUh": 210
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 8,
+   "id": "T8_v0001+1h&v0005+1h",
+   "events": [
+    [
+     "lcs_delay",
+     "v0001",
+     1
+    ],
+    [
+     "lcs_delay",
+     "v0005",
+     1
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 70,
+    "resched_vh": 2,
+    "dCf_pct": 34.09,
+    "dCc_pct": 8.17,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 30,
+    "dLCS_modal_pct": -4.76,
+    "dLCS_util_pct": -2.47,
+    "dEarly_TEUh": -10,
+    "dLate_TEUh": 50
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  },
+  {
+   "table": 8,
+   "id": "T8_v0002+1h&v0006+1h",
+   "events": [
+    [
+     "lcs_delay",
+     "v0002",
+     1
+    ],
+    [
+     "lcs_delay",
+     "v0006",
+     1
+    ]
+   ],
+   "paper": {
+    "reroute_TEU": 70,
+    "resched_vh": 3,
+    "dCf_pct": 34.09,
+    "dCc_pct": 8.17,
+    "dCt_pct": 0,
+    "cancelled_LCS": 0,
+    "extra_trucks": 30,
+    "dLCS_modal_pct": -4.76,
+    "dLCS_util_pct": -2.47,
+    "dEarly_TEUh": -60,
+    "dLate_TEUh": 50
+   },
+   "paper_consistent_trucks_vs_Cf": true
+  }
+ ]
+}

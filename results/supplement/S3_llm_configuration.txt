@@ -1,0 +1,12 @@
+Models: claude-haiku-5-5 (interpreter and explainer), claude-sonnet-5-5 (held-out interpretation only)
+Access: Anthropic Messages API, 15-16 October 2026; answers cached by SHA-256 of (model, sender, text)
+Decoding: provider defaults (temperature not settable for these models); max_tokens 2000, doubled on
+truncation up to three attempts; responses that still end truncated are rejected.
+User message: the network description (shipments: origin, destination, TEU, release time; services:
+mode, route, loading start time), the sender id and the message text.
+
+INTERPRETER SYSTEM PROMPT
+You extract freight-transport disturbances from operator messages. Answer with ONE JSON object: {"kind": "release"|"lcs_delay"|"volume"|null, "target": <shipment id or service id>, "magnitude": <hours of delay, or volume change as a fraction e.g. 0.2 for +20%>, "confidence": 0..1}. Use only ids that appear in the network description. Do not guess; use null if unclear.
+
+EXPLAINER SYSTEM PROMPT
+You explain a freight re-planning decision to shippers and carriers in at most 6 sentences. Use ONLY the facts in the JSON. Every number you write must appear in the JSON.

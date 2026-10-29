@@ -1,0 +1,385 @@
+{
+ "network": "besu",
+ "client": "besu/v26.9.0/linux-x86_64/openjdk-java-25",
+ "date": "2026-10-25T13:20:19.064Z",
+ "settings": {
+  "sizes": [
+   10,
+   100,
+   1000
+  ],
+  "days": 3,
+  "rate": 0.3,
+  "score_batch": 100,
+  "claim_batch": 100,
+  "outcome_batch": 100
+ },
+ "results": [
+  {
+   "stakeholders": 10,
+   "days": [
+    {
+     "day": 1,
+     "reports": 3,
+     "outcome_events": 4,
+     "burst_ms": 1879,
+     "burst_tps": 1.6,
+     "burst_blocks": 1,
+     "report_latency_ms_p50": 1877,
+     "report_latency_ms_p95": 1879,
+     "report_latency_ms_max": 1879,
+     "outcome_gas": 479534,
+     "score_gas": 507923,
+     "score_tx": 1,
+     "score_gas_per_report": 169308,
+     "score_ms": 1849,
+     "blocks": 6
+    },
+    {
+     "day": 2,
+     "reports": 3,
+     "outcome_events": 3,
+     "burst_ms": 2168,
+     "burst_tps": 1.4,
+     "burst_blocks": 1,
+     "report_latency_ms_p50": 2167,
+     "report_latency_ms_p95": 2168,
+     "report_latency_ms_max": 2168,
+     "outcome_gas": 388610,
+     "score_gas": 369212,
+     "score_tx": 1,
+     "score_gas_per_report": 123071,
+     "score_ms": 1919,
+     "blocks": 6
+    },
+    {
+     "day": 3,
+     "reports": 3,
+     "outcome_events": 3,
+     "burst_ms": 2132,
+     "burst_tps": 1.4,
+     "burst_blocks": 1,
+     "report_latency_ms_p50": 2131,
+     "report_latency_ms_p95": 2132,
+     "report_latency_ms_max": 2132,
+     "outcome_gas": 388610,
+     "score_gas": 308756,
+     "score_tx": 1,
+     "score_gas_per_report": 102919,
+     "score_ms": 2121,
+     "blocks": 6
+    }
+   ],
+   "by_operation": {
+    "registerMembers": {
+     "n": 2,
+     "gas_mean": 227153,
+     "gas_max": 278295,
+     "latency_ms_p50": 2120,
+     "latency_ms_p95": 2120,
+     "latency_ms_max": 2120
+    },
+    "setOwners": {
+     "n": 1,
+     "gas_mean": 253518,
+     "gas_max": 253518,
+     "latency_ms_p50": 2103,
+     "latency_ms_p95": 2103,
+     "latency_ms_max": 2103
+    },
+    "submitReport": {
+     "n": 9,
+     "gas_mean": 118749,
+     "gas_max": 130461,
+     "latency_ms_p50": 2131,
+     "latency_ms_p95": 2168,
+     "latency_ms_max": 2168
+    },
+    "postSensorRecords": {
+     "n": 12,
+     "gas_mean": 103105,
+     "gas_max": 118780,
+     "latency_ms_p50": 1936,
+     "latency_ms_p95": 1955,
+     "latency_ms_max": 1955
+    },
+    "postClaims": {
+     "n": 3,
+     "gas_mean": 240615,
+     "gas_max": 240619,
+     "latency_ms_p50": 1896,
+     "latency_ms_p95": 2183,
+     "latency_ms_max": 2183
+    },
+    "commitPlan": {
+     "n": 3,
+     "gas_mean": 70989,
+     "gas_max": 71001,
+     "latency_ms_p50": 1893,
+     "latency_ms_p95": 2141,
+     "latency_ms_max": 2141
+    },
+    "postOutcome": {
+     "n": 3,
+     "gas_mean": 418918,
+     "gas_max": 479534,
+     "latency_ms_p50": 2135,
+     "latency_ms_p95": 2136,
+     "latency_ms_max": 2136
+    },
+    "scoreDay": {
+     "n": 3,
+     "gas_mean": 395297,
+     "gas_max": 507923,
+     "latency_ms_p50": 1916,
+     "latency_ms_p95": 2119,
+     "latency_ms_max": 2119
+    }
+   }
+  },
+  {
+   "stakeholders": 100,
+   "days": [
+    {
+     "day": 1,
+     "reports": 30,
+     "outcome_events": 33,
+     "burst_ms": 2000,
+     "burst_tps": 15,
+     "burst_blocks": 1,
+     "report_latency_ms_p50": 1927,
+     "report_latency_ms_p95": 1998,
+     "report_latency_ms_max": 2000,
+     "outcome_gas": 3116723,
+     "score_gas": 4130210,
+     "score_tx": 1,
+     "score_gas_per_report": 137674,
+     "score_ms": 1995,
+     "blocks": 6
+    },
+    {
+     "day": 2,
+     "reports": 30,
+     "outcome_events": 35,
+     "burst_ms": 2039,
+     "burst_tps": 14.7,
+     "burst_blocks": 1,
+     "report_latency_ms_p50": 1974,
+     "report_latency_ms_p95": 2038,
+     "report_latency_ms_max": 2039,
+     "outcome_gas": 3298573,
+     "score_gas": 3777548,
+     "score_tx": 1,
+     "score_gas_per_report": 125918,
+     "score_ms": 2205,
+     "blocks": 6
+    },
+    {
+     "day": 3,
+     "reports": 30,
+     "outcome_events": 25,
+     "burst_ms": 2032,
+     "burst_tps": 14.8,
+     "burst_blocks": 1,
+     "report_latency_ms_p50": 1958,
+     "report_latency_ms_p95": 2030,
+     "report_latency_ms_max": 2031,
+     "outcome_gas": 2389226,
+     "score_gas": 3063405,
+     "score_tx": 1,
+     "score_gas_per_report": 102114,
+     "score_ms": 2212,
+     "blocks": 6
+    }
+   ],
+   "by_operation": {
+    "registerMembers": {
+     "n": 2,
+     "gas_mean": 1377824,
+     "gas_max": 2579637,
+     "latency_ms_p50": 1958,
+     "latency_ms_p95": 1958,
+     "latency_ms_max": 1958
+    },
+    "setOwners": {
+     "n": 1,
+     "gas_mean": 2332830,
+     "gas_max": 2332830,
+     "latency_ms_p50": 2158,
+     "latency_ms_p95": 2158,
+     "latency_ms_max": 2158
+    },
+    "submitReport": {
+     "n": 90,
+     "gas_mean": 113898,
+     "gas_max": 130461,
+     "latency_ms_p50": 1952,
+     "latency_ms_p95": 2037,
+     "latency_ms_max": 2039
+    },
+    "postSensorRecords": {
+     "n": 12,
+     "gas_mean": 388398,
+     "gas_max": 404082,
+     "latency_ms_p50": 1913,
+     "latency_ms_p95": 1944,
+     "latency_ms_max": 1944
+    },
+    "postClaims": {
+     "n": 3,
+     "gas_mean": 2155317,
+     "gas_max": 2155333,
+     "latency_ms_p50": 1915,
+     "latency_ms_p95": 2133,
+     "latency_ms_max": 2133
+    },
+    "commitPlan": {
+     "n": 3,
+     "gas_mean": 70989,
+     "gas_max": 71001,
+     "latency_ms_p50": 1912,
+     "latency_ms_p95": 2117,
+     "latency_ms_max": 2117
+    },
+    "postOutcome": {
+     "n": 3,
+     "gas_mean": 2934841,
+     "gas_max": 3298573,
+     "latency_ms_p50": 1959,
+     "latency_ms_p95": 2141,
+     "latency_ms_max": 2141
+    },
+    "scoreDay": {
+     "n": 3,
+     "gas_mean": 3657054,
+     "gas_max": 4130210,
+     "latency_ms_p50": 2197,
+     "latency_ms_p95": 2210,
+     "latency_ms_max": 2210
+    }
+   }
+  },
+  {
+   "stakeholders": 1000,
+   "days": [
+    {
+     "day": 1,
+     "reports": 300,
+     "outcome_events": 276,
+     "burst_ms": 7223,
+     "burst_tps": 41.5,
+     "burst_blocks": 2,
+     "report_latency_ms_p50": 5384,
+     "report_latency_ms_p95": 6083,
+     "report_latency_ms_max": 6141,
+     "outcome_gas": 25297366,
+     "score_gas": 38823052,
+     "score_tx": 3,
+     "score_gas_per_report": 129410,
+     "score_ms": 6756,
+     "blocks": 14
+    },
+    {
+     "day": 2,
+     "reports": 300,
+     "outcome_events": 273,
+     "burst_ms": 5943,
+     "burst_tps": 50.5,
+     "burst_blocks": 3,
+     "report_latency_ms_p50": 3234,
+     "report_latency_ms_p95": 4477,
+     "report_latency_ms_max": 4851,
+     "outcome_gas": 25024634,
+     "score_gas": 34319375,
+     "score_tx": 3,
+     "score_gas_per_report": 114398,
+     "score_ms": 6753,
+     "blocks": 14
+    },
+    {
+     "day": 3,
+     "reports": 300,
+     "outcome_events": 288,
+     "burst_ms": 6535,
+     "burst_tps": 45.9,
+     "burst_blocks": 3,
+     "report_latency_ms_p50": 3780,
+     "report_latency_ms_p95": 4760,
+     "report_latency_ms_max": 4928,
+     "outcome_gas": 26388813,
+     "score_gas": 31820947,
+     "score_tx": 3,
+     "score_gas_per_report": 106070,
+     "score_ms": 6920,
+     "blocks": 15
+    }
+   ],
+   "by_operation": {
+    "registerMembers": {
+     "n": 5,
+     "gas_mean": 5167283,
+     "gas_max": 6415131,
+     "latency_ms_p50": 2046,
+     "latency_ms_p95": 2168,
+     "latency_ms_max": 2168
+    },
+    "setOwners": {
+     "n": 4,
+     "gas_mean": 5801034,
+     "gas_max": 5801394,
+     "latency_ms_p50": 1922,
+     "latency_ms_p95": 2148,
+     "latency_ms_max": 2148
+    },
+    "submitReport": {
+     "n": 900,
+     "gas_mean": 113413,
+     "gas_max": 130461,
+     "latency_ms_p50": 4200,
+     "latency_ms_p95": 5948,
+     "latency_ms_max": 6141
+    },
+    "postSensorRecords": {
+     "n": 12,
+     "gas_mean": 3598440,
+     "gas_max": 3614104,
+     "latency_ms_p50": 1657,
+     "latency_ms_p95": 2679,
+     "latency_ms_max": 2679
+    },
+    "postClaims": {
+     "n": 9,
+     "gas_mean": 7121258,
+     "gas_max": 7121629,
+     "latency_ms_p50": 1907,
+     "latency_ms_p95": 2216,
+     "latency_ms_max": 2216
+    },
+    "commitPlan": {
+     "n": 3,
+     "gas_mean": 70989,
+     "gas_max": 71001,
+     "latency_ms_p50": 1618,
+     "latency_ms_p95": 1929,
+     "latency_ms_max": 1929
+    },
+    "postOutcome": {
+     "n": 9,
+     "gas_mean": 8523424,
+     "gas_max": 9188895,
+     "latency_ms_p50": 2085,
+     "latency_ms_p95": 2251,
+     "latency_ms_max": 2251
+    },
+    "scoreDay": {
+     "n": 9,
+     "gas_mean": 11662597,
+     "gas_max": 15069998,
+     "latency_ms_p50": 2318,
+     "latency_ms_p95": 2653,
+     "latency_ms_max": 2653
+    }
+   }
+  }
+ ]
+}

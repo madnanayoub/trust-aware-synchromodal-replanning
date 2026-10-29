@@ -1,0 +1,1658 @@
+{
+ "summary": {
+  "rows": 62,
+  "kpi_match_counts": {
+   "reroute_TEU": 47,
+   "resched_vh": 52,
+   "dCf_pct": 56,
+   "dCc_pct": 56,
+   "dCt_pct": 60,
+   "cancelled_LCS": 61,
+   "extra_trucks": 56,
+   "dEarly_TEUh": 49,
+   "dLate_TEUh": 53
+  },
+  "rows_all_9_kpis_match": 37,
+  "cost_equal": 50,
+  "ours_cheaper": [
+   "T6_v0004_+0.5h",
+   "T6_v0005_+1.5h",
+   "T7_S3_+30%",
+   "T7_S5_-20%",
+   "T8_S2+2h&S3+2h",
+   "T8_S3+2h&S4+2h",
+   "T8_v0001+1h&v0004+1h",
+   "T8_v0001+1h&v0005+1h",
+   "T8_v0002+1h&v0006+1h"
+  ],
+  "paper_cheaper": [
+   "T5_S2_+0.5h",
+   "T6_v0003_+1.5h",
+   "T7_S5_+30%"
+  ],
+  "variant_mean_increase_vs_base_pct": {
+   "STP": 1.09,
+   "N-STP": 27.15,
+   "R-STP": 3.01
+  },
+  "stp_strictly_better_than": {
+   "N-STP": 62,
+   "R-STP": 25
+  },
+  "stp_never_worse": true
+ },
+ "rows": [
+  {
+   "id": "T5_S2_+0.5h",
+   "table": 5,
+   "ours_cost": 15990.9,
+   "paper_implied_cost": 15960.9,
+   "gap": 30.0,
+   "class": "paper_cheaper",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": false,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": false,
+    "dLate_TEUh": false
+   },
+   "all_kpis_match": false,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 15990.9,
+    "N-STP": 20043.0,
+    "R-STP": 16078.8
+   }
+  },
+  {
+   "id": "T5_S2_+1h",
+   "table": 5,
+   "ours_cost": 16020.9,
+   "paper_implied_cost": 16030.9,
+   "gap": -10.0,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": false,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": false,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": false,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 16020.9,
+    "N-STP": 20043.0,
+    "R-STP": 16078.8
+   }
+  },
+  {
+   "id": "T5_S2_+1.5h",
+   "table": 5,
+   "ours_cost": 16078.8,
+   "paper_implied_cost": 16079.4,
+   "gap": -0.6,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 16078.8,
+    "N-STP": 20043.0,
+    "R-STP": 16078.8
+   }
+  },
+  {
+   "id": "T5_S3_+3h",
+   "table": 5,
+   "ours_cost": 15960.9,
+   "paper_implied_cost": 15960.9,
+   "gap": -0.0,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 15960.9,
+    "N-STP": 20043.0,
+    "R-STP": 15960.9
+   }
+  },
+  {
+   "id": "T5_S3_+3.5h",
+   "table": 5,
+   "ours_cost": 15985.9,
+   "paper_implied_cost": 15985.9,
+   "gap": -0.0,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 15985.9,
+    "N-STP": 20043.0,
+    "R-STP": 18872.3
+   }
+  },
+  {
+   "id": "T5_S3_+4h",
+   "table": 5,
+   "ours_cost": 16010.9,
+   "paper_implied_cost": 16010.9,
+   "gap": -0.0,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 16010.9,
+    "N-STP": 20043.0,
+    "R-STP": 18872.3
+   }
+  },
+  {
+   "id": "T5_S4_+0.5h",
+   "table": 5,
+   "ours_cost": 15990.9,
+   "paper_implied_cost": 15990.9,
+   "gap": -0.0,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 15990.9,
+    "N-STP": 20043.0,
+    "R-STP": 16179.5
+   }
+  },
+  {
+   "id": "T5_S4_+1h",
+   "table": 5,
+   "ours_cost": 16020.9,
+   "paper_implied_cost": 16020.9,
+   "gap": -0.0,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": false,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": false,
+   "paper_consistent": false,
+   "variants": {
+    "STP": 16020.9,
+    "N-STP": 20043.0,
+    "R-STP": 16179.5
+   }
+  },
+  {
+   "id": "T5_S4_+1.5h",
+   "table": 5,
+   "ours_cost": 16179.5,
+   "paper_implied_cost": 16179.2,
+   "gap": 0.3,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 16179.5,
+    "N-STP": 20043.0,
+    "R-STP": 16179.5
+   }
+  },
+  {
+   "id": "T5_S5_+0.5h",
+   "table": 5,
+   "ours_cost": 15990.9,
+   "paper_implied_cost": 15990.9,
+   "gap": -0.0,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 15990.9,
+    "N-STP": 20043.0,
+    "R-STP": 17336.8
+   }
+  },
+  {
+   "id": "T5_S5_+1h",
+   "table": 5,
+   "ours_cost": 16020.9,
+   "paper_implied_cost": 16020.9,
+   "gap": -0.0,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 16020.9,
+    "N-STP": 20043.0,
+    "R-STP": 17336.8
+   }
+  },
+  {
+   "id": "T5_S5_+1.5h",
+   "table": 5,
+   "ours_cost": 17261.8,
+   "paper_implied_cost": 17261.8,
+   "gap": -0.0,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": false,
+    "resched_vh": false,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": false,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 17261.8,
+    "N-STP": 20043.0,
+    "R-STP": 17336.8
+   }
+  },
+  {
+   "id": "T6_v0001_+0.5h",
+   "table": 6,
+   "ours_cost": 15990.9,
+   "paper_implied_cost": 16007.6,
+   "gap": -16.7,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": false,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": false,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 15990.9,
+    "N-STP": 20043.0,
+    "R-STP": 17324.3
+   }
+  },
+  {
+   "id": "T6_v0001_+1h",
+   "table": 6,
+   "ours_cost": 16020.9,
+   "paper_implied_cost": 16020.9,
+   "gap": -0.0,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 16020.9,
+    "N-STP": 20043.0,
+    "R-STP": 17311.8
+   }
+  },
+  {
+   "id": "T6_v0001_+1.5h",
+   "table": 6,
+   "ours_cost": 17261.8,
+   "paper_implied_cost": 17261.8,
+   "gap": -0.0,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": false,
+    "resched_vh": false,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": false,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 17261.8,
+    "N-STP": 20043.0,
+    "R-STP": 17299.3
+   }
+  },
+  {
+   "id": "T6_v0002_+0.5h",
+   "table": 6,
+   "ours_cost": 15985.9,
+   "paper_implied_cost": 15985.9,
+   "gap": -0.0,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": false,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": false,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 15985.9,
+    "N-STP": 20030.5,
+    "R-STP": 16199.9
+   }
+  },
+  {
+   "id": "T6_v0002_+1h",
+   "table": 6,
+   "ours_cost": 16010.9,
+   "paper_implied_cost": 16010.9,
+   "gap": -0.0,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 16010.9,
+    "N-STP": 20018.0,
+    "R-STP": 16187.4
+   }
+  },
+  {
+   "id": "T6_v0002_+1.5h",
+   "table": 6,
+   "ours_cost": 16149.9,
+   "paper_implied_cost": 16150.1,
+   "gap": -0.2,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": false,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": false,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 16149.9,
+    "N-STP": 20005.5,
+    "R-STP": 16174.9
+   }
+  },
+  {
+   "id": "T6_v0003_+0.5h",
+   "table": 6,
+   "ours_cost": 16005.9,
+   "paper_implied_cost": 16005.9,
+   "gap": -0.0,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 16005.9,
+    "N-STP": 20043.0,
+    "R-STP": 16005.9
+   }
+  },
+  {
+   "id": "T6_v0003_+1h",
+   "table": 6,
+   "ours_cost": 16050.9,
+   "paper_implied_cost": 16050.9,
+   "gap": -0.0,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 16050.9,
+    "N-STP": 20043.0,
+    "R-STP": 16050.9
+   }
+  },
+  {
+   "id": "T6_v0003_+1.5h",
+   "table": 6,
+   "ours_cost": 16095.9,
+   "paper_implied_cost": 15879.2,
+   "gap": 216.7,
+   "class": "paper_cheaper",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": false,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": false,
+    "dEarly_TEUh": false,
+    "dLate_TEUh": false
+   },
+   "all_kpis_match": false,
+   "paper_consistent": false,
+   "variants": {
+    "STP": 16095.9,
+    "N-STP": 20043.0,
+    "R-STP": 16095.9
+   }
+  },
+  {
+   "id": "T6_v0004_+0.5h",
+   "table": 6,
+   "ours_cost": 15990.9,
+   "paper_implied_cost": 16095.9,
+   "gap": -105.0,
+   "class": "ours_cheaper",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": false
+   },
+   "all_kpis_match": false,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 15990.9,
+    "N-STP": 20118.0,
+    "R-STP": 15990.9
+   }
+  },
+  {
+   "id": "T6_v0004_+1h",
+   "table": 6,
+   "ours_cost": 16020.9,
+   "paper_implied_cost": 16020.9,
+   "gap": -0.0,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 16020.9,
+    "N-STP": 20193.0,
+    "R-STP": 16020.9
+   }
+  },
+  {
+   "id": "T6_v0004_+1.5h",
+   "table": 6,
+   "ours_cost": 16050.9,
+   "paper_implied_cost": 16050.9,
+   "gap": -0.0,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 16050.9,
+    "N-STP": 20268.0,
+    "R-STP": 16050.9
+   }
+  },
+  {
+   "id": "T6_v0005_+0.5h",
+   "table": 6,
+   "ours_cost": 15990.9,
+   "paper_implied_cost": 15990.9,
+   "gap": -0.0,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 15990.9,
+    "N-STP": 20118.0,
+    "R-STP": 15998.4
+   }
+  },
+  {
+   "id": "T6_v0005_+1h",
+   "table": 6,
+   "ours_cost": 16020.9,
+   "paper_implied_cost": 16020.9,
+   "gap": -0.0,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 16020.9,
+    "N-STP": 20193.0,
+    "R-STP": 16035.9
+   }
+  },
+  {
+   "id": "T6_v0005_+1.5h",
+   "table": 6,
+   "ours_cost": 19086.2,
+   "paper_implied_cost": 35442.8,
+   "gap": -16356.6,
+   "class": "ours_cheaper",
+   "kpi_match": {
+    "reroute_TEU": false,
+    "resched_vh": true,
+    "dCf_pct": false,
+    "dCc_pct": false,
+    "dCt_pct": false,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": false,
+    "dLate_TEUh": false
+   },
+   "all_kpis_match": false,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 19086.2,
+    "N-STP": 22300.0,
+    "R-STP": 19161.2
+   }
+  },
+  {
+   "id": "T6_v0006_+0.5h",
+   "table": 6,
+   "ours_cost": 15985.9,
+   "paper_implied_cost": 15985.9,
+   "gap": -0.0,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 15985.9,
+    "N-STP": 20043.0,
+    "R-STP": 15998.4
+   }
+  },
+  {
+   "id": "T6_v0006_+1h",
+   "table": 6,
+   "ours_cost": 16010.9,
+   "paper_implied_cost": 16010.9,
+   "gap": -0.0,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 16010.9,
+    "N-STP": 20043.0,
+    "R-STP": 16035.9
+   }
+  },
+  {
+   "id": "T6_v0006_+1.5h",
+   "table": 6,
+   "ours_cost": 16048.4,
+   "paper_implied_cost": 16048.4,
+   "gap": -0.0,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 16048.4,
+    "N-STP": 20043.0,
+    "R-STP": 16073.4
+   }
+  },
+  {
+   "id": "T7_S2_+10%",
+   "table": 7,
+   "ours_cost": 16190.8,
+   "paper_implied_cost": 16190.9,
+   "gap": -0.1,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": false,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": false,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 16190.8,
+    "N-STP": 20272.9,
+    "R-STP": 16190.8
+   }
+  },
+  {
+   "id": "T7_S2_+20%",
+   "table": 7,
+   "ours_cost": 16420.7,
+   "paper_implied_cost": 16421.0,
+   "gap": -0.3,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": false,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": false,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 16420.7,
+    "N-STP": 20502.8,
+    "R-STP": 16420.7
+   }
+  },
+  {
+   "id": "T7_S2_+30%",
+   "table": 7,
+   "ours_cost": 16650.6,
+   "paper_implied_cost": 16651.1,
+   "gap": -0.5,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": false,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": false,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 16650.6,
+    "N-STP": 20732.7,
+    "R-STP": 16650.6
+   }
+  },
+  {
+   "id": "T7_S3_+10%",
+   "table": 7,
+   "ours_cost": 16141.35,
+   "paper_implied_cost": 16161.3,
+   "gap": -20.0,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": false,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": false,
+    "dLate_TEUh": false
+   },
+   "all_kpis_match": false,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 16141.35,
+    "N-STP": 20201.3,
+    "R-STP": 16141.35
+   }
+  },
+  {
+   "id": "T7_S3_+20%",
+   "table": 7,
+   "ours_cost": 16321.8,
+   "paper_implied_cost": 16321.7,
+   "gap": 0.1,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": false,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": false,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 16321.8,
+    "N-STP": 20359.6,
+    "R-STP": 16321.8
+   }
+  },
+  {
+   "id": "T7_S3_+30%",
+   "table": 7,
+   "ours_cost": 16502.25,
+   "paper_implied_cost": 16547.2,
+   "gap": -45.0,
+   "class": "ours_cheaper",
+   "kpi_match": {
+    "reroute_TEU": false,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": false,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": false,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 16502.25,
+    "N-STP": 20517.9,
+    "R-STP": 16502.25
+   }
+  },
+  {
+   "id": "T7_S4_+10%",
+   "table": 7,
+   "ours_cost": 16727.5,
+   "paper_implied_cost": 16727.7,
+   "gap": -0.2,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 16727.5,
+    "N-STP": 20409.3,
+    "R-STP": 16727.5
+   }
+  },
+  {
+   "id": "T7_S4_+20%",
+   "table": 7,
+   "ours_cost": 17494.1,
+   "paper_implied_cost": 17493.6,
+   "gap": 0.5,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 17494.1,
+    "N-STP": 20775.6,
+    "R-STP": 17494.1
+   }
+  },
+  {
+   "id": "T7_S4_+30%",
+   "table": 7,
+   "ours_cost": 18260.7,
+   "paper_implied_cost": 18260.7,
+   "gap": -0.0,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 18260.7,
+    "N-STP": 32006.6,
+    "R-STP": 18260.7
+   }
+  },
+  {
+   "id": "T7_S5_+10%",
+   "table": 7,
+   "ours_cost": 16766.9,
+   "paper_implied_cost": 16766.8,
+   "gap": 0.1,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 16766.9,
+    "N-STP": 20448.7,
+    "R-STP": 16766.9
+   }
+  },
+  {
+   "id": "T7_S5_+20%",
+   "table": 7,
+   "ours_cost": 17572.9,
+   "paper_implied_cost": 17597.8,
+   "gap": -24.9,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": false,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": false,
+    "dLate_TEUh": false
+   },
+   "all_kpis_match": false,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 17572.9,
+    "N-STP": 20854.4,
+    "R-STP": 17572.9
+   }
+  },
+  {
+   "id": "T7_S5_+30%",
+   "table": 7,
+   "ours_cost": 18378.9,
+   "paper_implied_cost": 18247.1,
+   "gap": 131.8,
+   "class": "paper_cheaper",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": false,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": false,
+   "paper_consistent": false,
+   "variants": {
+    "STP": 18378.9,
+    "N-STP": 29535.2,
+    "R-STP": 18378.9
+   }
+  },
+  {
+   "id": "T7_S2_-10%",
+   "table": 7,
+   "ours_cost": 15731.0,
+   "paper_implied_cost": 15730.9,
+   "gap": 0.1,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 15731.0,
+    "N-STP": 19813.1,
+    "R-STP": 15731.0
+   }
+  },
+  {
+   "id": "T7_S2_-20%",
+   "table": 7,
+   "ours_cost": 15501.1,
+   "paper_implied_cost": 15500.8,
+   "gap": 0.3,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 15501.1,
+    "N-STP": 19583.2,
+    "R-STP": 15501.1
+   }
+  },
+  {
+   "id": "T7_S2_-30%",
+   "table": 7,
+   "ours_cost": 15271.2,
+   "paper_implied_cost": 15270.7,
+   "gap": 0.5,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 15271.2,
+    "N-STP": 19353.3,
+    "R-STP": 15271.2
+   }
+  },
+  {
+   "id": "T7_S3_-10%",
+   "table": 7,
+   "ours_cost": 15780.45,
+   "paper_implied_cost": 15780.5,
+   "gap": -0.0,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 15780.45,
+    "N-STP": 19884.7,
+    "R-STP": 15780.45
+   }
+  },
+  {
+   "id": "T7_S3_-20%",
+   "table": 7,
+   "ours_cost": 15600.0,
+   "paper_implied_cost": 15600.1,
+   "gap": -0.1,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 15600.0,
+    "N-STP": 19726.4,
+    "R-STP": 15600.0
+   }
+  },
+  {
+   "id": "T7_S3_-30%",
+   "table": 7,
+   "ours_cost": 15419.55,
+   "paper_implied_cost": 15419.6,
+   "gap": -0.0,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 15419.55,
+    "N-STP": 19568.1,
+    "R-STP": 15419.55
+   }
+  },
+  {
+   "id": "T7_S4_-10%",
+   "table": 7,
+   "ours_cost": 15194.3,
+   "paper_implied_cost": 15194.1,
+   "gap": 0.2,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 15194.3,
+    "N-STP": 19241.4,
+    "R-STP": 15194.3
+   }
+  },
+  {
+   "id": "T7_S4_-20%",
+   "table": 7,
+   "ours_cost": 14427.7,
+   "paper_implied_cost": 14428.2,
+   "gap": -0.5,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 14427.7,
+    "N-STP": 18439.8,
+    "R-STP": 14427.7
+   }
+  },
+  {
+   "id": "T7_S4_-30%",
+   "table": 7,
+   "ours_cost": 13700.4,
+   "paper_implied_cost": 13700.2,
+   "gap": 0.2,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 13700.4,
+    "N-STP": 16867.6,
+    "R-STP": 13700.4
+   }
+  },
+  {
+   "id": "T7_S5_-10%",
+   "table": 7,
+   "ours_cost": 15154.9,
+   "paper_implied_cost": 15155.0,
+   "gap": -0.1,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 15154.9,
+    "N-STP": 19202.0,
+    "R-STP": 15154.9
+   }
+  },
+  {
+   "id": "T7_S5_-20%",
+   "table": 7,
+   "ours_cost": 14348.9,
+   "paper_implied_cost": 14374.0,
+   "gap": -25.1,
+   "class": "ours_cheaper",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": false,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": false,
+    "dLate_TEUh": false
+   },
+   "all_kpis_match": false,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 14348.9,
+    "N-STP": 18361.0,
+    "R-STP": 14348.9
+   }
+  },
+  {
+   "id": "T7_S5_-30%",
+   "table": 7,
+   "ours_cost": 13582.2,
+   "paper_implied_cost": 13581.8,
+   "gap": 0.4,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 13582.2,
+    "N-STP": 16824.4,
+    "R-STP": 13582.2
+   }
+  },
+  {
+   "id": "T8_S2+2h&S3+2h",
+   "table": 8,
+   "ours_cost": 16078.8,
+   "paper_implied_cost": 16288.3,
+   "gap": -209.5,
+   "class": "ours_cheaper",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": false,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": false,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 16078.8,
+    "N-STP": 20043.0,
+    "R-STP": 16078.8
+   }
+  },
+  {
+   "id": "T8_S2+2h&S5+2h",
+   "table": 8,
+   "ours_cost": 17261.8,
+   "paper_implied_cost": 17261.8,
+   "gap": -0.0,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 17261.8,
+    "N-STP": 20043.0,
+    "R-STP": 19338.3
+   }
+  },
+  {
+   "id": "T8_S3+2h&S4+2h",
+   "table": 8,
+   "ours_cost": 16179.5,
+   "paper_implied_cost": 19482.1,
+   "gap": -3302.6,
+   "class": "ours_cheaper",
+   "kpi_match": {
+    "reroute_TEU": false,
+    "resched_vh": false,
+    "dCf_pct": false,
+    "dCc_pct": false,
+    "dCt_pct": false,
+    "cancelled_LCS": false,
+    "extra_trucks": false,
+    "dEarly_TEUh": false,
+    "dLate_TEUh": false
+   },
+   "all_kpis_match": false,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 16179.5,
+    "N-STP": 20043.0,
+    "R-STP": 16179.5
+   }
+  },
+  {
+   "id": "T8_S4+2h&S5+2h",
+   "table": 8,
+   "ours_cost": 17261.8,
+   "paper_implied_cost": 17261.8,
+   "gap": -0.0,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 17261.8,
+    "N-STP": 20043.0,
+    "R-STP": 19078.0
+   }
+  },
+  {
+   "id": "T8_v0001+1h&v0002+1h",
+   "table": 8,
+   "ours_cost": 16070.9,
+   "paper_implied_cost": 16070.9,
+   "gap": -0.0,
+   "class": "equal",
+   "kpi_match": {
+    "reroute_TEU": true,
+    "resched_vh": true,
+    "dCf_pct": true,
+    "dCc_pct": true,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": true,
+    "dEarly_TEUh": true,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": true,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 16070.9,
+    "N-STP": 20018.0,
+    "R-STP": 17643.3
+   }
+  },
+  {
+   "id": "T8_v0001+1h&v0004+1h",
+   "table": 8,
+   "ours_cost": 16080.9,
+   "paper_implied_cost": 16319.2,
+   "gap": -238.3,
+   "class": "ours_cheaper",
+   "kpi_match": {
+    "reroute_TEU": false,
+    "resched_vh": true,
+    "dCf_pct": false,
+    "dCc_pct": false,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": false,
+    "dEarly_TEUh": false,
+    "dLate_TEUh": false
+   },
+   "all_kpis_match": false,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 16080.9,
+    "N-STP": 20193.0,
+    "R-STP": 17371.8
+   }
+  },
+  {
+   "id": "T8_v0001+1h&v0005+1h",
+   "table": 8,
+   "ours_cost": 16020.9,
+   "paper_implied_cost": 17336.8,
+   "gap": -1315.9,
+   "class": "ours_cheaper",
+   "kpi_match": {
+    "reroute_TEU": false,
+    "resched_vh": false,
+    "dCf_pct": false,
+    "dCc_pct": false,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": false,
+    "dEarly_TEUh": false,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": false,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 16020.9,
+    "N-STP": 20193.0,
+    "R-STP": 16020.9
+   }
+  },
+  {
+   "id": "T8_v0002+1h&v0006+1h",
+   "table": 8,
+   "ours_cost": 16010.9,
+   "paper_implied_cost": 17311.8,
+   "gap": -1300.9,
+   "class": "ours_cheaper",
+   "kpi_match": {
+    "reroute_TEU": false,
+    "resched_vh": false,
+    "dCf_pct": false,
+    "dCc_pct": false,
+    "dCt_pct": true,
+    "cancelled_LCS": true,
+    "extra_trucks": false,
+    "dEarly_TEUh": false,
+    "dLate_TEUh": true
+   },
+   "all_kpis_match": false,
+   "paper_consistent": true,
+   "variants": {
+    "STP": 16010.9,
+    "N-STP": 20018.0,
+    "R-STP": 16010.9
+   }
+  }
+ ]
+}

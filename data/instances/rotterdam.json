@@ -1,0 +1,324 @@
+{
+ "name": "rotterdam",
+ "terminals": [
+  "PoR",
+  "Utrecht",
+  "Nijmegen",
+  "Dordrecht",
+  "Tilburg",
+  "Venlo"
+ ],
+ "services": [
+  {
+   "id": "v0001",
+   "mode": "barge",
+   "legs": [
+    {
+     "i": "PoR",
+     "j": "Dordrecht",
+     "run_time": 2,
+     "var_cost": 2.45,
+     "planned_dep": 8.0
+    }
+   ],
+   "fixed_cost": 60,
+   "capacity": 120,
+   "load_time": 1.0,
+   "unload_time": 1.0,
+   "cancel_cost": 30.0,
+   "preplanned": true
+  },
+  {
+   "id": "v0002",
+   "mode": "rail",
+   "legs": [
+    {
+     "i": "PoR",
+     "j": "Tilburg",
+     "run_time": 2,
+     "var_cost": 30.16,
+     "planned_dep": 11.0
+    }
+   ],
+   "fixed_cost": 30,
+   "capacity": 100,
+   "load_time": 1.0,
+   "unload_time": 1.0,
+   "cancel_cost": 15.0,
+   "preplanned": true
+  },
+  {
+   "id": "v0003",
+   "mode": "rail",
+   "legs": [
+    {
+     "i": "PoR",
+     "j": "Nijmegen",
+     "run_time": 2,
+     "var_cost": 30.16,
+     "planned_dep": 15.0
+    }
+   ],
+   "fixed_cost": 30,
+   "capacity": 60,
+   "load_time": 1.0,
+   "unload_time": 1.0,
+   "cancel_cost": 15.0,
+   "preplanned": true
+  },
+  {
+   "id": "v0004",
+   "mode": "barge",
+   "legs": [
+    {
+     "i": "Dordrecht",
+     "j": "Nijmegen",
+     "run_time": 5,
+     "var_cost": 4.29,
+     "planned_dep": 16.0
+    }
+   ],
+   "fixed_cost": 60,
+   "capacity": 120,
+   "load_time": 1.0,
+   "unload_time": 1.0,
+   "cancel_cost": 30.0,
+   "preplanned": true
+  },
+  {
+   "id": "v0005",
+   "mode": "barge",
+   "legs": [
+    {
+     "i": "Dordrecht",
+     "j": "Venlo",
+     "run_time": 9,
+     "var_cost": 6.73,
+     "planned_dep": 13.0
+    }
+   ],
+   "fixed_cost": 60,
+   "capacity": 120,
+   "load_time": 1.0,
+   "unload_time": 1.0,
+   "cancel_cost": 30.0,
+   "preplanned": true
+  },
+  {
+   "id": "v0006",
+   "mode": "rail",
+   "legs": [
+    {
+     "i": "Tilburg",
+     "j": "Venlo",
+     "run_time": 1,
+     "var_cost": 22.62,
+     "planned_dep": 16.0
+    }
+   ],
+   "fixed_cost": 30,
+   "capacity": 100,
+   "load_time": 1.0,
+   "unload_time": 1.0,
+   "cancel_cost": 15.0,
+   "preplanned": true
+  }
+ ],
+ "trucks": [
+  {
+   "id": "T_PoR_Utrecht",
+   "i": "PoR",
+   "j": "Utrecht",
+   "run_time": 1.0,
+   "var_cost": 61.96,
+   "fixed_cost": 15.0,
+   "max_trucks": 500,
+   "load_time": 0.5,
+   "unload_time": 0.5,
+   "capacity_per_truck": 1.0
+  },
+  {
+   "id": "T_PoR_Dordrecht",
+   "i": "PoR",
+   "j": "Dordrecht",
+   "run_time": 0.5,
+   "var_cost": 30.98,
+   "fixed_cost": 15.0,
+   "max_trucks": 500,
+   "load_time": 0.5,
+   "unload_time": 0.5,
+   "capacity_per_truck": 1.0
+  },
+  {
+   "id": "T_Utrecht_Nijmegen",
+   "i": "Utrecht",
+   "j": "Nijmegen",
+   "run_time": 1.0,
+   "var_cost": 61.96,
+   "fixed_cost": 15.0,
+   "max_trucks": 500,
+   "load_time": 0.5,
+   "unload_time": 0.5,
+   "capacity_per_truck": 1.0
+  },
+  {
+   "id": "T_Dordrecht_Tilburg",
+   "i": "Dordrecht",
+   "j": "Tilburg",
+   "run_time": 1.0,
+   "var_cost": 30.98,
+   "fixed_cost": 15.0,
+   "max_trucks": 500,
+   "load_time": 0.5,
+   "unload_time": 0.5,
+   "capacity_per_truck": 1.0
+  },
+  {
+   "id": "T_Tilburg_Venlo",
+   "i": "Tilburg",
+   "j": "Venlo",
+   "run_time": 1.0,
+   "var_cost": 30.98,
+   "fixed_cost": 15.0,
+   "max_trucks": 500,
+   "load_time": 0.5,
+   "unload_time": 0.5,
+   "capacity_per_truck": 1.0
+  },
+  {
+   "id": "T_Nijmegen_Venlo",
+   "i": "Nijmegen",
+   "j": "Venlo",
+   "run_time": 1.0,
+   "var_cost": 30.98,
+   "fixed_cost": 15.0,
+   "max_trucks": 500,
+   "load_time": 0.5,
+   "unload_time": 0.5,
+   "capacity_per_truck": 1.0
+  }
+ ],
+ "shipments": [
+  {
+   "id": "S1",
+   "o": "PoR",
+   "d": "Utrecht",
+   "n": 50,
+   "alpha": 7,
+   "beta": 18,
+   "gamma": 24,
+   "rho_early": 0.5,
+   "rho_late": 1.5
+  },
+  {
+   "id": "S2",
+   "o": "PoR",
+   "d": "Dordrecht",
+   "n": 50,
+   "alpha": 7,
+   "beta": 18,
+   "gamma": 24,
+   "rho_early": 0.5,
+   "rho_late": 1.5
+  },
+  {
+   "id": "S3",
+   "o": "PoR",
+   "d": "Tilburg",
+   "n": 50,
+   "alpha": 7,
+   "beta": 18,
+   "gamma": 24,
+   "rho_early": 0.5,
+   "rho_late": 1.5
+  },
+  {
+   "id": "S4",
+   "o": "PoR",
+   "d": "Nijmegen",
+   "n": 100,
+   "alpha": 7,
+   "beta": 18,
+   "gamma": 24,
+   "rho_early": 0.5,
+   "rho_late": 1.5
+  },
+  {
+   "id": "S5",
+   "o": "PoR",
+   "d": "Venlo",
+   "n": 100,
+   "alpha": 7,
+   "beta": 18,
+   "gamma": 24,
+   "rho_early": 0.5,
+   "rho_late": 1.5
+  }
+ ],
+ "transshipment": [
+  {
+   "from": "barge",
+   "to": "barge",
+   "cost": 23.89,
+   "time": 1.0
+  },
+  {
+   "from": "barge",
+   "to": "rail",
+   "cost": 23.89,
+   "time": 1.0
+  },
+  {
+   "from": "barge",
+   "to": "truck",
+   "cost": 23.89,
+   "time": 1.0
+  },
+  {
+   "from": "rail",
+   "to": "barge",
+   "cost": 23.89,
+   "time": 1.0
+  },
+  {
+   "from": "rail",
+   "to": "rail",
+   "cost": 23.89,
+   "time": 1.0
+  },
+  {
+   "from": "rail",
+   "to": "truck",
+   "cost": 23.89,
+   "time": 1.0
+  },
+  {
+   "from": "truck",
+   "to": "barge",
+   "cost": 23.89,
+   "time": 1.0
+  },
+  {
+   "from": "truck",
+   "to": "rail",
+   "cost": 23.89,
+   "time": 1.0
+  },
+  {
+   "from": "truck",
+   "to": "truck",
+   "cost": 0.0,
+   "time": 0.0
+  }
+ ],
+ "barge_buffer": 3.0,
+ "rail_step": 0.5,
+ "rail_max_shift": 1.0,
+ "horizon_start": 0.0,
+ "horizon_end": 24.0,
+ "has_timetable": true,
+ "source": "Qu et al. 2019, Tables 2-4 (with corrections C1-C2)",
+ "notes": [
+  "Rotterdam hinterland case of Qu et al. (2019), rebuilt from Tables 2-4 and A.12-A.14.\n\nCorrections applied (each verified against the paper's own reported costs):\n  C1  Rail v0006 (Tilburg-Venlo) variable cost = 22.62 EUR/TEU, not the 22.16 printed in Table 2.\n      With 22.62 the base case variable cost is exactly 10,476 (Sec. 6.2); with 22.16 it is 10,453.\n  C2  Table A.12 (STP re-plan) omits a row: 50 trucks carry S5 PoR->Dordrecht to feed barge v0005.\n      Without it flow conservation fails for S5; with it C^c = 11,332.2 and C^f = 1,770 exactly\n      as reported in Table 9.\nInterpretation choices (documented, not in the paper's tables):\n  I1  Table 2 \"Travel time\" = pure run time k_a; loading/unloading = 1 h (LCS) / 0.5 h (truck);\n      Table 4 \"Start\" = start of loading, \"End\" = end of unloading. This reproduces every\n      start/end pair in Table 4.\n  I2  Each truck lane has a fleet of 500 one-TEU trucks (v0007-v0506 etc.), fixed cost 15 EUR/truck.\n  I3  Cancellation fee psi = 0.5 f for pre-planned LCS (Sec. 6.1).\n  I4  Barge buffer phi = 3 h; rail shifts in 0.5 h steps up to 1 h (Sec. 4.3: \"every time unit phi, e.g. 30 or\n      60 min\", k_max*phi = 1 h). 0.5 h fits Tables 5-8 better than 1 h (50 vs 49 rows cost-equal) and keeps Table 9."
+ ]
+}

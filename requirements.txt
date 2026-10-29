@@ -1,0 +1,9 @@
+cryptography>=42
+docplex>=2.25
+numpy>=1.26
+scipy>=1.13
+openpyxl>=3.1
+highspy>=1.7
+# CPLEX: install the pip package matching your CPLEX Studio, e.g.  pip install "cplex==22.1.2.1"
+#        then:  docplex config --upgrade "<path to CPLEX_Studio folder>"
+# Optional: anthropic (only to query the language model instead of replaying results/llm_cache)

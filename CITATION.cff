@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "Trust-aware synchromodal replanning under unreliable stakeholder reports - code and data"
+type: software
+license: MIT
+repository-code: "https://github.com/madnanayoub/trust-aware-synchromodal-replanning"
+version: "1.1.0"
+authors:
+  - family-names: Ayub
+    given-names: Muhammad Adnan
+    affiliation: "FAST School of Computing, FAST-NUCES, Karachi, Pakistan"
+  - family-names: Ahmed
+    given-names: Ghufran
+    affiliation: "FAST School of Computing, FAST-NUCES, Karachi, Pakistan"
+  - family-names: Nadeem
+    given-names: Muhammad Shariq
+    affiliation: "FAST School of Computing, FAST-NUCES, Karachi, Pakistan"
+  - family-names: Antuley
+    given-names: Usama
+    affiliation: "FAST School of Computing, FAST-NUCES, Karachi, Pakistan"
+  - family-names: Siddiqui
+    given-names: Shahbaz
+    affiliation: "FAST School of Computing, FAST-NUCES, Karachi, Pakistan"
+  - family-names: Ahmad
+    given-names: Muneer
+    affiliation: "Department of Computer Science, University of Roehampton, London, UK"
+preferred-citation:
+  type: article
+  title: "Trust-aware synchromodal replanning under unreliable stakeholder reports: evidence fusion, ledger-based reputation and large language model interpretation"
+  journal: "IET Intelligent Transport Systems"
+  status: submitted
+  year: 2026
+  authors:
+    - family-names: Ayub
+      given-names: Muhammad Adnan
+    - family-names: Ahmed
+      given-names: Ghufran
+    - family-names: Nadeem
+      given-names: Muhammad Shariq
+    - family-names: Antuley
+      given-names: Usama
+    - family-names: Siddiqui
+      given-names: Shahbaz
+    - family-names: Ahmad
+      given-names: Muneer

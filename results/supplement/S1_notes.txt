@@ -1,0 +1,23 @@
+Supplementary Table S1 - notes
+
+Errors in the published input data (corrected in data/cases, confirmed by the paper's own totals):
+  1. Rail service v0006 costs 22.62 EUR/TEU, not the 22.16 EUR/TEU printed in Qu et al. (2019), Table 2.
+  2. Table A.12 omits a row of 50 trucks carrying S5 from the Port of Rotterdam to Dordrecht; without it, S5 is not
+     conserved.
+
+Discrepancy types in S1 (column discrepancy_type):
+  exact                       all nine KPIs equal to the published values
+  same cost, different plan   total cost within 25 EUR of the published one, but at least one KPI differs: another
+                              optimal plan, or rounding of the published percentage changes
+  published solution not optimal          our optimum is cheaper and feasible under the independent evaluator
+  published KPIs internally inconsistent  e.g. extra trucks reported without the matching change in fixed cost
+  published solution infeasible           the reported plan violates the scenario's own data (see the row)
+
+Modelling choices: aggregating the trucks of a shipment on a lane into one integer flow and modelling transshipment
+explicitly reproduce all four published optima. Re-solving the three scenarios in which the paper reports a cheaper plan
+with two or three independent truck departure groups per lane and shipment gives the same optima, so these
+discrepancies do not come from the aggregation.
+
+Evaluator check: for every STP solve, STP_feasible_under_evaluator reports the independent evaluator's feasibility
+verdict, and STP_mip_minus_evaluator_EUR the MIP objective minus the evaluated cost (at most the tie-breaking term of
+1 EUR, see Appendix B).

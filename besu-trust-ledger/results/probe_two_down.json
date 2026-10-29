@@ -1,0 +1,593 @@
+{
+ "network": "besu",
+ "label": "two_down",
+ "seconds": 240,
+ "interval_ms": 3000,
+ "sent": 80,
+ "included": 80,
+ "latency_ms_max": 229156,
+ "probes": [
+  {
+   "i": 0,
+   "sent_s": 0.008,
+   "latency_ms": 1910,
+   "block": 15614
+  },
+  {
+   "i": 1,
+   "sent_s": 3.025,
+   "latency_ms": 1109,
+   "block": 15615
+  },
+  {
+   "i": 2,
+   "sent_s": 6.041,
+   "latency_ms": 1872,
+   "block": 15617
+  },
+  {
+   "i": 3,
+   "sent_s": 9.061,
+   "latency_ms": 1109,
+   "block": 15618
+  },
+  {
+   "i": 4,
+   "sent_s": 12.082,
+   "latency_ms": 1900,
+   "block": 15620
+  },
+  {
+   "i": 5,
+   "sent_s": 15.101,
+   "latency_ms": 829,
+   "block": 15621
+  },
+  {
+   "i": 6,
+   "sent_s": 18.112,
+   "latency_ms": 1911,
+   "block": 15623
+  },
+  {
+   "i": 7,
+   "sent_s": 21.123,
+   "latency_ms": 820,
+   "block": 15624
+  },
+  {
+   "i": 8,
+   "sent_s": 24.138,
+   "latency_ms": 1865,
+   "block": 15626
+  },
+  {
+   "i": 9,
+   "sent_s": 27.146,
+   "latency_ms": 825,
+   "block": 15627
+  },
+  {
+   "i": 10,
+   "sent_s": 30.164,
+   "latency_ms": 1894,
+   "block": 15629
+  },
+  {
+   "i": 11,
+   "sent_s": 33.176,
+   "latency_ms": 814,
+   "block": 15630
+  },
+  {
+   "i": 12,
+   "sent_s": 36.189,
+   "latency_ms": 1864,
+   "block": 15632
+  },
+  {
+   "i": 13,
+   "sent_s": 39.21,
+   "latency_ms": 823,
+   "block": 15633
+  },
+  {
+   "i": 14,
+   "sent_s": 42.224,
+   "latency_ms": 1862,
+   "block": 15635
+  },
+  {
+   "i": 15,
+   "sent_s": 45.233,
+   "latency_ms": 849,
+   "block": 15636
+  },
+  {
+   "i": 16,
+   "sent_s": 48.26,
+   "latency_ms": 1660,
+   "block": 15638
+  },
+  {
+   "i": 17,
+   "sent_s": 51.273,
+   "latency_ms": 845,
+   "block": 15639
+  },
+  {
+   "i": 18,
+   "sent_s": 54.286,
+   "latency_ms": 1626,
+   "block": 15641
+  },
+  {
+   "i": 19,
+   "sent_s": 57.293,
+   "latency_ms": 820,
+   "block": 15642
+  },
+  {
+   "i": 20,
+   "sent_s": 60.313,
+   "latency_ms": 1601,
+   "block": 15644
+  },
+  {
+   "i": 21,
+   "sent_s": 63.329,
+   "latency_ms": 838,
+   "block": 15645
+  },
+  {
+   "i": 22,
+   "sent_s": 66.342,
+   "latency_ms": 1614,
+   "block": 15647
+  },
+  {
+   "i": 23,
+   "sent_s": 69.351,
+   "latency_ms": 558,
+   "block": 15648
+  },
+  {
+   "i": 24,
+   "sent_s": 72.371,
+   "latency_ms": 1564,
+   "block": 15650
+  },
+  {
+   "i": 25,
+   "sent_s": 75.383,
+   "latency_ms": 229156,
+   "block": 15651
+  },
+  {
+   "i": 26,
+   "sent_s": 78.401,
+   "latency_ms": 226202,
+   "block": 15651
+  },
+  {
+   "i": 27,
+   "sent_s": 81.422,
+   "latency_ms": 223138,
+   "block": 15651
+  },
+  {
+   "i": 28,
+   "sent_s": 84.438,
+   "latency_ms": 220080,
+   "block": 15651
+  },
+  {
+   "i": 29,
+   "sent_s": 87.452,
+   "latency_ms": 217153,
+   "block": 15651
+  },
+  {
+   "i": 30,
+   "sent_s": 90.467,
+   "latency_ms": 214117,
+   "block": 15651
+  },
+  {
+   "i": 31,
+   "sent_s": 93.484,
+   "latency_ms": 211092,
+   "block": 15651
+  },
+  {
+   "i": 32,
+   "sent_s": 96.489,
+   "latency_ms": 208093,
+   "block": 15651
+  },
+  {
+   "i": 33,
+   "sent_s": 99.497,
+   "latency_ms": 205078,
+   "block": 15651
+  },
+  {
+   "i": 34,
+   "sent_s": 102.516,
+   "latency_ms": 202088,
+   "block": 15651
+  },
+  {
+   "i": 35,
+   "sent_s": 105.522,
+   "latency_ms": 199043,
+   "block": 15651
+  },
+  {
+   "i": 36,
+   "sent_s": 108.538,
+   "latency_ms": 195980,
+   "block": 15651
+  },
+  {
+   "i": 37,
+   "sent_s": 111.554,
+   "latency_ms": 193020,
+   "block": 15651
+  },
+  {
+   "i": 38,
+   "sent_s": 114.565,
+   "latency_ms": 189973,
+   "block": 15651
+  },
+  {
+   "i": 39,
+   "sent_s": 117.57,
+   "latency_ms": 186967,
+   "block": 15651
+  },
+  {
+   "i": 40,
+   "sent_s": 120.589,
+   "latency_ms": 184018,
+   "block": 15651
+  },
+  {
+   "i": 41,
+   "sent_s": 123.597,
+   "latency_ms": 180971,
+   "block": 15651
+  },
+  {
+   "i": 42,
+   "sent_s": 126.609,
+   "latency_ms": 177951,
+   "block": 15651
+  },
+  {
+   "i": 43,
+   "sent_s": 129.616,
+   "latency_ms": 174948,
+   "block": 15651
+  },
+  {
+   "i": 44,
+   "sent_s": 132.629,
+   "latency_ms": 171937,
+   "block": 15651
+  },
+  {
+   "i": 45,
+   "sent_s": 135.635,
+   "latency_ms": 168929,
+   "block": 15651
+  },
+  {
+   "i": 46,
+   "sent_s": 138.646,
+   "latency_ms": 165913,
+   "block": 15651
+  },
+  {
+   "i": 47,
+   "sent_s": 141.651,
+   "latency_ms": 162963,
+   "block": 15651
+  },
+  {
+   "i": 48,
+   "sent_s": 144.675,
+   "latency_ms": 159865,
+   "block": 15651
+  },
+  {
+   "i": 49,
+   "sent_s": 147.694,
+   "latency_ms": 156846,
+   "block": 15651
+  },
+  {
+   "i": 50,
+   "sent_s": 150.738,
+   "latency_ms": 153781,
+   "block": 15651
+  },
+  {
+   "i": 51,
+   "sent_s": 153.751,
+   "latency_ms": 150768,
+   "block": 15651
+  },
+  {
+   "i": 52,
+   "sent_s": 156.759,
+   "latency_ms": 147764,
+   "block": 15651
+  },
+  {
+   "i": 53,
+   "sent_s": 159.784,
+   "latency_ms": 144735,
+   "block": 15651
+  },
+  {
+   "i": 54,
+   "sent_s": 162.797,
+   "latency_ms": 141763,
+   "block": 15651
+  },
+  {
+   "i": 55,
+   "sent_s": 165.841,
+   "latency_ms": 138684,
+   "block": 15651
+  },
+  {
+   "i": 56,
+   "sent_s": 168.856,
+   "latency_ms": 135683,
+   "block": 15651
+  },
+  {
+   "i": 57,
+   "sent_s": 171.861,
+   "latency_ms": 132722,
+   "block": 15651
+  },
+  {
+   "i": 58,
+   "sent_s": 174.871,
+   "latency_ms": 129712,
+   "block": 15651
+  },
+  {
+   "i": 59,
+   "sent_s": 177.89,
+   "latency_ms": 126686,
+   "block": 15651
+  },
+  {
+   "i": 60,
+   "sent_s": 180.953,
+   "latency_ms": 123606,
+   "block": 15651
+  },
+  {
+   "i": 61,
+   "sent_s": 183.987,
+   "latency_ms": 120538,
+   "block": 15651
+  },
+  {
+   "i": 62,
+   "sent_s": 186.993,
+   "latency_ms": 117524,
+   "block": 15651
+  },
+  {
+   "i": 63,
+   "sent_s": 190.006,
+   "latency_ms": 114519,
+   "block": 15651
+  },
+  {
+   "i": 64,
+   "sent_s": 193.048,
+   "latency_ms": 111570,
+   "block": 15651
+  },
+  {
+   "i": 65,
+   "sent_s": 196.057,
+   "latency_ms": 108506,
+   "block": 15651
+  },
+  {
+   "i": 66,
+   "sent_s": 199.071,
+   "latency_ms": 105513,
+   "block": 15651
+  },
+  {
+   "i": 67,
+   "sent_s": 202.084,
+   "latency_ms": 102489,
+   "block": 15651
+  },
+  {
+   "i": 68,
+   "sent_s": 205.105,
+   "latency_ms": 99499,
+   "block": 15651
+  },
+  {
+   "i": 69,
+   "sent_s": 208.12,
+   "latency_ms": 96483,
+   "block": 15651
+  },
+  {
+   "i": 70,
+   "sent_s": 211.142,
+   "latency_ms": 93443,
+   "block": 15651
+  },
+  {
+   "i": 71,
+   "sent_s": 214.151,
+   "latency_ms": 90387,
+   "block": 15651
+  },
+  {
+   "i": 72,
+   "sent_s": 217.164,
+   "latency_ms": 87420,
+   "block": 15651
+  },
+  {
+   "i": 73,
+   "sent_s": 220.186,
+   "latency_ms": 84380,
+   "block": 15651
+  },
+  {
+   "i": 74,
+   "sent_s": 223.228,
+   "latency_ms": 81335,
+   "block": 15651
+  },
+  {
+   "i": 75,
+   "sent_s": 226.245,
+   "latency_ms": 78358,
+   "block": 15651
+  },
+  {
+   "i": 76,
+   "sent_s": 229.272,
+   "latency_ms": 75342,
+   "block": 15651
+  },
+  {
+   "i": 77,
+   "sent_s": 232.287,
+   "latency_ms": 72288,
+   "block": 15651
+  },
+  {
+   "i": 78,
+   "sent_s": 235.303,
+   "latency_ms": 69214,
+   "block": 15651
+  },
+  {
+   "i": 79,
+   "sent_s": 238.317,
+   "latency_ms": 66218,
+   "block": 15651
+  }
+ ],
+ "blocks": [
+  {
+   "t_s": 3.029,
+   "block": 15614
+  },
+  {
+   "t_s": 6.045,
+   "block": 15616
+  },
+  {
+   "t_s": 9.067,
+   "block": 15617
+  },
+  {
+   "t_s": 12.089,
+   "block": 15619
+  },
+  {
+   "t_s": 15.106,
+   "block": 15620
+  },
+  {
+   "t_s": 18.115,
+   "block": 15622
+  },
+  {
+   "t_s": 21.129,
+   "block": 15623
+  },
+  {
+   "t_s": 24.144,
+   "block": 15625
+  },
+  {
+   "t_s": 27.153,
+   "block": 15626
+  },
+  {
+   "t_s": 30.17,
+   "block": 15628
+  },
+  {
+   "t_s": 33.182,
+   "block": 15629
+  },
+  {
+   "t_s": 36.194,
+   "block": 15631
+  },
+  {
+   "t_s": 39.219,
+   "block": 15632
+  },
+  {
+   "t_s": 42.228,
+   "block": 15634
+  },
+  {
+   "t_s": 45.246,
+   "block": 15635
+  },
+  {
+   "t_s": 48.271,
+   "block": 15637
+  },
+  {
+   "t_s": 51.284,
+   "block": 15638
+  },
+  {
+   "t_s": 54.291,
+   "block": 15640
+  },
+  {
+   "t_s": 57.3,
+   "block": 15641
+  },
+  {
+   "t_s": 60.326,
+   "block": 15643
+  },
+  {
+   "t_s": 63.338,
+   "block": 15644
+  },
+  {
+   "t_s": 66.35,
+   "block": 15646
+  },
+  {
+   "t_s": 69.356,
+   "block": 15647
+  },
+  {
+   "t_s": 72.374,
+   "block": 15649
+  },
+  {
+   "t_s": 75.387,
+   "block": 15650
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "interpreter": "anthropic:claude-haiku-5-5",
+ "heldout": {
+  "n": 40,
+  "correct": 38,
+  "wrong": 2,
+  "accuracy_pct": 95.0,
+  "errors": [
+   {
+    "text": "Train v0002 will be about forty-five minutes late leaving PoR.",
+    "expected": [
+     "lcs_delay",
+     "v0002",
+     1.0
+    ],
+    "got": [
+     "lcs_delay",
+     "v0002",
+     0.75
+    ],
+    "note": "llm"
+   },
+   {
+    "text": "v0002 cancelled the 11:00 slot, new departure 12:00.",
+    "expected": [
+     "lcs_delay",
+     "v0002",
+     1.0
+    ],
+    "got": [
+     "lcs_delay",
+     "v0002",
+     2
+    ],
+    "note": "llm"
+   }
+  ]
+ },
+ "generated": {
+  "n": 832,
+  "correct": 832,
+  "accuracy_pct": 100.0,
+  "errors": []
+ },
+ "api_calls": 0,
+ "cache_hits": 872
+}

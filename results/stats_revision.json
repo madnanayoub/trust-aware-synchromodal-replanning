@@ -1,0 +1,221 @@
+{
+ "design": "Inferential statistics of the main Rotterdam comparison (Section 6, Table 5).\n\n    python -m scripts.analyze_stats        -> results/stats_revision.json\n\nDesign\n* Unit of analysis: the run (40 days); a run's value is its mean daily realised cost. Regret differences equal cost\n  differences because both policies face the same days and the same oracle.\n* The same ten seeds (44, 55, 66, 101-107) are used at every dishonesty level, and a seed fixes both the stakeholder\n  profiles and the daily events. Runs that share a seed are therefore dependent across levels.\n* Primary hypotheses (family of two, Holm-adjusted): averaged over the five levels, the framework has a lower mean\n  regret than (H1) trust-all and (H2) evidence-first trust-all. Test: exact two-sided Wilcoxon signed-rank test on the\n  ten seed-level differences (each the mean over the five levels of the paired difference), i.e. a test blocked by\n  seed with ten independent observations.\n* Secondary hypotheses: the same two comparisons at each of the five levels (ten paired runs each), Holm-adjusted\n  within each comparison (family of five).\n* Effect sizes: mean paired saving (other policy minus framework, EUR/day; positive = framework better) with a 95%\n  percentile bootstrap interval (10,000 resamples of runs, or of seeds for the pooled result), and the matched-pairs\n  rank-biserial correlation r = (R+ - R-) / (R+ + R-).\n* Zero differences (identical run means, |d| <= 1e-6 EUR) are discarded before ranking (Wilcoxon's convention);\n  p values are exact (scipy.stats.wilcoxon, method=\"exact\", no ties among the non-zero differences).",
+ "comparisons": {
+  "ours_vs_trust_all": {
+   "levels": {
+    "0.0": {
+     "n": 10,
+     "zeros": 1,
+     "better": 7,
+     "worse": 2,
+     "rank_biserial": 0.778,
+     "p": 0.0390625,
+     "p_method": "exact",
+     "saving_mean": 14.8,
+     "saving_ci": [
+      4.7,
+      25.6
+     ],
+     "p_holm": 0.0390625
+    },
+    "0.25": {
+     "n": 10,
+     "zeros": 0,
+     "better": 10,
+     "worse": 0,
+     "rank_biserial": 1.0,
+     "p": 0.001953125,
+     "p_method": "exact",
+     "saving_mean": 41.7,
+     "saving_ci": [
+      22.6,
+      64.3
+     ],
+     "p_holm": 0.009765625
+    },
+    "0.5": {
+     "n": 10,
+     "zeros": 0,
+     "better": 10,
+     "worse": 0,
+     "rank_biserial": 1.0,
+     "p": 0.001953125,
+     "p_method": "exact",
+     "saving_mean": 63.5,
+     "saving_ci": [
+      41.1,
+      87.5
+     ],
+     "p_holm": 0.009765625
+    },
+    "0.75": {
+     "n": 10,
+     "zeros": 0,
+     "better": 10,
+     "worse": 0,
+     "rank_biserial": 1.0,
+     "p": 0.001953125,
+     "p_method": "exact",
+     "saving_mean": 92.7,
+     "saving_ci": [
+      56.4,
+      130.6
+     ],
+     "p_holm": 0.009765625
+    },
+    "1.0": {
+     "n": 10,
+     "zeros": 0,
+     "better": 9,
+     "worse": 1,
+     "rank_biserial": 0.927,
+     "p": 0.005859375,
+     "p_method": "exact",
+     "saving_mean": 81.8,
+     "saving_ci": [
+      35.6,
+      130.8
+     ],
+     "p_holm": 0.01171875
+    }
+   },
+   "pooled_seed_blocked": {
+    "n": 10,
+    "zeros": 0,
+    "better": 10,
+    "worse": 0,
+    "rank_biserial": 1.0,
+    "p": 0.001953125,
+    "p_method": "exact",
+    "saving_mean": 58.9,
+    "saving_ci": [
+     43.2,
+     75.2
+    ],
+    "unit": "seed",
+    "seed_values": [
+     26.5,
+     80.9,
+     38.4,
+     45.6,
+     72.3,
+     26.4,
+     45.6,
+     81.1,
+     111.1,
+     61.2
+    ],
+    "naive_50_runs_p": 2.321667547915665e-09,
+    "p_holm": 0.00390625
+   }
+  },
+  "ours_vs_evidence_first": {
+   "levels": {
+    "0.0": {
+     "n": 10,
+     "zeros": 4,
+     "better": 1,
+     "worse": 5,
+     "rank_biserial": -0.429,
+     "p": 0.4375,
+     "p_method": "exact",
+     "saving_mean": 1.8,
+     "saving_ci": [
+      -1.8,
+      7.8
+     ],
+     "p_holm": 0.90234375
+    },
+    "0.25": {
+     "n": 10,
+     "zeros": 1,
+     "better": 4,
+     "worse": 5,
+     "rank_biserial": 0.156,
+     "p": 0.734375,
+     "p_method": "exact",
+     "saving_mean": 19.3,
+     "saving_ci": [
+      -1.9,
+      54.7
+     ],
+     "p_holm": 0.90234375
+    },
+    "0.5": {
+     "n": 10,
+     "zeros": 1,
+     "better": 5,
+     "worse": 4,
+     "rank_biserial": 0.422,
+     "p": 0.30078125,
+     "p_method": "exact",
+     "saving_mean": 11.1,
+     "saving_ci": [
+      -1.6,
+      27.8
+     ],
+     "p_holm": 0.90234375
+    },
+    "0.75": {
+     "n": 10,
+     "zeros": 1,
+     "better": 7,
+     "worse": 2,
+     "rank_biserial": 0.778,
+     "p": 0.0390625,
+     "p_method": "exact",
+     "saving_mean": 27.2,
+     "saving_ci": [
+      5.3,
+      50.5
+     ],
+     "p_holm": 0.15625
+    },
+    "1.0": {
+     "n": 10,
+     "zeros": 0,
+     "better": 8,
+     "worse": 2,
+     "rank_biserial": 0.818,
+     "p": 0.01953125,
+     "p_method": "exact",
+     "saving_mean": 32.0,
+     "saving_ci": [
+      13.0,
+      51.4
+     ],
+     "p_holm": 0.09765625
+    }
+   },
+   "pooled_seed_blocked": {
+    "n": 10,
+    "zeros": 0,
+    "better": 9,
+    "worse": 1,
+    "rank_biserial": 0.964,
+    "p": 0.00390625,
+    "p_method": "exact",
+    "saving_mean": 18.3,
+    "saving_ci": [
+     5.6,
+     34.0
+    ],
+    "unit": "seed",
+    "seed_values": [
+     8.4,
+     4.9,
+     1.8,
+     1.1,
+     30.5,
+     1.4,
+     -1.1,
+     33.8,
+     77.3,
+     24.7
+    ],
+    "naive_50_runs_p": 0.0013743758248825624,
+    "p_holm": 0.00390625
+   }
+  }
+ }
+}

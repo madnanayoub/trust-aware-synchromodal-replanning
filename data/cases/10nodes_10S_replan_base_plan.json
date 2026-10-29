@@ -1,0 +1,256 @@
+{
+ "name": "original plan of 10nodes_10S_replan",
+ "lcs_flow": [
+  {
+   "service": "v1",
+   "leg": 0,
+   "flows": {
+    "S1": 50.0,
+    "S6": 20.0,
+    "S10": 50.0
+   }
+  },
+  {
+   "service": "v1",
+   "leg": 1,
+   "flows": {
+    "S1": 50.0
+   }
+  },
+  {
+   "service": "v3",
+   "leg": 1,
+   "flows": {
+    "S2": 50.0,
+    "S7": 10.0
+   }
+  },
+  {
+   "service": "v8",
+   "leg": 0,
+   "flows": {
+    "S2": 50.0
+   }
+  },
+  {
+   "service": "v4",
+   "leg": 0,
+   "flows": {
+    "S3": 50.0,
+    "S6": 20.0,
+    "S10": 50.0
+   }
+  },
+  {
+   "service": "v4",
+   "leg": 1,
+   "flows": {
+    "S3": 50.0,
+    "S6": 20.0,
+    "S10": 50.0
+   }
+  },
+  {
+   "service": "v5",
+   "leg": 1,
+   "flows": {
+    "S4": 100.0
+   }
+  },
+  {
+   "service": "v2",
+   "leg": 1,
+   "flows": {
+    "S5": 100.0
+   }
+  },
+  {
+   "service": "v5",
+   "leg": 0,
+   "flows": {
+    "S5": 100.0,
+    "S7": 20.0
+   }
+  },
+  {
+   "service": "v6",
+   "leg": 0,
+   "flows": {
+    "S5": 100.0
+   }
+  },
+  {
+   "service": "v3",
+   "leg": 0,
+   "flows": {
+    "S6": 30.0,
+    "S7": 30.0
+   }
+  },
+  {
+   "service": "v7",
+   "leg": 0,
+   "flows": {
+    "S8": 50.0
+   }
+  },
+  {
+   "service": "v6",
+   "leg": 1,
+   "flows": {
+    "S10": 50.0
+   }
+  }
+ ],
+ "lcs_dep": [
+  {
+   "service": "v1",
+   "leg": 0,
+   "dep": 8.0
+  },
+  {
+   "service": "v1",
+   "leg": 1,
+   "dep": 15.0
+  },
+  {
+   "service": "v2",
+   "leg": 0,
+   "dep": 6.5
+  },
+  {
+   "service": "v2",
+   "leg": 1,
+   "dep": 8.0
+  },
+  {
+   "service": "v3",
+   "leg": 0,
+   "dep": 8.0
+  },
+  {
+   "service": "v3",
+   "leg": 1,
+   "dep": 10.5
+  },
+  {
+   "service": "v4",
+   "leg": 0,
+   "dep": 13.0
+  },
+  {
+   "service": "v4",
+   "leg": 1,
+   "dep": 15.0
+  },
+  {
+   "service": "v5",
+   "leg": 0,
+   "dep": 17.0
+  },
+  {
+   "service": "v5",
+   "leg": 1,
+   "dep": 19.0
+  },
+  {
+   "service": "v6",
+   "leg": 0,
+   "dep": 12.5
+  },
+  {
+   "service": "v6",
+   "leg": 1,
+   "dep": 20.0
+  },
+  {
+   "service": "v7",
+   "leg": 0,
+   "dep": 15.5
+  },
+  {
+   "service": "v8",
+   "leg": 0,
+   "dep": 15.0
+  }
+ ],
+ "lcs_arr_override": [],
+ "trucks": [
+  {
+   "lane": "TG5",
+   "shipment": "S4",
+   "teu": 100.0,
+   "dep": 7.5
+  },
+  {
+   "lane": "TG7",
+   "shipment": "S6",
+   "teu": 30.0,
+   "dep": 16.5
+  },
+  {
+   "lane": "TG1",
+   "shipment": "S7",
+   "teu": 20.0,
+   "dep": 7.5
+  },
+  {
+   "lane": "TG5",
+   "shipment": "S7",
+   "teu": 20.0,
+   "dep": 16.5
+  },
+  {
+   "lane": "TG7",
+   "shipment": "S7",
+   "teu": 20.0,
+   "dep": 13.5
+  },
+  {
+   "lane": "TG1",
+   "shipment": "S8",
+   "teu": 50.0,
+   "dep": 7.5
+  },
+  {
+   "lane": "TG3",
+   "shipment": "S9",
+   "teu": 50.0,
+   "dep": 7.5
+  },
+  {
+   "lane": "TG7",
+   "shipment": "S9",
+   "teu": 50.0,
+   "dep": 16.5
+  }
+ ],
+ "unserved": {},
+ "stranded": {},
+ "meta": {
+  "variant": "STP",
+  "objective": 57705.500000000015,
+  "breakdown": {
+   "fixed": 5460.0,
+   "variable": 35155.6,
+   "transshipment": 15767.4,
+   "early": 25.0,
+   "late": 1297.5,
+   "unserved": 0.0
+  },
+  "status": "Optimal",
+  "backend": "highs",
+  "cost": 57705.5,
+  "used_services": [
+   "v1",
+   "v2",
+   "v3",
+   "v4",
+   "v5",
+   "v6",
+   "v7",
+   "v8"
+  ],
+  "trucks": 340
+ }
+}

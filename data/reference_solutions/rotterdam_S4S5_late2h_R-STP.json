@@ -1,0 +1,112 @@
+{
+ "name": "R-STP (Table A.14)",
+ "lcs_flow": [
+  {
+   "service": "v0001",
+   "leg": 0,
+   "flows": {
+    "S2": 50.0
+   }
+  },
+  {
+   "service": "v0002",
+   "leg": 0,
+   "flows": {
+    "S3": 50.0,
+    "S5": 50.0
+   }
+  },
+  {
+   "service": "v0003",
+   "leg": 0,
+   "flows": {
+    "S4": 60.0
+   }
+  },
+  {
+   "service": "v0004",
+   "leg": 0,
+   "flows": {
+    "S4": 40.0
+   }
+  },
+  {
+   "service": "v0005",
+   "leg": 0,
+   "flows": {
+    "S5": 50.0
+   }
+  },
+  {
+   "service": "v0006",
+   "leg": 0,
+   "flows": {
+    "S5": 50.0
+   }
+  }
+ ],
+ "lcs_dep": [
+  {
+   "service": "v0001",
+   "leg": 0,
+   "dep": 8.0
+  },
+  {
+   "service": "v0002",
+   "leg": 0,
+   "dep": 11.0
+  },
+  {
+   "service": "v0003",
+   "leg": 0,
+   "dep": 15.0
+  },
+  {
+   "service": "v0004",
+   "leg": 0,
+   "dep": 16.0
+  },
+  {
+   "service": "v0005",
+   "leg": 0,
+   "dep": 13.0
+  },
+  {
+   "service": "v0006",
+   "leg": 0,
+   "dep": 16.0
+  }
+ ],
+ "lcs_arr_override": [],
+ "trucks": [
+  {
+   "lane": "T_PoR_Utrecht",
+   "shipment": "S1",
+   "teu": 50,
+   "dep": 16.5
+  },
+  {
+   "lane": "T_PoR_Dordrecht",
+   "shipment": "S4",
+   "teu": 40,
+   "dep": 9.5
+  },
+  {
+   "lane": "T_PoR_Dordrecht",
+   "shipment": "S5",
+   "teu": 50,
+   "dep": 9.5
+  }
+ ],
+ "unserved": {},
+ "meta": {
+  "paper": {
+   "total": 19078,
+   "fixed": 2370,
+   "variable": 12473.4,
+   "transshipment": 3344.6,
+   "early": 275,
+   "late": 615
+  }
+ }
+}

@@ -1,0 +1,7974 @@
+{
+ "network": "besu",
+ "client": "besu/v26.9.0/linux-x86_64/openjdk-java-25",
+ "date": "2026-10-25T14:06:35.580Z",
+ "traces": [
+  {
+   "file": "trace_rho0.00_seed44.json",
+   "rho": 0,
+   "seed": 44,
+   "contract": "0xECCc46ED7B8Db5B61C5632FFB1aE1B3BAfAA704A",
+   "deploy_gas": 2432949,
+   "equivalent": true,
+   "mismatches": [],
+   "days": 40,
+   "reports": 41,
+   "transactions": 220,
+   "blocks": 189,
+   "seconds": 377.494,
+   "day_ms_mean": 9257,
+   "day_ms_max": 12017,
+   "gas_total": 29559369,
+   "by_operation": {
+    "registerMembers": {
+     "n": 1,
+     "gas_mean": 354996,
+     "gas_max": 354996,
+     "latency_ms_p50": 1880,
+     "latency_ms_p95": 1880,
+     "latency_ms_max": 1880
+    },
+    "setOwners": {
+     "n": 1,
+     "gas_mean": 276826,
+     "gas_max": 276826,
+     "latency_ms_p50": 1865,
+     "latency_ms_p95": 1865,
+     "latency_ms_max": 1865
+    },
+    "commitPlan": {
+     "n": 40,
+     "gas_mean": 70996,
+     "gas_max": 71001,
+     "latency_ms_p50": 1921,
+     "latency_ms_p95": 2177,
+     "latency_ms_max": 2182
+    },
+    "postOutcome": {
+     "n": 40,
+     "gas_mean": 198405,
+     "gas_max": 297746,
+     "latency_ms_p50": 1915,
+     "latency_ms_p95": 2179,
+     "latency_ms_max": 2197
+    },
+    "scoreDay": {
+     "n": 40,
+     "gas_mean": 159192,
+     "gas_max": 387001,
+     "latency_ms_p50": 1930,
+     "latency_ms_p95": 2173,
+     "latency_ms_max": 2186
+    },
+    "submitReport": {
+     "n": 41,
+     "gas_mean": 126220,
+     "gas_max": 130461,
+     "latency_ms_p50": 1908,
+     "latency_ms_p95": 2184,
+     "latency_ms_max": 2209
+    },
+    "postClaims": {
+     "n": 31,
+     "gas_mean": 121722,
+     "gas_max": 169801,
+     "latency_ms_p50": 1905,
+     "latency_ms_p95": 2161,
+     "latency_ms_max": 2179
+    },
+    "postSensorRecords": {
+     "n": 26,
+     "gas_mean": 109054,
+     "gas_max": 173071,
+     "latency_ms_p50": 1911,
+     "latency_ms_p95": 2200,
+     "latency_ms_max": 2208
+    }
+   },
+   "tx_log": [
+    {
+     "label": "registerMembers",
+     "latency_ms": 1880,
+     "gas": 354996,
+     "block": 3137
+    },
+    {
+     "label": "setOwners",
+     "latency_ms": 1865,
+     "gas": 276826,
+     "block": 3138
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1930,
+     "gas": 70989,
+     "block": 3139
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2156,
+     "gas": 73966,
+     "block": 3140
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1874,
+     "gas": 55075,
+     "block": 3141
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2149,
+     "gas": 127661,
+     "block": 3142
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1882,
+     "gas": 98803,
+     "block": 3143
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2132,
+     "gas": 71001,
+     "block": 3144
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1849,
+     "gas": 206750,
+     "block": 3145
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2172,
+     "gas": 231994,
+     "block": 3146
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1886,
+     "gas": 113361,
+     "block": 3147
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1887,
+     "gas": 118816,
+     "block": 3147
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1888,
+     "gas": 130461,
+     "block": 3147
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1889,
+     "gas": 169765,
+     "block": 3148
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2154,
+     "gas": 71001,
+     "block": 3149
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1885,
+     "gas": 297710,
+     "block": 3150
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2129,
+     "gas": 387001,
+     "block": 3151
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1891,
+     "gas": 113361,
+     "block": 3152
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1892,
+     "gas": 130461,
+     "block": 3152
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1892,
+     "gas": 101680,
+     "block": 3152
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1865,
+     "gas": 169729,
+     "block": 3153
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2126,
+     "gas": 71001,
+     "block": 3154
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1864,
+     "gas": 297674,
+     "block": 3155
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2110,
+     "gas": 387001,
+     "block": 3156
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1877,
+     "gas": 130461,
+     "block": 3157
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1878,
+     "gas": 101716,
+     "block": 3157
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2148,
+     "gas": 98851,
+     "block": 3158
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1895,
+     "gas": 70977,
+     "block": 3159
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1883,
+     "gas": 206786,
+     "block": 3160
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2186,
+     "gas": 231994,
+     "block": 3161
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1918,
+     "gas": 113361,
+     "block": 3162
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1918,
+     "gas": 101716,
+     "block": 3162
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1919,
+     "gas": 130461,
+     "block": 3162
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1921,
+     "gas": 101680,
+     "block": 3162
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2120,
+     "gas": 169765,
+     "block": 3163
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1858,
+     "gas": 71001,
+     "block": 3164
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2125,
+     "gas": 297710,
+     "block": 3165
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1860,
+     "gas": 210500,
+     "block": 3166
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2103,
+     "gas": 130461,
+     "block": 3167
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1858,
+     "gas": 98851,
+     "block": 3168
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2139,
+     "gas": 71001,
+     "block": 3169
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1854,
+     "gas": 206786,
+     "block": 3170
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2145,
+     "gas": 146544,
+     "block": 3171
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1834,
+     "gas": 71001,
+     "block": 3172
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2100,
+     "gas": 73978,
+     "block": 3173
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1900,
+     "gas": 55087,
+     "block": 3174
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1868,
+     "gas": 130461,
+     "block": 3175
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2161,
+     "gas": 98851,
+     "block": 3176
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1884,
+     "gas": 71001,
+     "block": 3177
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2152,
+     "gas": 206786,
+     "block": 3178
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1854,
+     "gas": 146544,
+     "block": 3179
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2125,
+     "gas": 101716,
+     "block": 3180
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1898,
+     "gas": 70989,
+     "block": 3181
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2137,
+     "gas": 206786,
+     "block": 3182
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1871,
+     "gas": 71855,
+     "block": 3183
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2080,
+     "gas": 130461,
+     "block": 3184
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1886,
+     "gas": 98851,
+     "block": 3185
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2097,
+     "gas": 71001,
+     "block": 3186
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1860,
+     "gas": 73978,
+     "block": 3187
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2148,
+     "gas": 138982,
+     "block": 3188
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1886,
+     "gas": 130461,
+     "block": 3189
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1859,
+     "gas": 98815,
+     "block": 3190
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2118,
+     "gas": 71001,
+     "block": 3191
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1903,
+     "gas": 206750,
+     "block": 3192
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2152,
+     "gas": 146544,
+     "block": 3193
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1901,
+     "gas": 71001,
+     "block": 3194
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1876,
+     "gas": 73978,
+     "block": 3195
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2146,
+     "gas": 55087,
+     "block": 3196
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1882,
+     "gas": 71001,
+     "block": 3197
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2162,
+     "gas": 73978,
+     "block": 3198
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1836,
+     "gas": 55087,
+     "block": 3199
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2129,
+     "gas": 130461,
+     "block": 3200
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1859,
+     "gas": 98815,
+     "block": 3201
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2101,
+     "gas": 71001,
+     "block": 3202
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1863,
+     "gas": 206750,
+     "block": 3203
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2145,
+     "gas": 146544,
+     "block": 3204
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1875,
+     "gas": 130461,
+     "block": 3205
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1877,
+     "gas": 101680,
+     "block": 3205
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1879,
+     "gas": 98815,
+     "block": 3206
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2133,
+     "gas": 71001,
+     "block": 3207
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2110,
+     "gas": 206750,
+     "block": 3208
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1881,
+     "gas": 140943,
+     "block": 3209
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1866,
+     "gas": 130461,
+     "block": 3210
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1867,
+     "gas": 101716,
+     "block": 3210
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2160,
+     "gas": 98851,
+     "block": 3211
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1834,
+     "gas": 70989,
+     "block": 3212
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2104,
+     "gas": 206786,
+     "block": 3213
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1858,
+     "gas": 146544,
+     "block": 3214
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2131,
+     "gas": 101716,
+     "block": 3215
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2131,
+     "gas": 130461,
+     "block": 3215
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1849,
+     "gas": 98851,
+     "block": 3216
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2103,
+     "gas": 70989,
+     "block": 3217
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1881,
+     "gas": 206786,
+     "block": 3218
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2128,
+     "gas": 163594,
+     "block": 3219
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1884,
+     "gas": 130461,
+     "block": 3220
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1886,
+     "gas": 101680,
+     "block": 3220
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2122,
+     "gas": 98815,
+     "block": 3221
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1857,
+     "gas": 70977,
+     "block": 3222
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2120,
+     "gas": 206750,
+     "block": 3223
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1888,
+     "gas": 209293,
+     "block": 3224
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1854,
+     "gas": 71001,
+     "block": 3225
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2092,
+     "gas": 73978,
+     "block": 3226
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2100,
+     "gas": 55087,
+     "block": 3227
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1896,
+     "gas": 101680,
+     "block": 3228
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1896,
+     "gas": 113361,
+     "block": 3228
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1897,
+     "gas": 101680,
+     "block": 3228
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1898,
+     "gas": 130461,
+     "block": 3228
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1860,
+     "gas": 169729,
+     "block": 3229
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2100,
+     "gas": 71001,
+     "block": 3230
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2118,
+     "gas": 297674,
+     "block": 3231
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1880,
+     "gas": 233151,
+     "block": 3232
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1883,
+     "gas": 130449,
+     "block": 3233
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2123,
+     "gas": 98815,
+     "block": 3234
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2109,
+     "gas": 71001,
+     "block": 3235
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1871,
+     "gas": 206750,
+     "block": 3236
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2128,
+     "gas": 180694,
+     "block": 3237
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1865,
+     "gas": 71001,
+     "block": 3238
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2144,
+     "gas": 73978,
+     "block": 3239
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1902,
+     "gas": 55087,
+     "block": 3240
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1886,
+     "gas": 130449,
+     "block": 3241
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1928,
+     "gas": 98851,
+     "block": 3242
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2158,
+     "gas": 71001,
+     "block": 3243
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1893,
+     "gas": 206786,
+     "block": 3244
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1906,
+     "gas": 146544,
+     "block": 3245
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2184,
+     "gas": 130461,
+     "block": 3246
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2186,
+     "gas": 101680,
+     "block": 3246
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1926,
+     "gas": 98815,
+     "block": 3247
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1871,
+     "gas": 71001,
+     "block": 3248
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2179,
+     "gas": 206750,
+     "block": 3249
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1880,
+     "gas": 163594,
+     "block": 3250
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2109,
+     "gas": 130461,
+     "block": 3251
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1908,
+     "gas": 98815,
+     "block": 3252
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1857,
+     "gas": 70965,
+     "block": 3253
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2157,
+     "gas": 206750,
+     "block": 3254
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1886,
+     "gas": 146544,
+     "block": 3255
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2176,
+     "gas": 130461,
+     "block": 3256
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2200,
+     "gas": 173071,
+     "block": 3256
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1915,
+     "gas": 113349,
+     "block": 3257
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1905,
+     "gas": 169801,
+     "block": 3258
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2177,
+     "gas": 71001,
+     "block": 3259
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1912,
+     "gas": 297746,
+     "block": 3260
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1930,
+     "gas": 192101,
+     "block": 3261
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1933,
+     "gas": 130461,
+     "block": 3262
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1933,
+     "gas": 113361,
+     "block": 3262
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1934,
+     "gas": 101680,
+     "block": 3262
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1936,
+     "gas": 101716,
+     "block": 3262
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2150,
+     "gas": 169765,
+     "block": 3263
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1877,
+     "gas": 70989,
+     "block": 3264
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2152,
+     "gas": 297710,
+     "block": 3265
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1927,
+     "gas": 216101,
+     "block": 3266
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1908,
+     "gas": 130461,
+     "block": 3267
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1911,
+     "gas": 173071,
+     "block": 3267
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1890,
+     "gas": 113361,
+     "block": 3268
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2152,
+     "gas": 169801,
+     "block": 3269
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1915,
+     "gas": 71001,
+     "block": 3270
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1915,
+     "gas": 297746,
+     "block": 3271
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2158,
+     "gas": 213225,
+     "block": 3272
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1873,
+     "gas": 130449,
+     "block": 3273
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1872,
+     "gas": 101680,
+     "block": 3273
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1919,
+     "gas": 98815,
+     "block": 3274
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2148,
+     "gas": 71001,
+     "block": 3275
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1863,
+     "gas": 206750,
+     "block": 3276
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2157,
+     "gas": 146544,
+     "block": 3277
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1877,
+     "gas": 130461,
+     "block": 3278
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1876,
+     "gas": 99163,
+     "block": 3279
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2154,
+     "gas": 71001,
+     "block": 3280
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1870,
+     "gas": 207098,
+     "block": 3281
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2173,
+     "gas": 146544,
+     "block": 3282
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1913,
+     "gas": 71001,
+     "block": 3283
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1912,
+     "gas": 73978,
+     "block": 3284
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1901,
+     "gas": 55087,
+     "block": 3285
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2206,
+     "gas": 113361,
+     "block": 3286
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2208,
+     "gas": 172999,
+     "block": 3286
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2209,
+     "gas": 130461,
+     "block": 3286
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1860,
+     "gas": 169729,
+     "block": 3287
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1876,
+     "gas": 71001,
+     "block": 3288
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2162,
+     "gas": 297674,
+     "block": 3289
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1918,
+     "gas": 233151,
+     "block": 3290
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1898,
+     "gas": 101680,
+     "block": 3291
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1900,
+     "gas": 130461,
+     "block": 3291
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2147,
+     "gas": 98815,
+     "block": 3292
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1909,
+     "gas": 71001,
+     "block": 3293
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2197,
+     "gas": 206750,
+     "block": 3294
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1928,
+     "gas": 146544,
+     "block": 3295
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1881,
+     "gas": 130449,
+     "block": 3296
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1882,
+     "gas": 101680,
+     "block": 3296
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1881,
+     "gas": 98815,
+     "block": 3297
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2148,
+     "gas": 70989,
+     "block": 3298
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1903,
+     "gas": 206750,
+     "block": 3299
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2143,
+     "gas": 146544,
+     "block": 3300
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1900,
+     "gas": 101716,
+     "block": 3301
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1906,
+     "gas": 71001,
+     "block": 3302
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1913,
+     "gas": 206786,
+     "block": 3303
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2155,
+     "gas": 71855,
+     "block": 3304
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1939,
+     "gas": 81744,
+     "block": 3305
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1942,
+     "gas": 113361,
+     "block": 3305
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1942,
+     "gas": 130449,
+     "block": 3305
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1945,
+     "gas": 101716,
+     "block": 3305
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1886,
+     "gas": 169765,
+     "block": 3306
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2154,
+     "gas": 71001,
+     "block": 3307
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1918,
+     "gas": 206786,
+     "block": 3308
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1918,
+     "gas": 208539,
+     "block": 3309
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2150,
+     "gas": 130461,
+     "block": 3310
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1921,
+     "gas": 98815,
+     "block": 3311
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1900,
+     "gas": 70989,
+     "block": 3312
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2165,
+     "gas": 206750,
+     "block": 3313
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1940,
+     "gas": 146544,
+     "block": 3314
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1910,
+     "gas": 113361,
+     "block": 3315
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1910,
+     "gas": 101716,
+     "block": 3315
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1911,
+     "gas": 130461,
+     "block": 3315
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1911,
+     "gas": 81780,
+     "block": 3315
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2179,
+     "gas": 169801,
+     "block": 3316
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1921,
+     "gas": 70977,
+     "block": 3317
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1904,
+     "gas": 206786,
+     "block": 3318
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2155,
+     "gas": 191439,
+     "block": 3319
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1876,
+     "gas": 130461,
+     "block": 3320
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1872,
+     "gas": 98851,
+     "block": 3321
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2182,
+     "gas": 71001,
+     "block": 3322
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1913,
+     "gas": 206786,
+     "block": 3323
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1902,
+     "gas": 146544,
+     "block": 3324
+    }
+   ]
+  },
+  {
+   "file": "trace_rho0.25_seed44.json",
+   "rho": 0.25,
+   "seed": 44,
+   "contract": "0x8089Bd49B2a7c6294244B6ECa401bb71849addFe",
+   "deploy_gas": 2432949,
+   "equivalent": true,
+   "mismatches": [],
+   "days": 40,
+   "reports": 49,
+   "transactions": 236,
+   "blocks": 191,
+   "seconds": 382.225,
+   "day_ms_mean": 9361,
+   "day_ms_max": 11985,
+   "gas_total": 32296611,
+   "by_operation": {
+    "registerMembers": {
+     "n": 1,
+     "gas_mean": 354996,
+     "gas_max": 354996,
+     "latency_ms_p50": 1910,
+     "latency_ms_p95": 1910,
+     "latency_ms_max": 1910
+    },
+    "setOwners": {
+     "n": 1,
+     "gas_mean": 276826,
+     "gas_max": 276826,
+     "latency_ms_p50": 1928,
+     "latency_ms_p95": 1928,
+     "latency_ms_max": 1928
+    },
+    "submitReport": {
+     "n": 49,
+     "gas_mean": 124121,
+     "gas_max": 130461,
+     "latency_ms_p50": 1908,
+     "latency_ms_p95": 2149,
+     "latency_ms_max": 2150
+    },
+    "postSensorRecords": {
+     "n": 34,
+     "gas_mean": 97877,
+     "gas_max": 153063,
+     "latency_ms_p50": 1911,
+     "latency_ms_p95": 1960,
+     "latency_ms_max": 2151
+    },
+    "postClaims": {
+     "n": 31,
+     "gas_mean": 140047,
+     "gas_max": 241003,
+     "latency_ms_p50": 1911,
+     "latency_ms_p95": 2169,
+     "latency_ms_max": 2189
+    },
+    "commitPlan": {
+     "n": 40,
+     "gas_mean": 70998,
+     "gas_max": 71001,
+     "latency_ms_p50": 1930,
+     "latency_ms_p95": 2181,
+     "latency_ms_max": 2185
+    },
+    "postOutcome": {
+     "n": 40,
+     "gas_mean": 205070,
+     "gas_max": 298058,
+     "latency_ms_p50": 1939,
+     "latency_ms_p95": 2190,
+     "latency_ms_max": 2191
+    },
+    "scoreDay": {
+     "n": 40,
+     "gas_mean": 171772,
+     "gas_max": 375120,
+     "latency_ms_p50": 1950,
+     "latency_ms_p95": 2185,
+     "latency_ms_max": 2197
+    }
+   },
+   "tx_log": [
+    {
+     "label": "registerMembers",
+     "latency_ms": 1910,
+     "gas": 354996,
+     "block": 3326
+    },
+    {
+     "label": "setOwners",
+     "latency_ms": 1928,
+     "gas": 276826,
+     "block": 3327
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1897,
+     "gas": 127625,
+     "block": 3328
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1897,
+     "gas": 113349,
+     "block": 3328
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1897,
+     "gas": 118768,
+     "block": 3328
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2145,
+     "gas": 169717,
+     "block": 3329
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1883,
+     "gas": 70989,
+     "block": 3330
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2113,
+     "gas": 297662,
+     "block": 3331
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1892,
+     "gas": 364363,
+     "block": 3332
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1940,
+     "gas": 113361,
+     "block": 3333
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1940,
+     "gas": 101716,
+     "block": 3333
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1940,
+     "gas": 130461,
+     "block": 3333
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1941,
+     "gas": 81744,
+     "block": 3333
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2121,
+     "gas": 169765,
+     "block": 3334
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1875,
+     "gas": 70989,
+     "block": 3335
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2179,
+     "gas": 206786,
+     "block": 3336
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1899,
+     "gas": 288388,
+     "block": 3337
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1914,
+     "gas": 71001,
+     "block": 3338
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2163,
+     "gas": 73978,
+     "block": 3339
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1914,
+     "gas": 55087,
+     "block": 3340
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1895,
+     "gas": 71001,
+     "block": 3341
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2190,
+     "gas": 73978,
+     "block": 3342
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1882,
+     "gas": 55087,
+     "block": 3343
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1935,
+     "gas": 113361,
+     "block": 3344
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1936,
+     "gas": 101680,
+     "block": 3344
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1937,
+     "gas": 113361,
+     "block": 3344
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1937,
+     "gas": 130461,
+     "block": 3344
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1938,
+     "gas": 81780,
+     "block": 3344
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1916,
+     "gas": 240691,
+     "block": 3345
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2122,
+     "gas": 71001,
+     "block": 3346
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1918,
+     "gas": 297710,
+     "block": 3347
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2158,
+     "gas": 375120,
+     "block": 3348
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1896,
+     "gas": 130461,
+     "block": 3349
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1898,
+     "gas": 81744,
+     "block": 3349
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1893,
+     "gas": 98815,
+     "block": 3350
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2142,
+     "gas": 71001,
+     "block": 3351
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1892,
+     "gas": 73978,
+     "block": 3352
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2149,
+     "gas": 138982,
+     "block": 3353
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1877,
+     "gas": 130461,
+     "block": 3354
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1870,
+     "gas": 98851,
+     "block": 3355
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2181,
+     "gas": 70989,
+     "block": 3356
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1879,
+     "gas": 206786,
+     "block": 3357
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1901,
+     "gas": 163644,
+     "block": 3358
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2117,
+     "gas": 71001,
+     "block": 3359
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1845,
+     "gas": 73978,
+     "block": 3360
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2102,
+     "gas": 55087,
+     "block": 3361
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1883,
+     "gas": 101716,
+     "block": 3362
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2156,
+     "gas": 71001,
+     "block": 3363
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1879,
+     "gas": 206786,
+     "block": 3364
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2172,
+     "gas": 71855,
+     "block": 3365
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1889,
+     "gas": 130461,
+     "block": 3366
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1851,
+     "gas": 98815,
+     "block": 3367
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2166,
+     "gas": 71001,
+     "block": 3368
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1918,
+     "gas": 206750,
+     "block": 3369
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1948,
+     "gas": 180694,
+     "block": 3370
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2149,
+     "gas": 113361,
+     "block": 3371
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2150,
+     "gas": 130461,
+     "block": 3371
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2151,
+     "gas": 81744,
+     "block": 3371
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1906,
+     "gas": 169765,
+     "block": 3372
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1930,
+     "gas": 71001,
+     "block": 3373
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2170,
+     "gas": 206786,
+     "block": 3374
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1896,
+     "gas": 276889,
+     "block": 3375
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1869,
+     "gas": 102028,
+     "block": 3376
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2169,
+     "gas": 70989,
+     "block": 3377
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1922,
+     "gas": 207098,
+     "block": 3378
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1925,
+     "gas": 71855,
+     "block": 3379
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2110,
+     "gas": 71001,
+     "block": 3380
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1857,
+     "gas": 73978,
+     "block": 3381
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2125,
+     "gas": 55087,
+     "block": 3382
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1867,
+     "gas": 130461,
+     "block": 3383
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1917,
+     "gas": 98815,
+     "block": 3384
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2145,
+     "gas": 71001,
+     "block": 3385
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1885,
+     "gas": 206750,
+     "block": 3386
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2197,
+     "gas": 231994,
+     "block": 3387
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1894,
+     "gas": 101680,
+     "block": 3388
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1895,
+     "gas": 71001,
+     "block": 3389
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1968,
+     "gas": 206750,
+     "block": 3390
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2178,
+     "gas": 71855,
+     "block": 3391
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1942,
+     "gas": 113361,
+     "block": 3392
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1942,
+     "gas": 101716,
+     "block": 3392
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1943,
+     "gas": 101680,
+     "block": 3392
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1945,
+     "gas": 130461,
+     "block": 3392
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1905,
+     "gas": 169765,
+     "block": 3393
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1892,
+     "gas": 71001,
+     "block": 3394
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2190,
+     "gas": 297710,
+     "block": 3395
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1950,
+     "gas": 233151,
+     "block": 3396
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1869,
+     "gas": 130461,
+     "block": 3397
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2157,
+     "gas": 98815,
+     "block": 3398
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1912,
+     "gas": 71001,
+     "block": 3399
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1894,
+     "gas": 206750,
+     "block": 3400
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2148,
+     "gas": 146544,
+     "block": 3401
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1885,
+     "gas": 71001,
+     "block": 3402
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1879,
+     "gas": 73978,
+     "block": 3403
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2153,
+     "gas": 55087,
+     "block": 3404
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1893,
+     "gas": 130461,
+     "block": 3405
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1894,
+     "gas": 101680,
+     "block": 3405
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1894,
+     "gas": 81780,
+     "block": 3405
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2139,
+     "gas": 113361,
+     "block": 3406
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1885,
+     "gas": 169801,
+     "block": 3407
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1872,
+     "gas": 71001,
+     "block": 3408
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2147,
+     "gas": 297710,
+     "block": 3409
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1910,
+     "gas": 197881,
+     "block": 3410
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1926,
+     "gas": 101716,
+     "block": 3411
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1927,
+     "gas": 130461,
+     "block": 3411
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1926,
+     "gas": 101680,
+     "block": 3411
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2126,
+     "gas": 98815,
+     "block": 3412
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1911,
+     "gas": 71001,
+     "block": 3413
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2133,
+     "gas": 297710,
+     "block": 3414
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1889,
+     "gas": 157711,
+     "block": 3415
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1858,
+     "gas": 130461,
+     "block": 3416
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2151,
+     "gas": 99163,
+     "block": 3417
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1873,
+     "gas": 71001,
+     "block": 3418
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2174,
+     "gas": 207098,
+     "block": 3419
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1890,
+     "gas": 163594,
+     "block": 3420
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1908,
+     "gas": 113361,
+     "block": 3421
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1908,
+     "gas": 130449,
+     "block": 3421
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1908,
+     "gas": 101680,
+     "block": 3421
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1908,
+     "gas": 81780,
+     "block": 3421
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2158,
+     "gas": 169765,
+     "block": 3422
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1902,
+     "gas": 70989,
+     "block": 3423
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2151,
+     "gas": 206750,
+     "block": 3424
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1925,
+     "gas": 208539,
+     "block": 3425
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1919,
+     "gas": 130461,
+     "block": 3426
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1875,
+     "gas": 98815,
+     "block": 3427
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2158,
+     "gas": 71001,
+     "block": 3428
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1886,
+     "gas": 206750,
+     "block": 3429
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2153,
+     "gas": 214894,
+     "block": 3430
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1920,
+     "gas": 113361,
+     "block": 3431
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1921,
+     "gas": 130449,
+     "block": 3431
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1921,
+     "gas": 101680,
+     "block": 3431
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1925,
+     "gas": 101716,
+     "block": 3431
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1923,
+     "gas": 169765,
+     "block": 3432
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1879,
+     "gas": 71001,
+     "block": 3433
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2102,
+     "gas": 297710,
+     "block": 3434
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1932,
+     "gas": 227625,
+     "block": 3435
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1879,
+     "gas": 130461,
+     "block": 3436
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2149,
+     "gas": 98851,
+     "block": 3437
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1885,
+     "gas": 71001,
+     "block": 3438
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2141,
+     "gas": 206786,
+     "block": 3439
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1900,
+     "gas": 146544,
+     "block": 3440
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1891,
+     "gas": 130461,
+     "block": 3441
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2133,
+     "gas": 98851,
+     "block": 3442
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1908,
+     "gas": 71001,
+     "block": 3443
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2169,
+     "gas": 206786,
+     "block": 3444
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1910,
+     "gas": 146544,
+     "block": 3445
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1940,
+     "gas": 81780,
+     "block": 3446
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1943,
+     "gas": 113361,
+     "block": 3446
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1945,
+     "gas": 130461,
+     "block": 3446
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1865,
+     "gas": 169765,
+     "block": 3447
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2105,
+     "gas": 71001,
+     "block": 3448
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1904,
+     "gas": 206750,
+     "block": 3449
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2148,
+     "gas": 208489,
+     "block": 3450
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1865,
+     "gas": 130461,
+     "block": 3451
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2110,
+     "gas": 98815,
+     "block": 3452
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1870,
+     "gas": 71001,
+     "block": 3453
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2170,
+     "gas": 206750,
+     "block": 3454
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1933,
+     "gas": 146544,
+     "block": 3455
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1924,
+     "gas": 113361,
+     "block": 3456
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1925,
+     "gas": 113361,
+     "block": 3456
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1926,
+     "gas": 130461,
+     "block": 3456
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1926,
+     "gas": 102028,
+     "block": 3456
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1887,
+     "gas": 241003,
+     "block": 3457
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2150,
+     "gas": 71001,
+     "block": 3458
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1899,
+     "gas": 298058,
+     "block": 3459
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2172,
+     "gas": 278046,
+     "block": 3460
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1886,
+     "gas": 130461,
+     "block": 3461
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1887,
+     "gas": 101716,
+     "block": 3461
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1901,
+     "gas": 98851,
+     "block": 3462
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1903,
+     "gas": 71001,
+     "block": 3463
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2180,
+     "gas": 206786,
+     "block": 3464
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1889,
+     "gas": 163594,
+     "block": 3465
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2133,
+     "gas": 130461,
+     "block": 3466
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1924,
+     "gas": 98851,
+     "block": 3467
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1907,
+     "gas": 70989,
+     "block": 3468
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2191,
+     "gas": 206786,
+     "block": 3469
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1984,
+     "gas": 141018,
+     "block": 3470
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1896,
+     "gas": 113361,
+     "block": 3471
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1897,
+     "gas": 130461,
+     "block": 3471
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1898,
+     "gas": 101680,
+     "block": 3471
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1899,
+     "gas": 102028,
+     "block": 3471
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1892,
+     "gas": 170077,
+     "block": 3472
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2185,
+     "gas": 71001,
+     "block": 3473
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1939,
+     "gas": 298022,
+     "block": 3474
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1885,
+     "gas": 216101,
+     "block": 3475
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1886,
+     "gas": 130461,
+     "block": 3476
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1887,
+     "gas": 101680,
+     "block": 3476
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2189,
+     "gas": 98815,
+     "block": 3477
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1920,
+     "gas": 71001,
+     "block": 3478
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2129,
+     "gas": 206750,
+     "block": 3479
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1845,
+     "gas": 146544,
+     "block": 3480
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1891,
+     "gas": 101716,
+     "block": 3481
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2134,
+     "gas": 71001,
+     "block": 3482
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1882,
+     "gas": 206786,
+     "block": 3483
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2112,
+     "gas": 71855,
+     "block": 3484
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1908,
+     "gas": 130449,
+     "block": 3485
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1909,
+     "gas": 113361,
+     "block": 3485
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1911,
+     "gas": 101716,
+     "block": 3485
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1912,
+     "gas": 81744,
+     "block": 3485
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2169,
+     "gas": 169765,
+     "block": 3486
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1902,
+     "gas": 71001,
+     "block": 3487
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1890,
+     "gas": 206786,
+     "block": 3488
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2157,
+     "gas": 208539,
+     "block": 3489
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1874,
+     "gas": 130461,
+     "block": 3490
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1900,
+     "gas": 98815,
+     "block": 3491
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2147,
+     "gas": 70989,
+     "block": 3492
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1899,
+     "gas": 206750,
+     "block": 3493
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2185,
+     "gas": 146544,
+     "block": 3494
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1955,
+     "gas": 113361,
+     "block": 3495
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1956,
+     "gas": 130461,
+     "block": 3495
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1958,
+     "gas": 101716,
+     "block": 3495
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1960,
+     "gas": 81780,
+     "block": 3495
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1911,
+     "gas": 169801,
+     "block": 3496
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1933,
+     "gas": 71001,
+     "block": 3497
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2151,
+     "gas": 206786,
+     "block": 3498
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1917,
+     "gas": 185838,
+     "block": 3499
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1901,
+     "gas": 113361,
+     "block": 3500
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1901,
+     "gas": 130461,
+     "block": 3500
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1902,
+     "gas": 81780,
+     "block": 3500
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2150,
+     "gas": 113361,
+     "block": 3501
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1907,
+     "gas": 240727,
+     "block": 3502
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1948,
+     "gas": 71001,
+     "block": 3503
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1911,
+     "gas": 206786,
+     "block": 3504
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2162,
+     "gas": 248584,
+     "block": 3505
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1888,
+     "gas": 101680,
+     "block": 3506
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1889,
+     "gas": 130461,
+     "block": 3506
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1910,
+     "gas": 98815,
+     "block": 3507
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2164,
+     "gas": 70989,
+     "block": 3508
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1890,
+     "gas": 206750,
+     "block": 3509
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2100,
+     "gas": 146544,
+     "block": 3510
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1902,
+     "gas": 113361,
+     "block": 3511
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1903,
+     "gas": 130461,
+     "block": 3511
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1904,
+     "gas": 153063,
+     "block": 3511
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1882,
+     "gas": 169729,
+     "block": 3512
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2171,
+     "gas": 70989,
+     "block": 3513
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1914,
+     "gas": 206750,
+     "block": 3514
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2154,
+     "gas": 208539,
+     "block": 3515
+    }
+   ]
+  },
+  {
+   "file": "trace_rho0.50_seed44.json",
+   "rho": 0.5,
+   "seed": 44,
+   "contract": "0x6B7ba267df8611451fdc460C6cc551dB8c7dB1CF",
+   "deploy_gas": 2432949,
+   "equivalent": true,
+   "mismatches": [],
+   "days": 40,
+   "reports": 68,
+   "transactions": 259,
+   "blocks": 196,
+   "seconds": 391.845,
+   "day_ms_mean": 9609,
+   "day_ms_max": 12056,
+   "gas_total": 38603898,
+   "by_operation": {
+    "registerMembers": {
+     "n": 1,
+     "gas_mean": 354996,
+     "gas_max": 354996,
+     "latency_ms_p50": 2133,
+     "latency_ms_p95": 2133,
+     "latency_ms_max": 2133
+    },
+    "setOwners": {
+     "n": 1,
+     "gas_mean": 276826,
+     "gas_max": 276826,
+     "latency_ms_p50": 1909,
+     "latency_ms_p95": 1909,
+     "latency_ms_max": 1909
+    },
+    "postSensorRecords": {
+     "n": 34,
+     "gas_mean": 113809,
+     "gas_max": 224370,
+     "latency_ms_p50": 1919,
+     "latency_ms_p95": 2183,
+     "latency_ms_max": 2200
+    },
+    "submitReport": {
+     "n": 68,
+     "gas_mean": 122120,
+     "gas_max": 130461,
+     "latency_ms_p50": 1918,
+     "latency_ms_p95": 2201,
+     "latency_ms_max": 2207
+    },
+    "postClaims": {
+     "n": 35,
+     "gas_mean": 165771,
+     "gas_max": 311617,
+     "latency_ms_p50": 2102,
+     "latency_ms_p95": 2151,
+     "latency_ms_max": 2175
+    },
+    "commitPlan": {
+     "n": 40,
+     "gas_mean": 70998,
+     "gas_max": 71001,
+     "latency_ms_p50": 1902,
+     "latency_ms_p95": 2161,
+     "latency_ms_max": 2162
+    },
+    "postOutcome": {
+     "n": 40,
+     "gas_mean": 228699,
+     "gas_max": 298370,
+     "latency_ms_p50": 1925,
+     "latency_ms_p95": 2166,
+     "latency_ms_max": 2200
+    },
+    "scoreDay": {
+     "n": 40,
+     "gas_mean": 200214,
+     "gas_max": 466084,
+     "latency_ms_p50": 1917,
+     "latency_ms_p95": 2162,
+     "latency_ms_max": 2199
+    }
+   },
+   "tx_log": [
+    {
+     "label": "registerMembers",
+     "latency_ms": 2133,
+     "gas": 354996,
+     "block": 3517
+    },
+    {
+     "label": "setOwners",
+     "latency_ms": 1909,
+     "gas": 276826,
+     "block": 3518
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2179,
+     "gas": 170151,
+     "block": 3519
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2181,
+     "gas": 113349,
+     "block": 3519
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2182,
+     "gas": 113349,
+     "block": 3519
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2184,
+     "gas": 127649,
+     "block": 3519
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1903,
+     "gas": 240643,
+     "block": 3520
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1896,
+     "gas": 70977,
+     "block": 3521
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2142,
+     "gas": 297698,
+     "block": 3522
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1913,
+     "gas": 466084,
+     "block": 3523
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1887,
+     "gas": 101680,
+     "block": 3524
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2161,
+     "gas": 71001,
+     "block": 3525
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1913,
+     "gas": 206750,
+     "block": 3526
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1900,
+     "gas": 88955,
+     "block": 3527
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2179,
+     "gas": 130461,
+     "block": 3528
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2178,
+     "gas": 101716,
+     "block": 3528
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1882,
+     "gas": 98851,
+     "block": 3529
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2132,
+     "gas": 71001,
+     "block": 3530
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1897,
+     "gas": 297710,
+     "block": 3531
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2120,
+     "gas": 157786,
+     "block": 3532
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1899,
+     "gas": 130461,
+     "block": 3533
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1857,
+     "gas": 99163,
+     "block": 3534
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2155,
+     "gas": 71001,
+     "block": 3535
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1924,
+     "gas": 207098,
+     "block": 3536
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1898,
+     "gas": 214894,
+     "block": 3537
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2200,
+     "gas": 113361,
+     "block": 3538
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2200,
+     "gas": 130461,
+     "block": 3538
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2200,
+     "gas": 81780,
+     "block": 3538
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2201,
+     "gas": 113361,
+     "block": 3538
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1897,
+     "gas": 241351,
+     "block": 3539
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1869,
+     "gas": 71001,
+     "block": 3540
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2104,
+     "gas": 298370,
+     "block": 3541
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1917,
+     "gas": 346446,
+     "block": 3542
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2166,
+     "gas": 113361,
+     "block": 3543
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2167,
+     "gas": 113349,
+     "block": 3543
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2167,
+     "gas": 130461,
+     "block": 3543
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2168,
+     "gas": 153063,
+     "block": 3543
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1890,
+     "gas": 240655,
+     "block": 3544
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2146,
+     "gas": 71001,
+     "block": 3545
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1908,
+     "gas": 206750,
+     "block": 3546
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1924,
+     "gas": 287584,
+     "block": 3547
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1933,
+     "gas": 113361,
+     "block": 3548
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1934,
+     "gas": 153063,
+     "block": 3548
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1934,
+     "gas": 113361,
+     "block": 3548
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1935,
+     "gas": 130461,
+     "block": 3548
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2120,
+     "gas": 240655,
+     "block": 3549
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1842,
+     "gas": 71001,
+     "block": 3550
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2142,
+     "gas": 297710,
+     "block": 3551
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1911,
+     "gas": 346446,
+     "block": 3552
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1882,
+     "gas": 130449,
+     "block": 3553
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1882,
+     "gas": 101680,
+     "block": 3553
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2132,
+     "gas": 98815,
+     "block": 3554
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1871,
+     "gas": 71001,
+     "block": 3555
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2120,
+     "gas": 206750,
+     "block": 3556
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1896,
+     "gas": 214894,
+     "block": 3557
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2157,
+     "gas": 130461,
+     "block": 3558
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2168,
+     "gas": 113361,
+     "block": 3558
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1843,
+     "gas": 170113,
+     "block": 3559
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2152,
+     "gas": 70989,
+     "block": 3560
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1883,
+     "gas": 207098,
+     "block": 3561
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2162,
+     "gas": 191439,
+     "block": 3562
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1886,
+     "gas": 101680,
+     "block": 3563
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1900,
+     "gas": 71001,
+     "block": 3564
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1886,
+     "gas": 206750,
+     "block": 3565
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2131,
+     "gas": 71855,
+     "block": 3566
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1926,
+     "gas": 113361,
+     "block": 3567
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1926,
+     "gas": 113361,
+     "block": 3567
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1926,
+     "gas": 101716,
+     "block": 3567
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1927,
+     "gas": 153063,
+     "block": 3567
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1927,
+     "gas": 130461,
+     "block": 3567
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2151,
+     "gas": 240655,
+     "block": 3568
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1874,
+     "gas": 71001,
+     "block": 3569
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1915,
+     "gas": 297710,
+     "block": 3570
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2158,
+     "gas": 363546,
+     "block": 3571
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1854,
+     "gas": 130461,
+     "block": 3572
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2129,
+     "gas": 98851,
+     "block": 3573
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1904,
+     "gas": 71001,
+     "block": 3574
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1880,
+     "gas": 206786,
+     "block": 3575
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2142,
+     "gas": 141018,
+     "block": 3576
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1908,
+     "gas": 113361,
+     "block": 3577
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1908,
+     "gas": 113361,
+     "block": 3577
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1908,
+     "gas": 224370,
+     "block": 3577
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1909,
+     "gas": 130461,
+     "block": 3577
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1915,
+     "gas": 240619,
+     "block": 3578
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2128,
+     "gas": 71001,
+     "block": 3579
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1884,
+     "gas": 297674,
+     "block": 3580
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2129,
+     "gas": 295146,
+     "block": 3581
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1885,
+     "gas": 81744,
+     "block": 3582
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1885,
+     "gas": 113361,
+     "block": 3582
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1887,
+     "gas": 130461,
+     "block": 3582
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2102,
+     "gas": 169729,
+     "block": 3583
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1872,
+     "gas": 71001,
+     "block": 3584
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2153,
+     "gas": 206750,
+     "block": 3585
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1897,
+     "gas": 191439,
+     "block": 3586
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1859,
+     "gas": 71001,
+     "block": 3587
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2147,
+     "gas": 73978,
+     "block": 3588
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1916,
+     "gas": 55087,
+     "block": 3589
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1922,
+     "gas": 113361,
+     "block": 3590
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1923,
+     "gas": 113361,
+     "block": 3590
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1923,
+     "gas": 101680,
+     "block": 3590
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1924,
+     "gas": 101716,
+     "block": 3590
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1924,
+     "gas": 130461,
+     "block": 3590
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2142,
+     "gas": 240691,
+     "block": 3591
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1888,
+     "gas": 71001,
+     "block": 3592
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1903,
+     "gas": 297710,
+     "block": 3593
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2153,
+     "gas": 260996,
+     "block": 3594
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1850,
+     "gas": 130461,
+     "block": 3595
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2111,
+     "gas": 98815,
+     "block": 3596
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1821,
+     "gas": 70989,
+     "block": 3597
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2123,
+     "gas": 206750,
+     "block": 3598
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2062,
+     "gas": 141018,
+     "block": 3599
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1813,
+     "gas": 130461,
+     "block": 3600
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2091,
+     "gas": 98851,
+     "block": 3601
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1890,
+     "gas": 71001,
+     "block": 3602
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2155,
+     "gas": 297746,
+     "block": 3603
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1895,
+     "gas": 175562,
+     "block": 3604
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1894,
+     "gas": 130461,
+     "block": 3605
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2122,
+     "gas": 98815,
+     "block": 3606
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1902,
+     "gas": 70989,
+     "block": 3607
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2166,
+     "gas": 206750,
+     "block": 3608
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1865,
+     "gas": 146544,
+     "block": 3609
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1903,
+     "gas": 113361,
+     "block": 3610
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1903,
+     "gas": 130461,
+     "block": 3610
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2121,
+     "gas": 169729,
+     "block": 3611
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1877,
+     "gas": 71001,
+     "block": 3612
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2135,
+     "gas": 206750,
+     "block": 3613
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1937,
+     "gas": 208489,
+     "block": 3614
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1882,
+     "gas": 130449,
+     "block": 3615
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1882,
+     "gas": 101716,
+     "block": 3615
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2110,
+     "gas": 98851,
+     "block": 3616
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2107,
+     "gas": 70989,
+     "block": 3617
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1917,
+     "gas": 206786,
+     "block": 3618
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1894,
+     "gas": 146544,
+     "block": 3619
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1932,
+     "gas": 102028,
+     "block": 3620
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2204,
+     "gas": 113361,
+     "block": 3620
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2206,
+     "gas": 113361,
+     "block": 3620
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2207,
+     "gas": 130461,
+     "block": 3620
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1875,
+     "gas": 241003,
+     "block": 3621
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1887,
+     "gas": 71001,
+     "block": 3622
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2141,
+     "gas": 298022,
+     "block": 3623
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1899,
+     "gas": 261071,
+     "block": 3624
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1905,
+     "gas": 101716,
+     "block": 3625
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1906,
+     "gas": 130461,
+     "block": 3625
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2136,
+     "gas": 98851,
+     "block": 3626
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1881,
+     "gas": 71001,
+     "block": 3627
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2200,
+     "gas": 206786,
+     "block": 3628
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1883,
+     "gas": 146544,
+     "block": 3629
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1901,
+     "gas": 130461,
+     "block": 3630
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2128,
+     "gas": 98851,
+     "block": 3631
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1921,
+     "gas": 71001,
+     "block": 3632
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2123,
+     "gas": 206786,
+     "block": 3633
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1875,
+     "gas": 141018,
+     "block": 3634
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1874,
+     "gas": 113361,
+     "block": 3635
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1875,
+     "gas": 130461,
+     "block": 3635
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1874,
+     "gas": 102028,
+     "block": 3635
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1876,
+     "gas": 101680,
+     "block": 3635
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2175,
+     "gas": 170077,
+     "block": 3636
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1892,
+     "gas": 71001,
+     "block": 3637
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2144,
+     "gas": 298022,
+     "block": 3638
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1901,
+     "gas": 233151,
+     "block": 3639
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1915,
+     "gas": 113361,
+     "block": 3640
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1916,
+     "gas": 130461,
+     "block": 3640
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1916,
+     "gas": 101680,
+     "block": 3640
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2146,
+     "gas": 169729,
+     "block": 3641
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1894,
+     "gas": 71001,
+     "block": 3642
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1902,
+     "gas": 206750,
+     "block": 3643
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2199,
+     "gas": 225589,
+     "block": 3644
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1886,
+     "gas": 113361,
+     "block": 3645
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1887,
+     "gas": 153063,
+     "block": 3645
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1888,
+     "gas": 130461,
+     "block": 3645
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1858,
+     "gas": 169729,
+     "block": 3646
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2161,
+     "gas": 71001,
+     "block": 3647
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1880,
+     "gas": 206750,
+     "block": 3648
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2160,
+     "gas": 191439,
+     "block": 3649
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1917,
+     "gas": 113361,
+     "block": 3650
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1918,
+     "gas": 113361,
+     "block": 3650
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1918,
+     "gas": 133127,
+     "block": 3650
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1919,
+     "gas": 130461,
+     "block": 3650
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1921,
+     "gas": 240967,
+     "block": 3651
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2150,
+     "gas": 71001,
+     "block": 3652
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1940,
+     "gas": 207098,
+     "block": 3653
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1868,
+     "gas": 236334,
+     "block": 3654
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1926,
+     "gas": 113361,
+     "block": 3655
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1927,
+     "gas": 153063,
+     "block": 3655
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1927,
+     "gas": 130461,
+     "block": 3655
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1928,
+     "gas": 101716,
+     "block": 3655
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2147,
+     "gas": 169729,
+     "block": 3656
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1863,
+     "gas": 71001,
+     "block": 3657
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2163,
+     "gas": 297710,
+     "block": 3658
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1897,
+     "gas": 208207,
+     "block": 3659
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1843,
+     "gas": 130461,
+     "block": 3660
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2148,
+     "gas": 98815,
+     "block": 3661
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1868,
+     "gas": 70989,
+     "block": 3662
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2147,
+     "gas": 206750,
+     "block": 3663
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1884,
+     "gas": 146544,
+     "block": 3664
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1894,
+     "gas": 113361,
+     "block": 3665
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1897,
+     "gas": 130461,
+     "block": 3665
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2104,
+     "gas": 170077,
+     "block": 3666
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1905,
+     "gas": 71001,
+     "block": 3667
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2075,
+     "gas": 207098,
+     "block": 3668
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2159,
+     "gas": 191439,
+     "block": 3669
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1861,
+     "gas": 71001,
+     "block": 3670
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1873,
+     "gas": 206786,
+     "block": 3671
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2130,
+     "gas": 71855,
+     "block": 3672
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1890,
+     "gas": 113361,
+     "block": 3673
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1891,
+     "gas": 81744,
+     "block": 3673
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1892,
+     "gas": 130461,
+     "block": 3673
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1898,
+     "gas": 169765,
+     "block": 3674
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2138,
+     "gas": 71001,
+     "block": 3675
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1912,
+     "gas": 206750,
+     "block": 3676
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2146,
+     "gas": 183545,
+     "block": 3677
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1874,
+     "gas": 130461,
+     "block": 3678
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1874,
+     "gas": 101680,
+     "block": 3678
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1874,
+     "gas": 113349,
+     "block": 3678
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1871,
+     "gas": 169765,
+     "block": 3679
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2134,
+     "gas": 71001,
+     "block": 3680
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1888,
+     "gas": 206750,
+     "block": 3681
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2151,
+     "gas": 191439,
+     "block": 3682
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1894,
+     "gas": 130461,
+     "block": 3683
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1895,
+     "gas": 81780,
+     "block": 3683
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1881,
+     "gas": 98851,
+     "block": 3684
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2162,
+     "gas": 71001,
+     "block": 3685
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1925,
+     "gas": 73978,
+     "block": 3686
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1916,
+     "gas": 121882,
+     "block": 3687
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2159,
+     "gas": 71001,
+     "block": 3688
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1879,
+     "gas": 73978,
+     "block": 3689
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2139,
+     "gas": 55087,
+     "block": 3690
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1877,
+     "gas": 130449,
+     "block": 3691
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1878,
+     "gas": 101716,
+     "block": 3691
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1881,
+     "gas": 98851,
+     "block": 3692
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2133,
+     "gas": 70977,
+     "block": 3693
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1881,
+     "gas": 206786,
+     "block": 3694
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2141,
+     "gas": 146544,
+     "block": 3695
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1917,
+     "gas": 113361,
+     "block": 3696
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1918,
+     "gas": 113361,
+     "block": 3696
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1918,
+     "gas": 153063,
+     "block": 3696
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1918,
+     "gas": 113361,
+     "block": 3696
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1919,
+     "gas": 130461,
+     "block": 3696
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1919,
+     "gas": 81780,
+     "block": 3696
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1875,
+     "gas": 311617,
+     "block": 3697
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2102,
+     "gas": 71001,
+     "block": 3698
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1917,
+     "gas": 297710,
+     "block": 3699
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2154,
+     "gas": 322941,
+     "block": 3700
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1923,
+     "gas": 113361,
+     "block": 3701
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1924,
+     "gas": 81744,
+     "block": 3701
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1927,
+     "gas": 130461,
+     "block": 3701
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1929,
+     "gas": 101716,
+     "block": 3701
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1878,
+     "gas": 169729,
+     "block": 3702
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2136,
+     "gas": 70977,
+     "block": 3703
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1909,
+     "gas": 297710,
+     "block": 3704
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1877,
+     "gas": 208207,
+     "block": 3705
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2178,
+     "gas": 130461,
+     "block": 3706
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2183,
+     "gas": 101680,
+     "block": 3706
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2183,
+     "gas": 101680,
+     "block": 3706
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1852,
+     "gas": 113361,
+     "block": 3707
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2104,
+     "gas": 169729,
+     "block": 3708
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1877,
+     "gas": 71001,
+     "block": 3709
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2154,
+     "gas": 297674,
+     "block": 3710
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1889,
+     "gas": 213951,
+     "block": 3711
+    }
+   ]
+  },
+  {
+   "file": "trace_rho0.75_seed44.json",
+   "rho": 0.75,
+   "seed": 44,
+   "contract": "0x9A73e2E939F7fD1381f797f108061126c9E10Fc6",
+   "deploy_gas": 2432949,
+   "equivalent": true,
+   "mismatches": [],
+   "days": 40,
+   "reports": 70,
+   "transactions": 271,
+   "blocks": 202,
+   "seconds": 403.925,
+   "day_ms_mean": 9904,
+   "day_ms_max": 11981,
+   "gas_total": 39207834,
+   "by_operation": {
+    "registerMembers": {
+     "n": 1,
+     "gas_mean": 354996,
+     "gas_max": 354996,
+     "latency_ms_p50": 1622,
+     "latency_ms_p95": 1622,
+     "latency_ms_max": 1622
+    },
+    "setOwners": {
+     "n": 1,
+     "gas_mean": 276826,
+     "gas_max": 276826,
+     "latency_ms_p50": 2154,
+     "latency_ms_p95": 2154,
+     "latency_ms_max": 2154
+    },
+    "submitReport": {
+     "n": 70,
+     "gas_mean": 121870,
+     "gas_max": 130461,
+     "latency_ms_p50": 1918,
+     "latency_ms_p95": 2207,
+     "latency_ms_max": 2210
+    },
+    "postSensorRecords": {
+     "n": 44,
+     "gas_mean": 101157,
+     "gas_max": 172999,
+     "latency_ms_p50": 1918,
+     "latency_ms_p95": 2207,
+     "latency_ms_max": 2210
+    },
+    "postClaims": {
+     "n": 35,
+     "gas_mean": 169815,
+     "gas_max": 311689,
+     "latency_ms_p50": 2127,
+     "latency_ms_p95": 2177,
+     "latency_ms_max": 2182
+    },
+    "commitPlan": {
+     "n": 40,
+     "gas_mean": 70998,
+     "gas_max": 71001,
+     "latency_ms_p50": 1898,
+     "latency_ms_p95": 2155,
+     "latency_ms_max": 2177
+    },
+    "postOutcome": {
+     "n": 40,
+     "gas_mean": 221004,
+     "gas_max": 298058,
+     "latency_ms_p50": 2118,
+     "latency_ms_p95": 2171,
+     "latency_ms_max": 2180
+    },
+    "scoreDay": {
+     "n": 40,
+     "gas_mean": 199267,
+     "gas_max": 391291,
+     "latency_ms_p50": 1906,
+     "latency_ms_p95": 2174,
+     "latency_ms_max": 2193
+    }
+   },
+   "tx_log": [
+    {
+     "label": "registerMembers",
+     "latency_ms": 1622,
+     "gas": 354996,
+     "block": 3713
+    },
+    {
+     "label": "setOwners",
+     "latency_ms": 2154,
+     "gas": 276826,
+     "block": 3714
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1933,
+     "gas": 113349,
+     "block": 3715
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1935,
+     "gas": 98832,
+     "block": 3715
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1937,
+     "gas": 127649,
+     "block": 3715
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1872,
+     "gas": 169717,
+     "block": 3716
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2131,
+     "gas": 70989,
+     "block": 3717
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1905,
+     "gas": 206738,
+     "block": 3718
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2157,
+     "gas": 311077,
+     "block": 3719
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1898,
+     "gas": 130461,
+     "block": 3720
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1899,
+     "gas": 153063,
+     "block": 3720
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1900,
+     "gas": 98815,
+     "block": 3721
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2177,
+     "gas": 71001,
+     "block": 3722
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1919,
+     "gas": 297710,
+     "block": 3723
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1871,
+     "gas": 221818,
+     "block": 3724
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2197,
+     "gas": 101680,
+     "block": 3725
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2199,
+     "gas": 130461,
+     "block": 3725
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2200,
+     "gas": 81780,
+     "block": 3725
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1882,
+     "gas": 98851,
+     "block": 3726
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1900,
+     "gas": 70989,
+     "block": 3727
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2123,
+     "gas": 206750,
+     "block": 3728
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1901,
+     "gas": 189950,
+     "block": 3729
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1941,
+     "gas": 130461,
+     "block": 3730
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2207,
+     "gas": 81744,
+     "block": 3730
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2208,
+     "gas": 113361,
+     "block": 3730
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2210,
+     "gas": 113361,
+     "block": 3730
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2210,
+     "gas": 81780,
+     "block": 3730
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1884,
+     "gas": 241003,
+     "block": 3731
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1903,
+     "gas": 71001,
+     "block": 3732
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2128,
+     "gas": 207098,
+     "block": 3733
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1894,
+     "gas": 321784,
+     "block": 3734
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1933,
+     "gas": 113361,
+     "block": 3735
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1965,
+     "gas": 113361,
+     "block": 3735
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1966,
+     "gas": 113361,
+     "block": 3735
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1966,
+     "gas": 130461,
+     "block": 3735
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1967,
+     "gas": 172999,
+     "block": 3735
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1967,
+     "gas": 81780,
+     "block": 3735
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1968,
+     "gas": 81780,
+     "block": 3735
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2164,
+     "gas": 311617,
+     "block": 3736
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1887,
+     "gas": 70989,
+     "block": 3737
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1894,
+     "gas": 297674,
+     "block": 3738
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2193,
+     "gas": 391291,
+     "block": 3739
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1914,
+     "gas": 113361,
+     "block": 3740
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1916,
+     "gas": 130461,
+     "block": 3740
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1918,
+     "gas": 102028,
+     "block": 3740
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1909,
+     "gas": 170077,
+     "block": 3741
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2108,
+     "gas": 71001,
+     "block": 3742
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1923,
+     "gas": 298022,
+     "block": 3743
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1871,
+     "gas": 284451,
+     "block": 3744
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2156,
+     "gas": 81744,
+     "block": 3745
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2159,
+     "gas": 130461,
+     "block": 3745
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1899,
+     "gas": 98815,
+     "block": 3746
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1883,
+     "gas": 71001,
+     "block": 3747
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2141,
+     "gas": 73978,
+     "block": 3748
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2125,
+     "gas": 138982,
+     "block": 3749
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1911,
+     "gas": 130461,
+     "block": 3750
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1916,
+     "gas": 153135,
+     "block": 3750
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1888,
+     "gas": 113361,
+     "block": 3751
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1876,
+     "gas": 169801,
+     "block": 3752
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2155,
+     "gas": 70989,
+     "block": 3753
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1887,
+     "gas": 206786,
+     "block": 3754
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2131,
+     "gas": 232363,
+     "block": 3755
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1919,
+     "gas": 113361,
+     "block": 3756
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1921,
+     "gas": 81780,
+     "block": 3756
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1921,
+     "gas": 130461,
+     "block": 3756
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1891,
+     "gas": 113361,
+     "block": 3757
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1893,
+     "gas": 113361,
+     "block": 3757
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2182,
+     "gas": 311689,
+     "block": 3758
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1876,
+     "gas": 70989,
+     "block": 3759
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2140,
+     "gas": 297746,
+     "block": 3760
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1905,
+     "gas": 336489,
+     "block": 3761
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1910,
+     "gas": 130461,
+     "block": 3762
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1911,
+     "gas": 101680,
+     "block": 3762
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2127,
+     "gas": 98815,
+     "block": 3763
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1894,
+     "gas": 70989,
+     "block": 3764
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1873,
+     "gas": 206750,
+     "block": 3765
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2147,
+     "gas": 214894,
+     "block": 3766
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1917,
+     "gas": 113361,
+     "block": 3767
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1921,
+     "gas": 130461,
+     "block": 3767
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1922,
+     "gas": 101716,
+     "block": 3767
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1866,
+     "gas": 113361,
+     "block": 3768
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2099,
+     "gas": 241039,
+     "block": 3769
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2155,
+     "gas": 71001,
+     "block": 3770
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1893,
+     "gas": 298058,
+     "block": 3771
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1871,
+     "gas": 273296,
+     "block": 3772
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2125,
+     "gas": 71001,
+     "block": 3773
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1881,
+     "gas": 206750,
+     "block": 3774
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2137,
+     "gas": 71855,
+     "block": 3775
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1843,
+     "gas": 81780,
+     "block": 3776
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1843,
+     "gas": 130461,
+     "block": 3776
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2151,
+     "gas": 98851,
+     "block": 3777
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1907,
+     "gas": 71001,
+     "block": 3778
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2118,
+     "gas": 73978,
+     "block": 3779
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1906,
+     "gas": 121882,
+     "block": 3780
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1903,
+     "gas": 113361,
+     "block": 3781
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1904,
+     "gas": 130461,
+     "block": 3781
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1904,
+     "gas": 101716,
+     "block": 3781
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1903,
+     "gas": 81780,
+     "block": 3781
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2133,
+     "gas": 169801,
+     "block": 3782
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1906,
+     "gas": 70989,
+     "block": 3783
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2167,
+     "gas": 206786,
+     "block": 3784
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1871,
+     "gas": 191439,
+     "block": 3785
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1911,
+     "gas": 113361,
+     "block": 3786
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1912,
+     "gas": 101716,
+     "block": 3786
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1912,
+     "gas": 130461,
+     "block": 3786
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1913,
+     "gas": 101716,
+     "block": 3786
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2130,
+     "gas": 169801,
+     "block": 3787
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1875,
+     "gas": 71001,
+     "block": 3788
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1870,
+     "gas": 297746,
+     "block": 3789
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2149,
+     "gas": 222099,
+     "block": 3790
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1887,
+     "gas": 113349,
+     "block": 3791
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1887,
+     "gas": 130461,
+     "block": 3791
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1888,
+     "gas": 101680,
+     "block": 3791
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2128,
+     "gas": 169765,
+     "block": 3792
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1916,
+     "gas": 71001,
+     "block": 3793
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1864,
+     "gas": 206750,
+     "block": 3794
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2150,
+     "gas": 202963,
+     "block": 3795
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1920,
+     "gas": 113361,
+     "block": 3796
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1923,
+     "gas": 130461,
+     "block": 3796
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1925,
+     "gas": 101680,
+     "block": 3796
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2113,
+     "gas": 169729,
+     "block": 3797
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1880,
+     "gas": 71001,
+     "block": 3798
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2136,
+     "gas": 297674,
+     "block": 3799
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1919,
+     "gas": 210575,
+     "block": 3800
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1863,
+     "gas": 113361,
+     "block": 3801
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1864,
+     "gas": 130449,
+     "block": 3801
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1865,
+     "gas": 81744,
+     "block": 3801
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2148,
+     "gas": 169765,
+     "block": 3802
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1872,
+     "gas": 70989,
+     "block": 3803
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2163,
+     "gas": 206786,
+     "block": 3804
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1875,
+     "gas": 208539,
+     "block": 3805
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1880,
+     "gas": 130461,
+     "block": 3806
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2166,
+     "gas": 98815,
+     "block": 3807
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1851,
+     "gas": 71001,
+     "block": 3808
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2161,
+     "gas": 206750,
+     "block": 3809
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1875,
+     "gas": 163594,
+     "block": 3810
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2118,
+     "gas": 113361,
+     "block": 3811
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2119,
+     "gas": 130461,
+     "block": 3811
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1845,
+     "gas": 113361,
+     "block": 3812
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2143,
+     "gas": 240691,
+     "block": 3813
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1846,
+     "gas": 70989,
+     "block": 3814
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2158,
+     "gas": 298058,
+     "block": 3815
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1866,
+     "gas": 265402,
+     "block": 3816
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1891,
+     "gas": 130461,
+     "block": 3817
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1892,
+     "gas": 101680,
+     "block": 3817
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1893,
+     "gas": 101716,
+     "block": 3817
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2136,
+     "gas": 98851,
+     "block": 3818
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1900,
+     "gas": 71001,
+     "block": 3819
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1923,
+     "gas": 297710,
+     "block": 3820
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2129,
+     "gas": 174836,
+     "block": 3821
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1893,
+     "gas": 130461,
+     "block": 3822
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1896,
+     "gas": 101680,
+     "block": 3822
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2121,
+     "gas": 98815,
+     "block": 3823
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1892,
+     "gas": 71001,
+     "block": 3824
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2121,
+     "gas": 206750,
+     "block": 3825
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1908,
+     "gas": 146544,
+     "block": 3826
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1864,
+     "gas": 71001,
+     "block": 3827
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2155,
+     "gas": 73978,
+     "block": 3828
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1886,
+     "gas": 55087,
+     "block": 3829
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1903,
+     "gas": 113361,
+     "block": 3830
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1905,
+     "gas": 101680,
+     "block": 3830
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1905,
+     "gas": 130461,
+     "block": 3830
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2152,
+     "gas": 169729,
+     "block": 3831
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1914,
+     "gas": 71001,
+     "block": 3832
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2122,
+     "gas": 297674,
+     "block": 3833
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1874,
+     "gas": 210575,
+     "block": 3834
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1934,
+     "gas": 113361,
+     "block": 3835
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1934,
+     "gas": 102028,
+     "block": 3835
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1934,
+     "gas": 130461,
+     "block": 3835
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1935,
+     "gas": 81780,
+     "block": 3835
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1936,
+     "gas": 81744,
+     "block": 3835
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2152,
+     "gas": 113349,
+     "block": 3836
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1897,
+     "gas": 241003,
+     "block": 3837
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1889,
+     "gas": 71001,
+     "block": 3838
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2167,
+     "gas": 207098,
+     "block": 3839
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1884,
+     "gas": 231534,
+     "block": 3840
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2145,
+     "gas": 130461,
+     "block": 3841
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2146,
+     "gas": 113361,
+     "block": 3841
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2148,
+     "gas": 153063,
+     "block": 3841
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1916,
+     "gas": 169729,
+     "block": 3842
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1855,
+     "gas": 71001,
+     "block": 3843
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2167,
+     "gas": 206750,
+     "block": 3844
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1908,
+     "gas": 191439,
+     "block": 3845
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1904,
+     "gas": 101680,
+     "block": 3846
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1906,
+     "gas": 130461,
+     "block": 3846
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1908,
+     "gas": 102028,
+     "block": 3846
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2166,
+     "gas": 113361,
+     "block": 3847
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1932,
+     "gas": 170077,
+     "block": 3848
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1891,
+     "gas": 71001,
+     "block": 3849
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2171,
+     "gas": 298022,
+     "block": 3850
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1895,
+     "gas": 213150,
+     "block": 3851
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1882,
+     "gas": 113361,
+     "block": 3852
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1882,
+     "gas": 130449,
+     "block": 3852
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1882,
+     "gas": 81780,
+     "block": 3852
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2127,
+     "gas": 169765,
+     "block": 3853
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1856,
+     "gas": 71001,
+     "block": 3854
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2167,
+     "gas": 73978,
+     "block": 3855
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1841,
+     "gas": 166777,
+     "block": 3856
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1875,
+     "gas": 130461,
+     "block": 3857
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1875,
+     "gas": 101680,
+     "block": 3857
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2134,
+     "gas": 98815,
+     "block": 3858
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1875,
+     "gas": 71001,
+     "block": 3859
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2114,
+     "gas": 206750,
+     "block": 3860
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1890,
+     "gas": 146544,
+     "block": 3861
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2121,
+     "gas": 101680,
+     "block": 3862
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1914,
+     "gas": 71001,
+     "block": 3863
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2165,
+     "gas": 206750,
+     "block": 3864
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1907,
+     "gas": 71855,
+     "block": 3865
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1892,
+     "gas": 81744,
+     "block": 3866
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1893,
+     "gas": 113361,
+     "block": 3866
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1894,
+     "gas": 130461,
+     "block": 3866
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2140,
+     "gas": 169765,
+     "block": 3867
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1879,
+     "gas": 71001,
+     "block": 3868
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2089,
+     "gas": 73978,
+     "block": 3869
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1923,
+     "gas": 183877,
+     "block": 3870
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1918,
+     "gas": 113361,
+     "block": 3871
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1920,
+     "gas": 81744,
+     "block": 3871
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1922,
+     "gas": 130461,
+     "block": 3871
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2138,
+     "gas": 169765,
+     "block": 3872
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1898,
+     "gas": 71001,
+     "block": 3873
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1932,
+     "gas": 206786,
+     "block": 3874
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2126,
+     "gas": 185913,
+     "block": 3875
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1879,
+     "gas": 71001,
+     "block": 3876
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1871,
+     "gas": 73978,
+     "block": 3877
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2174,
+     "gas": 55087,
+     "block": 3878
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1863,
+     "gas": 101680,
+     "block": 3879
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2122,
+     "gas": 71001,
+     "block": 3880
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1910,
+     "gas": 297674,
+     "block": 3881
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1875,
+     "gas": 86623,
+     "block": 3882
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2191,
+     "gas": 113361,
+     "block": 3883
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2192,
+     "gas": 113361,
+     "block": 3883
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2193,
+     "gas": 130461,
+     "block": 3883
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2195,
+     "gas": 101680,
+     "block": 3883
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1878,
+     "gas": 240619,
+     "block": 3884
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1912,
+     "gas": 71001,
+     "block": 3885
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2104,
+     "gas": 297674,
+     "block": 3886
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1914,
+     "gas": 260996,
+     "block": 3887
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2206,
+     "gas": 113361,
+     "block": 3888
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2207,
+     "gas": 113361,
+     "block": 3888
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2208,
+     "gas": 81780,
+     "block": 3888
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2210,
+     "gas": 130461,
+     "block": 3888
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1880,
+     "gas": 240691,
+     "block": 3889
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1887,
+     "gas": 71001,
+     "block": 3890
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2180,
+     "gas": 206750,
+     "block": 3891
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1914,
+     "gas": 253384,
+     "block": 3892
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1915,
+     "gas": 113361,
+     "block": 3893
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1914,
+     "gas": 102028,
+     "block": 3893
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1914,
+     "gas": 130449,
+     "block": 3893
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1915,
+     "gas": 101680,
+     "block": 3893
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1885,
+     "gas": 113361,
+     "block": 3894
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2177,
+     "gas": 241003,
+     "block": 3895
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1928,
+     "gas": 70989,
+     "block": 3896
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1876,
+     "gas": 298022,
+     "block": 3897
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2123,
+     "gas": 240995,
+     "block": 3898
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1887,
+     "gas": 130449,
+     "block": 3899
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2147,
+     "gas": 98851,
+     "block": 3900
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1894,
+     "gas": 70989,
+     "block": 3901
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2148,
+     "gas": 206786,
+     "block": 3902
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1879,
+     "gas": 141018,
+     "block": 3903
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2121,
+     "gas": 130461,
+     "block": 3904
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1866,
+     "gas": 98851,
+     "block": 3905
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2133,
+     "gas": 71001,
+     "block": 3906
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1887,
+     "gas": 206786,
+     "block": 3907
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1861,
+     "gas": 146544,
+     "block": 3908
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2153,
+     "gas": 113361,
+     "block": 3909
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2153,
+     "gas": 130461,
+     "block": 3909
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2154,
+     "gas": 172999,
+     "block": 3909
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1922,
+     "gas": 169729,
+     "block": 3910
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2142,
+     "gas": 71001,
+     "block": 3911
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1914,
+     "gas": 297674,
+     "block": 3912
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1892,
+     "gas": 233151,
+     "block": 3913
+    }
+   ]
+  },
+  {
+   "file": "trace_rho1.00_seed44.json",
+   "rho": 1,
+   "seed": 44,
+   "contract": "0xa145fF9b834D3baE12D98885Eff8E16307D1093b",
+   "deploy_gas": 2432949,
+   "equivalent": true,
+   "mismatches": [],
+   "days": 40,
+   "reports": 70,
+   "transactions": 271,
+   "blocks": 202,
+   "seconds": 404.124,
+   "day_ms_mean": 9906,
+   "day_ms_max": 12178,
+   "gas_total": 39207834,
+   "by_operation": {
+    "registerMembers": {
+     "n": 1,
+     "gas_mean": 354996,
+     "gas_max": 354996,
+     "latency_ms_p50": 1914,
+     "latency_ms_p95": 1914,
+     "latency_ms_max": 1914
+    },
+    "setOwners": {
+     "n": 1,
+     "gas_mean": 276826,
+     "gas_max": 276826,
+     "latency_ms_p50": 1895,
+     "latency_ms_p95": 1895,
+     "latency_ms_max": 1895
+    },
+    "submitReport": {
+     "n": 70,
+     "gas_mean": 121870,
+     "gas_max": 130461,
+     "latency_ms_p50": 1913,
+     "latency_ms_p95": 2193,
+     "latency_ms_max": 2221
+    },
+    "postSensorRecords": {
+     "n": 44,
+     "gas_mean": 101157,
+     "gas_max": 172999,
+     "latency_ms_p50": 1914,
+     "latency_ms_p95": 2220,
+     "latency_ms_max": 2226
+    },
+    "postClaims": {
+     "n": 35,
+     "gas_mean": 169815,
+     "gas_max": 311689,
+     "latency_ms_p50": 2113,
+     "latency_ms_p95": 2158,
+     "latency_ms_max": 2202
+    },
+    "commitPlan": {
+     "n": 40,
+     "gas_mean": 70998,
+     "gas_max": 71001,
+     "latency_ms_p50": 1897,
+     "latency_ms_p95": 2154,
+     "latency_ms_max": 2170
+    },
+    "postOutcome": {
+     "n": 40,
+     "gas_mean": 221004,
+     "gas_max": 298058,
+     "latency_ms_p50": 2126,
+     "latency_ms_p95": 2174,
+     "latency_ms_max": 2187
+    },
+    "scoreDay": {
+     "n": 40,
+     "gas_mean": 199267,
+     "gas_max": 391291,
+     "latency_ms_p50": 1909,
+     "latency_ms_p95": 2160,
+     "latency_ms_max": 2173
+    }
+   },
+   "tx_log": [
+    {
+     "label": "registerMembers",
+     "latency_ms": 1914,
+     "gas": 354996,
+     "block": 3915
+    },
+    {
+     "label": "setOwners",
+     "latency_ms": 1895,
+     "gas": 276826,
+     "block": 3916
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1903,
+     "gas": 113349,
+     "block": 3917
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1904,
+     "gas": 127649,
+     "block": 3917
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1904,
+     "gas": 98832,
+     "block": 3917
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2149,
+     "gas": 169717,
+     "block": 3918
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1875,
+     "gas": 70989,
+     "block": 3919
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2168,
+     "gas": 206738,
+     "block": 3920
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1874,
+     "gas": 311077,
+     "block": 3921
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1874,
+     "gas": 130461,
+     "block": 3922
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1875,
+     "gas": 153063,
+     "block": 3922
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2136,
+     "gas": 98815,
+     "block": 3923
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1905,
+     "gas": 71001,
+     "block": 3924
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2151,
+     "gas": 297710,
+     "block": 3925
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1886,
+     "gas": 221818,
+     "block": 3926
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1885,
+     "gas": 130461,
+     "block": 3927
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1888,
+     "gas": 81780,
+     "block": 3927
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1888,
+     "gas": 101680,
+     "block": 3927
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2113,
+     "gas": 98851,
+     "block": 3928
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1878,
+     "gas": 70989,
+     "block": 3929
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2151,
+     "gas": 206750,
+     "block": 3930
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1907,
+     "gas": 189950,
+     "block": 3931
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1917,
+     "gas": 81744,
+     "block": 3932
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1918,
+     "gas": 113361,
+     "block": 3932
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1918,
+     "gas": 113361,
+     "block": 3932
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1917,
+     "gas": 81780,
+     "block": 3932
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1918,
+     "gas": 130461,
+     "block": 3932
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2202,
+     "gas": 241003,
+     "block": 3933
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1897,
+     "gas": 71001,
+     "block": 3934
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1869,
+     "gas": 207098,
+     "block": 3935
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2119,
+     "gas": 321784,
+     "block": 3936
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1984,
+     "gas": 113361,
+     "block": 3937
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1984,
+     "gas": 113361,
+     "block": 3937
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1985,
+     "gas": 113361,
+     "block": 3937
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1985,
+     "gas": 130461,
+     "block": 3937
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1985,
+     "gas": 81780,
+     "block": 3937
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1985,
+     "gas": 81780,
+     "block": 3937
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1987,
+     "gas": 172999,
+     "block": 3937
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1875,
+     "gas": 311617,
+     "block": 3938
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2151,
+     "gas": 70989,
+     "block": 3939
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1924,
+     "gas": 297674,
+     "block": 3940
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1906,
+     "gas": 391291,
+     "block": 3941
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1902,
+     "gas": 102028,
+     "block": 3942
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1902,
+     "gas": 113361,
+     "block": 3942
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1903,
+     "gas": 130461,
+     "block": 3942
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2103,
+     "gas": 170077,
+     "block": 3943
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2102,
+     "gas": 71001,
+     "block": 3944
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1865,
+     "gas": 298022,
+     "block": 3945
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2155,
+     "gas": 284451,
+     "block": 3946
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1882,
+     "gas": 81744,
+     "block": 3947
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1883,
+     "gas": 130461,
+     "block": 3947
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1891,
+     "gas": 98815,
+     "block": 3948
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2154,
+     "gas": 71001,
+     "block": 3949
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1900,
+     "gas": 73978,
+     "block": 3950
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1886,
+     "gas": 138982,
+     "block": 3951
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2146,
+     "gas": 130461,
+     "block": 3952
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2148,
+     "gas": 153135,
+     "block": 3952
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1864,
+     "gas": 113361,
+     "block": 3953
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2140,
+     "gas": 169801,
+     "block": 3954
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1874,
+     "gas": 70989,
+     "block": 3955
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2122,
+     "gas": 206786,
+     "block": 3956
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1896,
+     "gas": 232363,
+     "block": 3957
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1900,
+     "gas": 81780,
+     "block": 3958
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1900,
+     "gas": 113361,
+     "block": 3958
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1902,
+     "gas": 130461,
+     "block": 3958
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2179,
+     "gas": 113361,
+     "block": 3959
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2178,
+     "gas": 113361,
+     "block": 3959
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1881,
+     "gas": 311689,
+     "block": 3960
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1879,
+     "gas": 70989,
+     "block": 3961
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2131,
+     "gas": 297746,
+     "block": 3962
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2131,
+     "gas": 336489,
+     "block": 3963
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1905,
+     "gas": 101680,
+     "block": 3964
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1906,
+     "gas": 130461,
+     "block": 3964
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1882,
+     "gas": 98815,
+     "block": 3965
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2170,
+     "gas": 70989,
+     "block": 3966
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1921,
+     "gas": 206750,
+     "block": 3967
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1904,
+     "gas": 214894,
+     "block": 3968
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1899,
+     "gas": 130461,
+     "block": 3969
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1899,
+     "gas": 113361,
+     "block": 3969
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1900,
+     "gas": 101716,
+     "block": 3969
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2149,
+     "gas": 113361,
+     "block": 3970
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1874,
+     "gas": 241039,
+     "block": 3971
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2153,
+     "gas": 71001,
+     "block": 3972
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1867,
+     "gas": 298058,
+     "block": 3973
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2173,
+     "gas": 273296,
+     "block": 3974
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1851,
+     "gas": 71001,
+     "block": 3975
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1860,
+     "gas": 206750,
+     "block": 3976
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2132,
+     "gas": 71855,
+     "block": 3977
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1871,
+     "gas": 130461,
+     "block": 3978
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1872,
+     "gas": 81780,
+     "block": 3978
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2137,
+     "gas": 98851,
+     "block": 3979
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1888,
+     "gas": 71001,
+     "block": 3980
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1909,
+     "gas": 73978,
+     "block": 3981
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2158,
+     "gas": 121882,
+     "block": 3982
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1902,
+     "gas": 130461,
+     "block": 3983
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1903,
+     "gas": 113361,
+     "block": 3983
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1904,
+     "gas": 101716,
+     "block": 3983
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1906,
+     "gas": 81780,
+     "block": 3983
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1900,
+     "gas": 169801,
+     "block": 3984
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2137,
+     "gas": 70989,
+     "block": 3985
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1874,
+     "gas": 206786,
+     "block": 3986
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2159,
+     "gas": 191439,
+     "block": 3987
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1930,
+     "gas": 113361,
+     "block": 3988
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1929,
+     "gas": 101716,
+     "block": 3988
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1930,
+     "gas": 101716,
+     "block": 3988
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1931,
+     "gas": 130461,
+     "block": 3988
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1872,
+     "gas": 169801,
+     "block": 3989
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2124,
+     "gas": 71001,
+     "block": 3990
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1907,
+     "gas": 297746,
+     "block": 3991
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1888,
+     "gas": 222099,
+     "block": 3992
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2174,
+     "gas": 101680,
+     "block": 3993
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2176,
+     "gas": 130461,
+     "block": 3993
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2179,
+     "gas": 113349,
+     "block": 3993
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1913,
+     "gas": 169765,
+     "block": 3994
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1885,
+     "gas": 71001,
+     "block": 3995
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2134,
+     "gas": 206750,
+     "block": 3996
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1918,
+     "gas": 202963,
+     "block": 3997
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2154,
+     "gas": 113361,
+     "block": 3998
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2155,
+     "gas": 101680,
+     "block": 3998
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2158,
+     "gas": 130461,
+     "block": 3998
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1923,
+     "gas": 169729,
+     "block": 3999
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1864,
+     "gas": 71001,
+     "block": 4000
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2161,
+     "gas": 297674,
+     "block": 4001
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1891,
+     "gas": 210575,
+     "block": 4002
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1894,
+     "gas": 130449,
+     "block": 4003
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1894,
+     "gas": 113361,
+     "block": 4003
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1895,
+     "gas": 81744,
+     "block": 4003
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2143,
+     "gas": 169765,
+     "block": 4004
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1903,
+     "gas": 70989,
+     "block": 4005
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2136,
+     "gas": 206786,
+     "block": 4006
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1916,
+     "gas": 208539,
+     "block": 4007
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1905,
+     "gas": 130461,
+     "block": 4008
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2139,
+     "gas": 98815,
+     "block": 4009
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1857,
+     "gas": 71001,
+     "block": 4010
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2129,
+     "gas": 206750,
+     "block": 4011
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1904,
+     "gas": 163594,
+     "block": 4012
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1869,
+     "gas": 113361,
+     "block": 4013
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1871,
+     "gas": 130461,
+     "block": 4013
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2154,
+     "gas": 113361,
+     "block": 4014
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1902,
+     "gas": 240691,
+     "block": 4015
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1915,
+     "gas": 70989,
+     "block": 4016
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2174,
+     "gas": 298058,
+     "block": 4017
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1915,
+     "gas": 265402,
+     "block": 4018
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1882,
+     "gas": 101680,
+     "block": 4019
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1882,
+     "gas": 130461,
+     "block": 4019
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1885,
+     "gas": 101716,
+     "block": 4019
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2141,
+     "gas": 98851,
+     "block": 4020
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1877,
+     "gas": 71001,
+     "block": 4021
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2187,
+     "gas": 297710,
+     "block": 4022
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1908,
+     "gas": 174836,
+     "block": 4023
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1881,
+     "gas": 130461,
+     "block": 4024
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1882,
+     "gas": 101680,
+     "block": 4024
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2141,
+     "gas": 98815,
+     "block": 4025
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1881,
+     "gas": 71001,
+     "block": 4026
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2144,
+     "gas": 206750,
+     "block": 4027
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1904,
+     "gas": 146544,
+     "block": 4028
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1864,
+     "gas": 71001,
+     "block": 4029
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2168,
+     "gas": 73978,
+     "block": 4030
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1847,
+     "gas": 55087,
+     "block": 4031
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1914,
+     "gas": 113361,
+     "block": 4032
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1915,
+     "gas": 130461,
+     "block": 4032
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1915,
+     "gas": 101680,
+     "block": 4032
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2116,
+     "gas": 169729,
+     "block": 4033
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1896,
+     "gas": 71001,
+     "block": 4034
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2124,
+     "gas": 297674,
+     "block": 4035
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1879,
+     "gas": 210575,
+     "block": 4036
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2219,
+     "gas": 113361,
+     "block": 4037
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2220,
+     "gas": 102028,
+     "block": 4037
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2221,
+     "gas": 130461,
+     "block": 4037
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2225,
+     "gas": 81744,
+     "block": 4037
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2226,
+     "gas": 81780,
+     "block": 4037
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1928,
+     "gas": 113349,
+     "block": 4038
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1877,
+     "gas": 241003,
+     "block": 4039
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2131,
+     "gas": 71001,
+     "block": 4040
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1871,
+     "gas": 207098,
+     "block": 4041
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2148,
+     "gas": 231534,
+     "block": 4042
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1898,
+     "gas": 113361,
+     "block": 4043
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1899,
+     "gas": 153063,
+     "block": 4043
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1899,
+     "gas": 130461,
+     "block": 4043
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1881,
+     "gas": 169729,
+     "block": 4044
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2123,
+     "gas": 71001,
+     "block": 4045
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1884,
+     "gas": 206750,
+     "block": 4046
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2142,
+     "gas": 191439,
+     "block": 4047
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1871,
+     "gas": 130461,
+     "block": 4048
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1875,
+     "gas": 101680,
+     "block": 4048
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1876,
+     "gas": 102028,
+     "block": 4048
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1883,
+     "gas": 113361,
+     "block": 4049
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2139,
+     "gas": 170077,
+     "block": 4050
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1892,
+     "gas": 71001,
+     "block": 4051
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2154,
+     "gas": 298022,
+     "block": 4052
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1909,
+     "gas": 213150,
+     "block": 4053
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1913,
+     "gas": 81780,
+     "block": 4054
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1915,
+     "gas": 113361,
+     "block": 4054
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1915,
+     "gas": 130449,
+     "block": 4054
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2127,
+     "gas": 169765,
+     "block": 4055
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1884,
+     "gas": 71001,
+     "block": 4056
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1885,
+     "gas": 73978,
+     "block": 4057
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2109,
+     "gas": 166777,
+     "block": 4058
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1865,
+     "gas": 130461,
+     "block": 4059
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1865,
+     "gas": 101680,
+     "block": 4059
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2141,
+     "gas": 98815,
+     "block": 4060
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1895,
+     "gas": 71001,
+     "block": 4061
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2135,
+     "gas": 206750,
+     "block": 4062
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1860,
+     "gas": 146544,
+     "block": 4063
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2158,
+     "gas": 101680,
+     "block": 4064
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1911,
+     "gas": 71001,
+     "block": 4065
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2143,
+     "gas": 206750,
+     "block": 4066
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1910,
+     "gas": 71855,
+     "block": 4067
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1912,
+     "gas": 113361,
+     "block": 4068
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1913,
+     "gas": 130461,
+     "block": 4068
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1915,
+     "gas": 81744,
+     "block": 4068
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1878,
+     "gas": 169765,
+     "block": 4069
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2131,
+     "gas": 71001,
+     "block": 4070
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1906,
+     "gas": 73978,
+     "block": 4071
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2160,
+     "gas": 183877,
+     "block": 4072
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1896,
+     "gas": 113361,
+     "block": 4073
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1897,
+     "gas": 130461,
+     "block": 4073
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1897,
+     "gas": 81744,
+     "block": 4073
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1870,
+     "gas": 169765,
+     "block": 4074
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 2138,
+     "gas": 71001,
+     "block": 4075
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1825,
+     "gas": 206786,
+     "block": 4076
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2141,
+     "gas": 185913,
+     "block": 4077
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1882,
+     "gas": 71001,
+     "block": 4078
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2147,
+     "gas": 73978,
+     "block": 4079
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1860,
+     "gas": 55087,
+     "block": 4080
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 2096,
+     "gas": 101680,
+     "block": 4081
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1857,
+     "gas": 71001,
+     "block": 4082
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2107,
+     "gas": 297674,
+     "block": 4083
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1875,
+     "gas": 86623,
+     "block": 4084
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1923,
+     "gas": 101680,
+     "block": 4085
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2191,
+     "gas": 113361,
+     "block": 4085
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2193,
+     "gas": 113361,
+     "block": 4085
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2195,
+     "gas": 130461,
+     "block": 4085
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1899,
+     "gas": 240619,
+     "block": 4086
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1876,
+     "gas": 71001,
+     "block": 4087
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2154,
+     "gas": 297674,
+     "block": 4088
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1905,
+     "gas": 260996,
+     "block": 4089
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1931,
+     "gas": 113361,
+     "block": 4090
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1931,
+     "gas": 113361,
+     "block": 4090
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1931,
+     "gas": 130461,
+     "block": 4090
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1932,
+     "gas": 81780,
+     "block": 4090
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2133,
+     "gas": 240691,
+     "block": 4091
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1899,
+     "gas": 71001,
+     "block": 4092
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1872,
+     "gas": 206750,
+     "block": 4093
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2140,
+     "gas": 253384,
+     "block": 4094
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1915,
+     "gas": 102028,
+     "block": 4095
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1916,
+     "gas": 113361,
+     "block": 4095
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1920,
+     "gas": 130449,
+     "block": 4095
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1920,
+     "gas": 101680,
+     "block": 4095
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 2149,
+     "gas": 113361,
+     "block": 4096
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 1888,
+     "gas": 241003,
+     "block": 4097
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1897,
+     "gas": 70989,
+     "block": 4098
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2144,
+     "gas": 298022,
+     "block": 4099
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1901,
+     "gas": 240995,
+     "block": 4100
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1891,
+     "gas": 130449,
+     "block": 4101
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2117,
+     "gas": 98851,
+     "block": 4102
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1913,
+     "gas": 70989,
+     "block": 4103
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2126,
+     "gas": 206786,
+     "block": 4104
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1919,
+     "gas": 141018,
+     "block": 4105
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1884,
+     "gas": 130461,
+     "block": 4106
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2122,
+     "gas": 98851,
+     "block": 4107
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1920,
+     "gas": 71001,
+     "block": 4108
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 2127,
+     "gas": 206786,
+     "block": 4109
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 1890,
+     "gas": 146544,
+     "block": 4110
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1913,
+     "gas": 113361,
+     "block": 4111
+    },
+    {
+     "label": "submitReport",
+     "latency_ms": 1913,
+     "gas": 130461,
+     "block": 4111
+    },
+    {
+     "label": "postSensorRecords",
+     "latency_ms": 1914,
+     "gas": 172999,
+     "block": 4111
+    },
+    {
+     "label": "postClaims",
+     "latency_ms": 2158,
+     "gas": 169729,
+     "block": 4112
+    },
+    {
+     "label": "commitPlan",
+     "latency_ms": 1914,
+     "gas": 71001,
+     "block": 4113
+    },
+    {
+     "label": "postOutcome",
+     "latency_ms": 1903,
+     "gas": 297674,
+     "block": 4114
+    },
+    {
+     "label": "scoreDay",
+     "latency_ms": 2135,
+     "gas": 233151,
+     "block": 4115
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "interpreter": "anthropic:claude-sonnet-5-5",
+ "heldout": {
+  "n": 40,
+  "correct": 38,
+  "wrong": 1,
+  "not_understood": 1,
+  "accuracy_pct": 95.0,
+  "errors": [
+   {
+    "text": "Train v0002 will be about forty-five minutes late leaving PoR.",
+    "expected": [
+     "lcs_delay",
+     "v0002",
+     1.0
+    ],
+    "got": [
+     "lcs_delay",
+     "v0002",
+     0.75
+    ],
+    "note": "llm"
+   },
+   {
+    "text": "v0006 leaves at 15:30 today.",
+    "expected": [
+     "lcs_delay",
+     "v0006",
+     0.5
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ],
+    "note": "rejected by guardrail: {'kind': None, 'target': None, 'magnitude': None, 'confidence': 0.0, 'rationale': \"rejected by gu"
+   }
+  ]
+ },
+ "api_calls": 40,
+ "cache_hits": 0
+}

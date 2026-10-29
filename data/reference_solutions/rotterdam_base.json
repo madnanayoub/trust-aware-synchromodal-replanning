@@ -1,0 +1,108 @@
+{
+ "name": "base (Table 4)",
+ "lcs_flow": [
+  {
+   "service": "v0001",
+   "leg": 0,
+   "flows": {
+    "S2": 30.0,
+    "S4": 40.0,
+    "S5": 50.0
+   }
+  },
+  {
+   "service": "v0002",
+   "leg": 0,
+   "flows": {
+    "S3": 50.0,
+    "S5": 50.0
+   }
+  },
+  {
+   "service": "v0003",
+   "leg": 0,
+   "flows": {
+    "S4": 60.0
+   }
+  },
+  {
+   "service": "v0004",
+   "leg": 0,
+   "flows": {
+    "S4": 40.0
+   }
+  },
+  {
+   "service": "v0005",
+   "leg": 0,
+   "flows": {
+    "S5": 50.0
+   }
+  },
+  {
+   "service": "v0006",
+   "leg": 0,
+   "flows": {
+    "S5": 50.0
+   }
+  }
+ ],
+ "lcs_dep": [
+  {
+   "service": "v0001",
+   "leg": 0,
+   "dep": 8.0
+  },
+  {
+   "service": "v0002",
+   "leg": 0,
+   "dep": 11.0
+  },
+  {
+   "service": "v0003",
+   "leg": 0,
+   "dep": 15.0
+  },
+  {
+   "service": "v0004",
+   "leg": 0,
+   "dep": 16.0
+  },
+  {
+   "service": "v0005",
+   "leg": 0,
+   "dep": 13.0
+  },
+  {
+   "service": "v0006",
+   "leg": 0,
+   "dep": 16.0
+  }
+ ],
+ "lcs_arr_override": [],
+ "trucks": [
+  {
+   "lane": "T_PoR_Utrecht",
+   "shipment": "S1",
+   "teu": 50,
+   "dep": 16.5
+  },
+  {
+   "lane": "T_PoR_Dordrecht",
+   "shipment": "S2",
+   "teu": 20,
+   "dep": 17.0
+  }
+ ],
+ "unserved": {},
+ "meta": {
+  "paper_total": 15961,
+  "paper": {
+   "fixed": 1320,
+   "variable": 10476,
+   "transshipment": 3345,
+   "early": 205,
+   "late": 615
+  }
+ }
+}

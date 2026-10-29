@@ -1,0 +1,2036 @@
+{
+ "dishonesty": 0.75,
+ "seed": 101,
+ "profile_set": "default",
+ "stakeholders": [
+  {
+   "id": "shipper_S1",
+   "role": "shipper",
+   "assets": [
+    "S1"
+   ],
+   "profile": "noisy"
+  },
+  {
+   "id": "shipper_S2",
+   "role": "shipper",
+   "assets": [
+    "S2"
+   ],
+   "profile": "reliable"
+  },
+  {
+   "id": "shipper_S3",
+   "role": "shipper",
+   "assets": [
+    "S3"
+   ],
+   "profile": "strategic"
+  },
+  {
+   "id": "shipper_S4",
+   "role": "shipper",
+   "assets": [
+    "S4"
+   ],
+   "profile": "noisy"
+  },
+  {
+   "id": "shipper_S5",
+   "role": "shipper",
+   "assets": [
+    "S5"
+   ],
+   "profile": "strategic"
+  },
+  {
+   "id": "barge_operator",
+   "role": "carrier",
+   "assets": [
+    "v0001",
+    "v0004",
+    "v0005"
+   ],
+   "profile": "noisy"
+  },
+  {
+   "id": "rail_operator",
+   "role": "carrier",
+   "assets": [
+    "v0002",
+    "v0003",
+    "v0006"
+   ],
+   "profile": "strategic"
+  }
+ ],
+ "days": [
+  {
+   "day": 0,
+   "true_events": [],
+   "reports": [],
+   "evidence": [],
+   "omitted": []
+  },
+  {
+   "day": 1,
+   "true_events": [
+    [
+     "release",
+     "S4",
+     2.0
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d1_r3",
+     "day": 1,
+     "sender": "shipper_S5",
+     "kind": "release",
+     "target": "S5",
+     "magnitude": 0.5,
+     "text": "shipper_S5: our cargo S5 is delayed ~half an hour at PoR.",
+     "sent_at": 6.62,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    },
+    {
+     "id": "d1_r1",
+     "day": 1,
+     "sender": "shipper_S4",
+     "kind": "release",
+     "target": "S4",
+     "magnitude": 2.0,
+     "text": "shipper_S4: our cargo S4 is delayed ~two hours at PoR.",
+     "sent_at": 6.7,
+     "report_type": "truthful",
+     "true_magnitude": 2.0
+    },
+    {
+     "id": "d1_r2",
+     "day": 1,
+     "sender": "shipper_S3",
+     "kind": "release",
+     "target": "S3",
+     "magnitude": 2.0,
+     "text": "Release of shipment S3 postponed by two hours.",
+     "sent_at": 6.63,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    }
+   ],
+   "evidence": [
+    {
+     "id": "d1_e1",
+     "day": 1,
+     "source": "terminal_gate",
+     "kind": "release",
+     "target": "S4",
+     "magnitude": 1.75
+    },
+    {
+     "id": "d1_e2",
+     "day": 1,
+     "source": "terminal_gate",
+     "kind": "release",
+     "target": "S3",
+     "magnitude": 0.0
+    }
+   ],
+   "omitted": []
+  },
+  {
+   "day": 2,
+   "true_events": [
+    [
+     "volume",
+     "S3",
+     -0.2
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d2_r1",
+     "day": 2,
+     "sender": "shipper_S3",
+     "kind": "volume",
+     "target": "S3",
+     "magnitude": -0.5,
+     "text": "Volume update S3: 25 TEU instead of 50 TEU.",
+     "sent_at": 6.86,
+     "report_type": "exaggerated",
+     "true_magnitude": -0.2
+    }
+   ],
+   "evidence": [
+    {
+     "id": "d2_e1",
+     "day": 2,
+     "source": "weighbridge",
+     "kind": "volume",
+     "target": "S3",
+     "magnitude": -0.2
+    }
+   ],
+   "omitted": []
+  },
+  {
+   "day": 3,
+   "true_events": [
+    [
+     "lcs_delay",
+     "v0006",
+     0.5
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d3_r1",
+     "day": 3,
+     "sender": "rail_operator",
+     "kind": "lcs_delay",
+     "target": "v0006",
+     "magnitude": 1.0,
+     "text": "Service v0006 delayed by 1 hour; new departure approx. 16:00.",
+     "sent_at": 6.34,
+     "report_type": "exaggerated",
+     "true_magnitude": 0.5
+    }
+   ],
+   "evidence": [
+    {
+     "id": "d3_e1",
+     "day": 3,
+     "source": "rail_signalling",
+     "kind": "lcs_delay",
+     "target": "v0006",
+     "magnitude": 0.5
+    }
+   ],
+   "omitted": []
+  },
+  {
+   "day": 4,
+   "true_events": [
+    [
+     "lcs_delay",
+     "v0003",
+     0.5
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d4_r1",
+     "day": 4,
+     "sender": "rail_operator",
+     "kind": "lcs_delay",
+     "target": "v0003",
+     "magnitude": 0.5,
+     "text": "Expect v0003 out of PoR 30 min behind schedule (track maintenance).",
+     "sent_at": 6.41,
+     "report_type": "truthful",
+     "true_magnitude": 0.5
+    }
+   ],
+   "evidence": [
+    {
+     "id": "d4_e1",
+     "day": 4,
+     "source": "rail_signalling",
+     "kind": "lcs_delay",
+     "target": "v0003",
+     "magnitude": 0.5
+    }
+   ],
+   "omitted": []
+  },
+  {
+   "day": 5,
+   "true_events": [
+    [
+     "lcs_delay",
+     "v0004",
+     1.0
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d5_r2",
+     "day": 5,
+     "sender": "shipper_S1",
+     "kind": "release",
+     "target": "S1",
+     "magnitude": 1.0,
+     "text": "shipper_S1: our cargo S1 is delayed ~an hour at PoR.",
+     "sent_at": 6.49,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    },
+    {
+     "id": "d5_r1",
+     "day": 5,
+     "sender": "barge_operator",
+     "kind": "lcs_delay",
+     "target": "v0004",
+     "magnitude": 3.0,
+     "text": "Expect v0004 out of Dordrecht 3 hours behind schedule (crew shortage).",
+     "sent_at": 6.11,
+     "report_type": "exaggerated",
+     "true_magnitude": 1.0
+    }
+   ],
+   "evidence": [
+    {
+     "id": "d5_e1",
+     "day": 5,
+     "source": "AIS",
+     "kind": "lcs_delay",
+     "target": "v0004",
+     "magnitude": 1.0
+    },
+    {
+     "id": "d5_e2",
+     "day": 5,
+     "source": "terminal_gate",
+     "kind": "release",
+     "target": "S1",
+     "magnitude": 0.0
+    }
+   ],
+   "omitted": []
+  },
+  {
+   "day": 6,
+   "true_events": [
+    [
+     "lcs_delay",
+     "v0003",
+     1.5
+    ]
+   ],
+   "reports": [],
+   "evidence": [
+    {
+     "id": "d6_e1",
+     "day": 6,
+     "source": "rail_signalling",
+     "kind": "lcs_delay",
+     "target": "v0003",
+     "magnitude": 1.25
+    }
+   ],
+   "omitted": [
+    [
+     "lcs_delay",
+     "v0003",
+     1.5
+    ]
+   ]
+  },
+  {
+   "day": 7,
+   "true_events": [],
+   "reports": [
+    {
+     "id": "d7_r1",
+     "day": 7,
+     "sender": "shipper_S5",
+     "kind": "release",
+     "target": "S5",
+     "magnitude": 0.5,
+     "text": "shipper_S5: our cargo S5 is delayed ~30 minutes at PoR.",
+     "sent_at": 6.31,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    }
+   ],
+   "evidence": [],
+   "omitted": []
+  },
+  {
+   "day": 8,
+   "true_events": [
+    [
+     "release",
+     "S2",
+     1.5
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d8_r1",
+     "day": 8,
+     "sender": "shipper_S2",
+     "kind": "release",
+     "target": "S2",
+     "magnitude": 1.5,
+     "text": "FYI: S2 not available before 8.5:00 - late vessel discharge.",
+     "sent_at": 6.4,
+     "report_type": "truthful",
+     "true_magnitude": 1.5
+    }
+   ],
+   "evidence": [
+    {
+     "id": "d8_e1",
+     "day": 8,
+     "source": "terminal_gate",
+     "kind": "release",
+     "target": "S2",
+     "magnitude": 1.5
+    }
+   ],
+   "omitted": []
+  },
+  {
+   "day": 9,
+   "true_events": [],
+   "reports": [
+    {
+     "id": "d9_r3",
+     "day": 9,
+     "sender": "rail_operator",
+     "kind": "lcs_delay",
+     "target": "v0006",
+     "magnitude": 1.5,
+     "text": "Service v0006 delayed by 1.5 hours; new departure approx. 16.5:00.",
+     "sent_at": 6.81,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    },
+    {
+     "id": "d9_r2",
+     "day": 9,
+     "sender": "shipper_S5",
+     "kind": "release",
+     "target": "S5",
+     "magnitude": 1.5,
+     "text": "FYI: S5 not available before 8.5:00 - missing documents.",
+     "sent_at": 6.65,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    },
+    {
+     "id": "d9_r1",
+     "day": 9,
+     "sender": "shipper_S3",
+     "kind": "release",
+     "target": "S3",
+     "magnitude": 2.0,
+     "text": "Container batch S3 (50 TEU, PoR to Tilburg) will be released 2 hours later than planned because of customs inspection.",
+     "sent_at": 6.89,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    }
+   ],
+   "evidence": [
+    {
+     "id": "d9_e1",
+     "day": 9,
+     "source": "terminal_gate",
+     "kind": "release",
+     "target": "S3",
+     "magnitude": 0.0
+    },
+    {
+     "id": "d9_e2",
+     "day": 9,
+     "source": "terminal_gate",
+     "kind": "release",
+     "target": "S5",
+     "magnitude": 0.0
+    },
+    {
+     "id": "d9_e3",
+     "day": 9,
+     "source": "rail_signalling",
+     "kind": "lcs_delay",
+     "target": "v0006",
+     "magnitude": 0.0
+    }
+   ],
+   "omitted": []
+  },
+  {
+   "day": 10,
+   "true_events": [
+    [
+     "release",
+     "S4",
+     2.0
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d10_r1",
+     "day": 10,
+     "sender": "shipper_S3",
+     "kind": "release",
+     "target": "S3",
+     "magnitude": 0.5,
+     "text": "shipper_S3: our cargo S3 is delayed ~30 minutes at PoR.",
+     "sent_at": 6.12,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    }
+   ],
+   "evidence": [
+    {
+     "id": "d10_e1",
+     "day": 10,
+     "source": "terminal_gate",
+     "kind": "release",
+     "target": "S3",
+     "magnitude": 0.0
+    }
+   ],
+   "omitted": [
+    [
+     "release",
+     "S4",
+     2.0
+    ]
+   ]
+  },
+  {
+   "day": 11,
+   "true_events": [
+    [
+     "volume",
+     "S5",
+     -0.1
+    ],
+    [
+     "volume",
+     "S1",
+     0.1
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d11_r2",
+     "day": 11,
+     "sender": "shipper_S3",
+     "kind": "release",
+     "target": "S3",
+     "magnitude": 0.5,
+     "text": "FYI: S3 not available before 7.5:00 - yard congestion.",
+     "sent_at": 6.38,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    },
+    {
+     "id": "d11_r1",
+     "day": 11,
+     "sender": "shipper_S5",
+     "kind": "volume",
+     "target": "S5",
+     "magnitude": -0.15,
+     "text": "Volume update S5: 85 TEU instead of 100 TEU.",
+     "sent_at": 6.6,
+     "report_type": "exaggerated",
+     "true_magnitude": -0.1
+    }
+   ],
+   "evidence": [
+    {
+     "id": "d11_e1",
+     "day": 11,
+     "source": "weighbridge",
+     "kind": "volume",
+     "target": "S5",
+     "magnitude": -0.1
+    },
+    {
+     "id": "d11_e2",
+     "day": 11,
+     "source": "weighbridge",
+     "kind": "volume",
+     "target": "S1",
+     "magnitude": 0.1
+    },
+    {
+     "id": "d11_e3",
+     "day": 11,
+     "source": "terminal_gate",
+     "kind": "release",
+     "target": "S3",
+     "magnitude": 0.0
+    }
+   ],
+   "omitted": [
+    [
+     "volume",
+     "S1",
+     0.1
+    ]
+   ]
+  },
+  {
+   "day": 12,
+   "true_events": [
+    [
+     "release",
+     "S4",
+     1.0
+    ],
+    [
+     "volume",
+     "S5",
+     0.3
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d12_r1",
+     "day": 12,
+     "sender": "shipper_S4",
+     "kind": "release",
+     "target": "S4",
+     "magnitude": 1.0,
+     "text": "Container batch S4 (100 TEU, PoR to Nijmegen) will be released an hour later than planned because of yard congestion.",
+     "sent_at": 6.64,
+     "report_type": "truthful",
+     "true_magnitude": 1.0
+    },
+    {
+     "id": "d12_r2",
+     "day": 12,
+     "sender": "shipper_S5",
+     "kind": "volume",
+     "target": "S5",
+     "magnitude": 0.3,
+     "text": "S5 booking amended to 130 TEU.",
+     "sent_at": 6.34,
+     "report_type": "truthful",
+     "true_magnitude": 0.3
+    }
+   ],
+   "evidence": [
+    {
+     "id": "d12_e1",
+     "day": 12,
+     "source": "terminal_gate",
+     "kind": "release",
+     "target": "S4",
+     "magnitude": 1.25
+    },
+    {
+     "id": "d12_e2",
+     "day": 12,
+     "source": "weighbridge",
+     "kind": "volume",
+     "target": "S5",
+     "magnitude": 0.3
+    }
+   ],
+   "omitted": []
+  },
+  {
+   "day": 13,
+   "true_events": [],
+   "reports": [
+    {
+     "id": "d13_r1",
+     "day": 13,
+     "sender": "rail_operator",
+     "kind": "lcs_delay",
+     "target": "v0002",
+     "magnitude": 1.5,
+     "text": "Rail v0002 (PoR-Tilburg) departs 1h30 late due to low water restriction.",
+     "sent_at": 6.34,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    }
+   ],
+   "evidence": [],
+   "omitted": []
+  },
+  {
+   "day": 14,
+   "true_events": [],
+   "reports": [
+    {
+     "id": "d14_r2",
+     "day": 14,
+     "sender": "shipper_S5",
+     "kind": "release",
+     "target": "S5",
+     "magnitude": 1.0,
+     "text": "FYI: S5 not available before 8:00 - missing documents.",
+     "sent_at": 6.14,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    },
+    {
+     "id": "d14_r1",
+     "day": 14,
+     "sender": "shipper_S3",
+     "kind": "release",
+     "target": "S3",
+     "magnitude": 1.0,
+     "text": "FYI: S3 not available before 8:00 - reefer plug-in check.",
+     "sent_at": 6.13,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    },
+    {
+     "id": "d14_r3",
+     "day": 14,
+     "sender": "rail_operator",
+     "kind": "lcs_delay",
+     "target": "v0002",
+     "magnitude": 1.5,
+     "text": "Rail v0002 (PoR-Tilburg) departs 90 minutes late due to crew shortage.",
+     "sent_at": 6.14,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    }
+   ],
+   "evidence": [
+    {
+     "id": "d14_e1",
+     "day": 14,
+     "source": "terminal_gate",
+     "kind": "release",
+     "target": "S3",
+     "magnitude": 0.0
+    },
+    {
+     "id": "d14_e2",
+     "day": 14,
+     "source": "terminal_gate",
+     "kind": "release",
+     "target": "S5",
+     "magnitude": 0.0
+    },
+    {
+     "id": "d14_e3",
+     "day": 14,
+     "source": "rail_signalling",
+     "kind": "lcs_delay",
+     "target": "v0002",
+     "magnitude": 0.0
+    }
+   ],
+   "omitted": []
+  },
+  {
+   "day": 15,
+   "true_events": [
+    [
+     "volume",
+     "S4",
+     -0.2
+    ],
+    [
+     "lcs_delay",
+     "v0002",
+     1.0
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d15_r1",
+     "day": 15,
+     "sender": "shipper_S4",
+     "kind": "volume",
+     "target": "S4",
+     "magnitude": -0.2,
+     "text": "S4 booking amended to 80 TEU.",
+     "sent_at": 6.3,
+     "report_type": "truthful",
+     "true_magnitude": -0.2
+    }
+   ],
+   "evidence": [
+    {
+     "id": "d15_e1",
+     "day": 15,
+     "source": "rail_signalling",
+     "kind": "lcs_delay",
+     "target": "v0002",
+     "magnitude": 1.0
+    }
+   ],
+   "omitted": [
+    [
+     "lcs_delay",
+     "v0002",
+     1.0
+    ]
+   ]
+  },
+  {
+   "day": 16,
+   "true_events": [
+    [
+     "release",
+     "S1",
+     2.0
+    ],
+    [
+     "volume",
+     "S2",
+     -0.1
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d16_r1",
+     "day": 16,
+     "sender": "shipper_S1",
+     "kind": "release",
+     "target": "S1",
+     "magnitude": 2.0,
+     "text": "Container batch S1 (50 TEU, PoR to Utrecht) will be released two hours later than planned because of reefer plug-in check.",
+     "sent_at": 6.37,
+     "report_type": "truthful",
+     "true_magnitude": 2.0
+    },
+    {
+     "id": "d16_r2",
+     "day": 16,
+     "sender": "shipper_S2",
+     "kind": "volume",
+     "target": "S2",
+     "magnitude": -0.1,
+     "text": "Volume update S2: 45 TEU instead of 50 TEU.",
+     "sent_at": 6.27,
+     "report_type": "truthful",
+     "true_magnitude": -0.1
+    },
+    {
+     "id": "d16_r3",
+     "day": 16,
+     "sender": "shipper_S3",
+     "kind": "release",
+     "target": "S3",
+     "magnitude": 1.5,
+     "text": "FYI: S3 not available before 8.5:00 - late vessel discharge.",
+     "sent_at": 6.82,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    }
+   ],
+   "evidence": [
+    {
+     "id": "d16_e1",
+     "day": 16,
+     "source": "terminal_gate",
+     "kind": "release",
+     "target": "S1",
+     "magnitude": 2.25
+    },
+    {
+     "id": "d16_e2",
+     "day": 16,
+     "source": "terminal_gate",
+     "kind": "release",
+     "target": "S3",
+     "magnitude": 0.0
+    }
+   ],
+   "omitted": []
+  },
+  {
+   "day": 17,
+   "true_events": [
+    [
+     "release",
+     "S3",
+     1.0
+    ],
+    [
+     "release",
+     "S4",
+     1.0
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d17_r1",
+     "day": 17,
+     "sender": "shipper_S3",
+     "kind": "release",
+     "target": "S3",
+     "magnitude": 2.0,
+     "text": "Release of shipment S3 postponed by 120 min.",
+     "sent_at": 6.63,
+     "report_type": "exaggerated",
+     "true_magnitude": 1.0
+    },
+    {
+     "id": "d17_r2",
+     "day": 17,
+     "sender": "shipper_S4",
+     "kind": "release",
+     "target": "S4",
+     "magnitude": 1.0,
+     "text": "Container batch S4 (100 TEU, PoR to Nijmegen) will be released 1 hour later than planned because of missing documents.",
+     "sent_at": 6.07,
+     "report_type": "truthful",
+     "true_magnitude": 1.0
+    },
+    {
+     "id": "d17_r3",
+     "day": 17,
+     "sender": "rail_operator",
+     "kind": "lcs_delay",
+     "target": "v0006",
+     "magnitude": 1.0,
+     "text": "Expect v0006 out of Tilburg an hour behind schedule (engine trouble).",
+     "sent_at": 6.55,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    }
+   ],
+   "evidence": [
+    {
+     "id": "d17_e1",
+     "day": 17,
+     "source": "terminal_gate",
+     "kind": "release",
+     "target": "S3",
+     "magnitude": 1.0
+    }
+   ],
+   "omitted": []
+  },
+  {
+   "day": 18,
+   "true_events": [
+    [
+     "lcs_delay",
+     "v0003",
+     1.5
+    ],
+    [
+     "release",
+     "S2",
+     2.0
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d18_r3",
+     "day": 18,
+     "sender": "shipper_S3",
+     "kind": "release",
+     "target": "S3",
+     "magnitude": 2.0,
+     "text": "shipper_S3: our cargo S3 is delayed ~two hours at PoR.",
+     "sent_at": 6.35,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    },
+    {
+     "id": "d18_r5",
+     "day": 18,
+     "sender": "rail_operator",
+     "kind": "lcs_delay",
+     "target": "v0006",
+     "magnitude": 0.5,
+     "text": "Rail v0006 (Tilburg-Venlo) departs 0.5 h late due to crew shortage.",
+     "sent_at": 6.78,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    },
+    {
+     "id": "d18_r4",
+     "day": 18,
+     "sender": "shipper_S5",
+     "kind": "release",
+     "target": "S5",
+     "magnitude": 0.5,
+     "text": "shipper_S5: our cargo S5 is delayed ~30 minutes at PoR.",
+     "sent_at": 6.18,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    },
+    {
+     "id": "d18_r1",
+     "day": 18,
+     "sender": "rail_operator",
+     "kind": "lcs_delay",
+     "target": "v0003",
+     "magnitude": 4.5,
+     "text": "Service v0003 delayed by 4.5 hours; new departure approx. 18.5:00.",
+     "sent_at": 6.9,
+     "report_type": "exaggerated",
+     "true_magnitude": 1.5
+    },
+    {
+     "id": "d18_r2",
+     "day": 18,
+     "sender": "shipper_S2",
+     "kind": "release",
+     "target": "S2",
+     "magnitude": 2.0,
+     "text": "Release of shipment S2 postponed by two hours.",
+     "sent_at": 6.14,
+     "report_type": "truthful",
+     "true_magnitude": 2.0
+    }
+   ],
+   "evidence": [
+    {
+     "id": "d18_e1",
+     "day": 18,
+     "source": "rail_signalling",
+     "kind": "lcs_delay",
+     "target": "v0003",
+     "magnitude": 1.5
+    },
+    {
+     "id": "d18_e2",
+     "day": 18,
+     "source": "terminal_gate",
+     "kind": "release",
+     "target": "S2",
+     "magnitude": 2.0
+    },
+    {
+     "id": "d18_e3",
+     "day": 18,
+     "source": "terminal_gate",
+     "kind": "release",
+     "target": "S5",
+     "magnitude": 0.0
+    },
+    {
+     "id": "d18_e4",
+     "day": 18,
+     "source": "rail_signalling",
+     "kind": "lcs_delay",
+     "target": "v0006",
+     "magnitude": 0.0
+    }
+   ],
+   "omitted": []
+  },
+  {
+   "day": 19,
+   "true_events": [],
+   "reports": [],
+   "evidence": [],
+   "omitted": []
+  },
+  {
+   "day": 20,
+   "true_events": [
+    [
+     "lcs_delay",
+     "v0001",
+     1.5
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d20_r3",
+     "day": 20,
+     "sender": "rail_operator",
+     "kind": "lcs_delay",
+     "target": "v0006",
+     "magnitude": 1.0,
+     "text": "Expect v0006 out of Tilburg 1 hour behind schedule (late inbound).",
+     "sent_at": 6.58,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    },
+    {
+     "id": "d20_r2",
+     "day": 20,
+     "sender": "shipper_S5",
+     "kind": "release",
+     "target": "S5",
+     "magnitude": 0.5,
+     "text": "Release of shipment S5 postponed by 30 min.",
+     "sent_at": 6.47,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    },
+    {
+     "id": "d20_r1",
+     "day": 20,
+     "sender": "barge_operator",
+     "kind": "lcs_delay",
+     "target": "v0001",
+     "magnitude": 1.5,
+     "text": "Service v0001 delayed by 1.5 hours; new departure approx. 8.5:00.",
+     "sent_at": 6.16,
+     "report_type": "truthful",
+     "true_magnitude": 1.5
+    }
+   ],
+   "evidence": [
+    {
+     "id": "d20_e1",
+     "day": 20,
+     "source": "terminal_gate",
+     "kind": "release",
+     "target": "S5",
+     "magnitude": 0.0
+    }
+   ],
+   "omitted": []
+  },
+  {
+   "day": 21,
+   "true_events": [
+    [
+     "release",
+     "S1",
+     0.5
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d21_r4",
+     "day": 21,
+     "sender": "rail_operator",
+     "kind": "lcs_delay",
+     "target": "v0006",
+     "magnitude": 0.5,
+     "text": "Service v0006 delayed by 0.5 h; new departure approx. 15.5:00.",
+     "sent_at": 6.3,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    },
+    {
+     "id": "d21_r1",
+     "day": 21,
+     "sender": "shipper_S1",
+     "kind": "release",
+     "target": "S1",
+     "magnitude": 0.5,
+     "text": "Container batch S1 (50 TEU, PoR to Utrecht) will be released half an hour later than planned because of reefer plug-in check.",
+     "sent_at": 6.85,
+     "report_type": "truthful",
+     "true_magnitude": 0.5
+    },
+    {
+     "id": "d21_r2",
+     "day": 21,
+     "sender": "shipper_S3",
+     "kind": "release",
+     "target": "S3",
+     "magnitude": 1.5,
+     "text": "Release of shipment S3 postponed by 1h30.",
+     "sent_at": 6.54,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    },
+    {
+     "id": "d21_r3",
+     "day": 21,
+     "sender": "shipper_S5",
+     "kind": "release",
+     "target": "S5",
+     "magnitude": 0.5,
+     "text": "Container batch S5 (100 TEU, PoR to Venlo) will be released 30 minutes later than planned because of late vessel discharge.",
+     "sent_at": 6.56,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    }
+   ],
+   "evidence": [
+    {
+     "id": "d21_e1",
+     "day": 21,
+     "source": "rail_signalling",
+     "kind": "lcs_delay",
+     "target": "v0006",
+     "magnitude": 0.0
+    }
+   ],
+   "omitted": []
+  },
+  {
+   "day": 22,
+   "true_events": [
+    [
+     "release",
+     "S4",
+     2.0
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d22_r1",
+     "day": 22,
+     "sender": "shipper_S3",
+     "kind": "release",
+     "target": "S3",
+     "magnitude": 0.5,
+     "text": "Container batch S3 (50 TEU, PoR to Tilburg) will be released half an hour later than planned because of yard congestion.",
+     "sent_at": 6.73,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    }
+   ],
+   "evidence": [
+    {
+     "id": "d22_e1",
+     "day": 22,
+     "source": "terminal_gate",
+     "kind": "release",
+     "target": "S4",
+     "magnitude": 1.75
+    }
+   ],
+   "omitted": [
+    [
+     "release",
+     "S4",
+     2.0
+    ]
+   ]
+  },
+  {
+   "day": 23,
+   "true_events": [
+    [
+     "release",
+     "S1",
+     1.0
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d23_r2",
+     "day": 23,
+     "sender": "rail_operator",
+     "kind": "lcs_delay",
+     "target": "v0002",
+     "magnitude": 1.5,
+     "text": "Rail v0002 (PoR-Tilburg) departs 90 minutes late due to crew shortage.",
+     "sent_at": 6.49,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    },
+    {
+     "id": "d23_r1",
+     "day": 23,
+     "sender": "shipper_S1",
+     "kind": "release",
+     "target": "S1",
+     "magnitude": 1.0,
+     "text": "Release of shipment S1 postponed by 1h.",
+     "sent_at": 6.23,
+     "report_type": "truthful",
+     "true_magnitude": 1.0
+    }
+   ],
+   "evidence": [],
+   "omitted": []
+  },
+  {
+   "day": 24,
+   "true_events": [
+    [
+     "volume",
+     "S1",
+     -0.2
+    ]
+   ],
+   "reports": [],
+   "evidence": [
+    {
+     "id": "d24_e1",
+     "day": 24,
+     "source": "weighbridge",
+     "kind": "volume",
+     "target": "S1",
+     "magnitude": -0.2
+    }
+   ],
+   "omitted": [
+    [
+     "volume",
+     "S1",
+     -0.2
+    ]
+   ]
+  },
+  {
+   "day": 25,
+   "true_events": [
+    [
+     "volume",
+     "S4",
+     -0.2
+    ],
+    [
+     "release",
+     "S3",
+     2.0
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d25_r2",
+     "day": 25,
+     "sender": "rail_operator",
+     "kind": "lcs_delay",
+     "target": "v0003",
+     "magnitude": 1.0,
+     "text": "Rail v0003 (PoR-Nijmegen) departs 1h late due to engine trouble.",
+     "sent_at": 6.7,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    },
+    {
+     "id": "d25_r1",
+     "day": 25,
+     "sender": "shipper_S4",
+     "kind": "volume",
+     "target": "S4",
+     "magnitude": -0.5,
+     "text": "S4 booking amended to 50 TEU.",
+     "sent_at": 6.56,
+     "report_type": "exaggerated",
+     "true_magnitude": -0.2
+    }
+   ],
+   "evidence": [
+    {
+     "id": "d25_e1",
+     "day": 25,
+     "source": "weighbridge",
+     "kind": "volume",
+     "target": "S4",
+     "magnitude": -0.2
+    },
+    {
+     "id": "d25_e2",
+     "day": 25,
+     "source": "terminal_gate",
+     "kind": "release",
+     "target": "S3",
+     "magnitude": 2.25
+    },
+    {
+     "id": "d25_e3",
+     "day": 25,
+     "source": "rail_signalling",
+     "kind": "lcs_delay",
+     "target": "v0003",
+     "magnitude": 0.0
+    }
+   ],
+   "omitted": [
+    [
+     "release",
+     "S3",
+     2.0
+    ]
+   ]
+  },
+  {
+   "day": 26,
+   "true_events": [
+    [
+     "lcs_delay",
+     "v0005",
+     1.5
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d26_r1",
+     "day": 26,
+     "sender": "rail_operator",
+     "kind": "lcs_delay",
+     "target": "v0002",
+     "magnitude": 1.0,
+     "text": "Expect v0002 out of PoR 60 minutes behind schedule (late inbound).",
+     "sent_at": 6.78,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    }
+   ],
+   "evidence": [],
+   "omitted": [
+    [
+     "lcs_delay",
+     "v0005",
+     1.5
+    ]
+   ]
+  },
+  {
+   "day": 27,
+   "true_events": [
+    [
+     "release",
+     "S3",
+     1.5
+    ],
+    [
+     "lcs_delay",
+     "v0006",
+     1.5
+    ]
+   ],
+   "reports": [],
+   "evidence": [
+    {
+     "id": "d27_e1",
+     "day": 27,
+     "source": "rail_signalling",
+     "kind": "lcs_delay",
+     "target": "v0006",
+     "magnitude": 1.75
+    }
+   ],
+   "omitted": [
+    [
+     "release",
+     "S3",
+     1.5
+    ],
+    [
+     "lcs_delay",
+     "v0006",
+     1.5
+    ]
+   ]
+  },
+  {
+   "day": 28,
+   "true_events": [
+    [
+     "volume",
+     "S5",
+     0.3
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d28_r1",
+     "day": 28,
+     "sender": "shipper_S5",
+     "kind": "volume",
+     "target": "S5",
+     "magnitude": 0.6,
+     "text": "Volume update S5: 160 TEU instead of 100 TEU.",
+     "sent_at": 6.83,
+     "report_type": "exaggerated",
+     "true_magnitude": 0.3
+    },
+    {
+     "id": "d28_r3",
+     "day": 28,
+     "sender": "rail_operator",
+     "kind": "lcs_delay",
+     "target": "v0003",
+     "magnitude": 0.5,
+     "text": "Expect v0003 out of PoR 30 min behind schedule (crew shortage).",
+     "sent_at": 6.88,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    },
+    {
+     "id": "d28_r2",
+     "day": 28,
+     "sender": "shipper_S5",
+     "kind": "release",
+     "target": "S5",
+     "magnitude": 0.5,
+     "text": "Release of shipment S5 postponed by 0.5 h.",
+     "sent_at": 6.79,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    }
+   ],
+   "evidence": [
+    {
+     "id": "d28_e1",
+     "day": 28,
+     "source": "weighbridge",
+     "kind": "volume",
+     "target": "S5",
+     "magnitude": 0.3
+    },
+    {
+     "id": "d28_e2",
+     "day": 28,
+     "source": "terminal_gate",
+     "kind": "release",
+     "target": "S5",
+     "magnitude": 0.0
+    }
+   ],
+   "omitted": []
+  },
+  {
+   "day": 29,
+   "true_events": [
+    [
+     "volume",
+     "S5",
+     0.2
+    ],
+    [
+     "release",
+     "S2",
+     1.0
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d29_r1",
+     "day": 29,
+     "sender": "shipper_S5",
+     "kind": "volume",
+     "target": "S5",
+     "magnitude": 0.2,
+     "text": "Volume update S5: 120 TEU instead of 100 TEU.",
+     "sent_at": 6.49,
+     "report_type": "truthful",
+     "true_magnitude": 0.2
+    },
+    {
+     "id": "d29_r2",
+     "day": 29,
+     "sender": "shipper_S2",
+     "kind": "release",
+     "target": "S2",
+     "magnitude": 1.0,
+     "text": "Container batch S2 (50 TEU, PoR to Dordrecht) will be released an hour later than planned because of missing documents.",
+     "sent_at": 6.37,
+     "report_type": "truthful",
+     "true_magnitude": 1.0
+    }
+   ],
+   "evidence": [
+    {
+     "id": "d29_e1",
+     "day": 29,
+     "source": "weighbridge",
+     "kind": "volume",
+     "target": "S5",
+     "magnitude": 0.2
+    },
+    {
+     "id": "d29_e2",
+     "day": 29,
+     "source": "terminal_gate",
+     "kind": "release",
+     "target": "S2",
+     "magnitude": 1.0
+    }
+   ],
+   "omitted": []
+  },
+  {
+   "day": 30,
+   "true_events": [
+    [
+     "lcs_delay",
+     "v0005",
+     1.0
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d30_r2",
+     "day": 30,
+     "sender": "shipper_S1",
+     "kind": "release",
+     "target": "S1",
+     "magnitude": 1.5,
+     "text": "Container batch S1 (50 TEU, PoR to Utrecht) will be released 1h30 later than planned because of missing documents.",
+     "sent_at": 6.26,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    },
+    {
+     "id": "d30_r1",
+     "day": 30,
+     "sender": "barge_operator",
+     "kind": "lcs_delay",
+     "target": "v0005",
+     "magnitude": 1.0,
+     "text": "Barge v0005 (Dordrecht-Venlo) departs an hour late due to track maintenance.",
+     "sent_at": 6.37,
+     "report_type": "truthful",
+     "true_magnitude": 1.0
+    }
+   ],
+   "evidence": [
+    {
+     "id": "d30_e1",
+     "day": 30,
+     "source": "AIS",
+     "kind": "lcs_delay",
+     "target": "v0005",
+     "magnitude": 0.75
+    },
+    {
+     "id": "d30_e2",
+     "day": 30,
+     "source": "terminal_gate",
+     "kind": "release",
+     "target": "S1",
+     "magnitude": 0.0
+    }
+   ],
+   "omitted": []
+  },
+  {
+   "day": 31,
+   "true_events": [
+    [
+     "volume",
+     "S3",
+     0.2
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d31_r1",
+     "day": 31,
+     "sender": "shipper_S3",
+     "kind": "volume",
+     "target": "S3",
+     "magnitude": 0.6,
+     "text": "Volume update S3: 80 TEU instead of 50 TEU.",
+     "sent_at": 6.59,
+     "report_type": "exaggerated",
+     "true_magnitude": 0.2
+    },
+    {
+     "id": "d31_r2",
+     "day": 31,
+     "sender": "shipper_S3",
+     "kind": "release",
+     "target": "S3",
+     "magnitude": 1.5,
+     "text": "Release of shipment S3 postponed by 1.5 hours.",
+     "sent_at": 6.57,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    },
+    {
+     "id": "d31_r3",
+     "day": 31,
+     "sender": "rail_operator",
+     "kind": "lcs_delay",
+     "target": "v0006",
+     "magnitude": 0.5,
+     "text": "Service v0006 delayed by 0.5 h; new departure approx. 15.5:00.",
+     "sent_at": 6.72,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    }
+   ],
+   "evidence": [
+    {
+     "id": "d31_e1",
+     "day": 31,
+     "source": "weighbridge",
+     "kind": "volume",
+     "target": "S3",
+     "magnitude": 0.2
+    },
+    {
+     "id": "d31_e2",
+     "day": 31,
+     "source": "rail_signalling",
+     "kind": "lcs_delay",
+     "target": "v0006",
+     "magnitude": 0.0
+    }
+   ],
+   "omitted": []
+  },
+  {
+   "day": 32,
+   "true_events": [
+    [
+     "volume",
+     "S4",
+     0.3
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d32_r1",
+     "day": 32,
+     "sender": "rail_operator",
+     "kind": "lcs_delay",
+     "target": "v0003",
+     "magnitude": 0.5,
+     "text": "Expect v0003 out of PoR 30 minutes behind schedule (low water restriction).",
+     "sent_at": 6.04,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    }
+   ],
+   "evidence": [],
+   "omitted": [
+    [
+     "volume",
+     "S4",
+     0.3
+    ]
+   ]
+  },
+  {
+   "day": 33,
+   "true_events": [],
+   "reports": [],
+   "evidence": [],
+   "omitted": []
+  },
+  {
+   "day": 34,
+   "true_events": [
+    [
+     "volume",
+     "S3",
+     -0.2
+    ],
+    [
+     "lcs_delay",
+     "v0001",
+     0.5
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d34_r2",
+     "day": 34,
+     "sender": "barge_operator",
+     "kind": "lcs_delay",
+     "target": "v0001",
+     "magnitude": 0.5,
+     "text": "Service v0001 delayed by 30 minutes; new departure approx. 7.5:00.",
+     "sent_at": 6.58,
+     "report_type": "truthful",
+     "true_magnitude": 0.5
+    },
+    {
+     "id": "d34_r3",
+     "day": 34,
+     "sender": "rail_operator",
+     "kind": "lcs_delay",
+     "target": "v0006",
+     "magnitude": 0.5,
+     "text": "Service v0006 delayed by 30 min; new departure approx. 15.5:00.",
+     "sent_at": 6.24,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    },
+    {
+     "id": "d34_r1",
+     "day": 34,
+     "sender": "shipper_S3",
+     "kind": "volume",
+     "target": "S3",
+     "magnitude": -0.5,
+     "text": "S3 booking amended to 25 TEU.",
+     "sent_at": 6.31,
+     "report_type": "exaggerated",
+     "true_magnitude": -0.2
+    }
+   ],
+   "evidence": [
+    {
+     "id": "d34_e1",
+     "day": 34,
+     "source": "weighbridge",
+     "kind": "volume",
+     "target": "S3",
+     "magnitude": -0.2
+    },
+    {
+     "id": "d34_e2",
+     "day": 34,
+     "source": "rail_signalling",
+     "kind": "lcs_delay",
+     "target": "v0006",
+     "magnitude": 0.0
+    }
+   ],
+   "omitted": []
+  },
+  {
+   "day": 35,
+   "true_events": [
+    [
+     "lcs_delay",
+     "v0005",
+     1.0
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d35_r1",
+     "day": 35,
+     "sender": "barge_operator",
+     "kind": "lcs_delay",
+     "target": "v0005",
+     "magnitude": 1.5,
+     "text": "Service v0005 delayed by 1h30; new departure approx. 13.5:00.",
+     "sent_at": 6.84,
+     "report_type": "exaggerated",
+     "true_magnitude": 1.0
+    }
+   ],
+   "evidence": [
+    {
+     "id": "d35_e1",
+     "day": 35,
+     "source": "AIS",
+     "kind": "lcs_delay",
+     "target": "v0005",
+     "magnitude": 1.25
+    }
+   ],
+   "omitted": []
+  },
+  {
+   "day": 36,
+   "true_events": [
+    [
+     "volume",
+     "S2",
+     -0.3
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d36_r1",
+     "day": 36,
+     "sender": "shipper_S2",
+     "kind": "volume",
+     "target": "S2",
+     "magnitude": -0.3,
+     "text": "Please note a 30% decrease for S2 (now 35 TEU).",
+     "sent_at": 6.48,
+     "report_type": "truthful",
+     "true_magnitude": -0.3
+    },
+    {
+     "id": "d36_r2",
+     "day": 36,
+     "sender": "rail_operator",
+     "kind": "lcs_delay",
+     "target": "v0006",
+     "magnitude": 1.5,
+     "text": "Rail v0006 (Tilburg-Venlo) departs 1h30 late due to low water restriction.",
+     "sent_at": 6.79,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    }
+   ],
+   "evidence": [
+    {
+     "id": "d36_e1",
+     "day": 36,
+     "source": "weighbridge",
+     "kind": "volume",
+     "target": "S2",
+     "magnitude": -0.3
+    }
+   ],
+   "omitted": []
+  },
+  {
+   "day": 37,
+   "true_events": [
+    [
+     "lcs_delay",
+     "v0006",
+     0.5
+    ],
+    [
+     "release",
+     "S4",
+     2.0
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d37_r2",
+     "day": 37,
+     "sender": "shipper_S4",
+     "kind": "release",
+     "target": "S4",
+     "magnitude": 2.0,
+     "text": "Container batch S4 (100 TEU, PoR to Nijmegen) will be released 2 hours later than planned because of missing documents.",
+     "sent_at": 6.17,
+     "report_type": "truthful",
+     "true_magnitude": 2.0
+    },
+    {
+     "id": "d37_r1",
+     "day": 37,
+     "sender": "rail_operator",
+     "kind": "lcs_delay",
+     "target": "v0006",
+     "magnitude": 0.5,
+     "text": "Rail v0006 (Tilburg-Venlo) departs 0.5 h late due to crew shortage.",
+     "sent_at": 6.78,
+     "report_type": "truthful",
+     "true_magnitude": 0.5
+    },
+    {
+     "id": "d37_r3",
+     "day": 37,
+     "sender": "shipper_S3",
+     "kind": "release",
+     "target": "S3",
+     "magnitude": 1.0,
+     "text": "Container batch S3 (50 TEU, PoR to Tilburg) will be released 1 hour later than planned because of customs inspection.",
+     "sent_at": 6.79,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    }
+   ],
+   "evidence": [
+    {
+     "id": "d37_e1",
+     "day": 37,
+     "source": "terminal_gate",
+     "kind": "release",
+     "target": "S4",
+     "magnitude": 1.75
+    }
+   ],
+   "omitted": []
+  },
+  {
+   "day": 38,
+   "true_events": [
+    [
+     "release",
+     "S5",
+     1.5
+    ],
+    [
+     "lcs_delay",
+     "v0004",
+     0.5
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d38_r1",
+     "day": 38,
+     "sender": "barge_operator",
+     "kind": "lcs_delay",
+     "target": "v0004",
+     "magnitude": 0.5,
+     "text": "Barge v0004 (Dordrecht-Nijmegen) departs 30 min late due to late inbound.",
+     "sent_at": 6.72,
+     "report_type": "truthful",
+     "true_magnitude": 0.5
+    }
+   ],
+   "evidence": [
+    {
+     "id": "d38_e1",
+     "day": 38,
+     "source": "terminal_gate",
+     "kind": "release",
+     "target": "S5",
+     "magnitude": 1.5
+    },
+    {
+     "id": "d38_e2",
+     "day": 38,
+     "source": "AIS",
+     "kind": "lcs_delay",
+     "target": "v0004",
+     "magnitude": 0.5
+    }
+   ],
+   "omitted": [
+    [
+     "release",
+     "S5",
+     1.5
+    ]
+   ]
+  },
+  {
+   "day": 39,
+   "true_events": [
+    [
+     "volume",
+     "S2",
+     0.2
+    ]
+   ],
+   "reports": [
+    {
+     "id": "d39_r2",
+     "day": 39,
+     "sender": "shipper_S1",
+     "kind": "release",
+     "target": "S1",
+     "magnitude": 1.0,
+     "text": "Release of shipment S1 postponed by 1h.",
+     "sent_at": 6.84,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    },
+    {
+     "id": "d39_r1",
+     "day": 39,
+     "sender": "shipper_S2",
+     "kind": "volume",
+     "target": "S2",
+     "magnitude": 0.2,
+     "text": "Volume update S2: 60 TEU instead of 50 TEU.",
+     "sent_at": 6.62,
+     "report_type": "truthful",
+     "true_magnitude": 0.2
+    },
+    {
+     "id": "d39_r3",
+     "day": 39,
+     "sender": "shipper_S3",
+     "kind": "release",
+     "target": "S3",
+     "magnitude": 1.5,
+     "text": "Container batch S3 (50 TEU, PoR to Tilburg) will be released 1h30 later than planned because of customs inspection.",
+     "sent_at": 6.17,
+     "report_type": "false_alarm",
+     "true_magnitude": 0.0
+    }
+   ],
+   "evidence": [
+    {
+     "id": "d39_e1",
+     "day": 39,
+     "source": "weighbridge",
+     "kind": "volume",
+     "target": "S2",
+     "magnitude": 0.2
+    },
+    {
+     "id": "d39_e2",
+     "day": 39,
+     "source": "terminal_gate",
+     "kind": "release",
+     "target": "S1",
+     "magnitude": 0.0
+    },
+    {
+     "id": "d39_e3",
+     "day": 39,
+     "source": "terminal_gate",
+     "kind": "release",
+     "target": "S3",
+     "magnitude": 0.0
+    }
+   ],
+   "omitted": []
+  }
+ ]
+}

@@ -1,0 +1,436 @@
+{
+ "10nodes_10S": {
+  "base_cost": 57705.5,
+  "shipments": 10,
+  "TEU": 600.0,
+  "terminals": 10,
+  "services": 8,
+  "stakeholders": 12,
+  "by_rho": {
+   "0.0": {
+    "days": 120,
+    "voi_captured_pct": {
+     "oracle": 100.0,
+     "trust_all": 95.6,
+     "ignore": 0.0,
+     "ours": 88.9,
+     "no_evidence": 95.7,
+     "no_reputation": 88.6
+    },
+    "mean_cost": {
+     "oracle": 58219.7,
+     "trust_all": 58259.0,
+     "ignore": 59112.2,
+     "ours": 58318.8,
+     "no_evidence": 58258.4,
+     "no_reputation": 58321.5
+    },
+    "regret": {
+     "oracle": 0.0,
+     "trust_all": 39.3,
+     "ignore": 892.6,
+     "ours": 99.1,
+     "no_evidence": 38.7,
+     "no_reputation": 101.8
+    },
+    "ours_better_days": 4,
+    "ours_worse_days": 4,
+    "wilcoxon_p": 0.844
+   },
+   "0.25": {
+    "days": 120,
+    "voi_captured_pct": {
+     "oracle": 100.0,
+     "trust_all": 79.2,
+     "ignore": 0.0,
+     "ours": 81.9,
+     "no_evidence": 75.6,
+     "no_reputation": 82.2
+    },
+    "mean_cost": {
+     "oracle": 58317.5,
+     "trust_all": 58524.0,
+     "ignore": 59312.0,
+     "ours": 58497.1,
+     "no_evidence": 58560.3,
+     "no_reputation": 58494.3
+    },
+    "regret": {
+     "oracle": 0.0,
+     "trust_all": 206.5,
+     "ignore": 994.5,
+     "ours": 179.6,
+     "no_evidence": 242.8,
+     "no_reputation": 176.9
+    },
+    "ours_better_days": 8,
+    "ours_worse_days": 4,
+    "wilcoxon_p": 0.301
+   },
+   "0.5": {
+    "days": 120,
+    "voi_captured_pct": {
+     "oracle": 100.0,
+     "trust_all": 73.7,
+     "ignore": 0.0,
+     "ours": 81.7,
+     "no_evidence": 77.6,
+     "no_reputation": 78.0
+    },
+    "mean_cost": {
+     "oracle": 58531.5,
+     "trust_all": 58699.1,
+     "ignore": 59169.0,
+     "ours": 58648.0,
+     "no_evidence": 58674.5,
+     "no_reputation": 58672.0
+    },
+    "regret": {
+     "oracle": 0.0,
+     "trust_all": 167.6,
+     "ignore": 637.5,
+     "ours": 116.5,
+     "no_evidence": 142.9,
+     "no_reputation": 140.4
+    },
+    "ours_better_days": 25,
+    "ours_worse_days": 4,
+    "wilcoxon_p": 0.0001
+   },
+   "0.75": {
+    "days": 120,
+    "voi_captured_pct": {
+     "oracle": 100.0,
+     "trust_all": 50.1,
+     "ignore": 0.0,
+     "ours": 66.4,
+     "no_evidence": 53.8,
+     "no_reputation": 60.7
+    },
+    "mean_cost": {
+     "oracle": 58254.9,
+     "trust_all": 58545.2,
+     "ignore": 58836.9,
+     "ours": 58450.4,
+     "no_evidence": 58523.5,
+     "no_reputation": 58483.9
+    },
+    "regret": {
+     "oracle": 0.0,
+     "trust_all": 290.2,
+     "ignore": 582.0,
+     "ours": 195.4,
+     "no_evidence": 268.6,
+     "no_reputation": 229.0
+    },
+    "ours_better_days": 29,
+    "ours_worse_days": 5,
+    "wilcoxon_p": 0.000318
+   },
+   "1.0": {
+    "days": 120,
+    "voi_captured_pct": {
+     "oracle": 100.0,
+     "trust_all": 29.5,
+     "ignore": 0.0,
+     "ours": 41.9,
+     "no_evidence": 25.4,
+     "no_reputation": 38.4
+    },
+    "mean_cost": {
+     "oracle": 58479.5,
+     "trust_all": 59269.7,
+     "ignore": 59600.5,
+     "ours": 59131.1,
+     "no_evidence": 59315.2,
+     "no_reputation": 59170.1
+    },
+    "regret": {
+     "oracle": 0.0,
+     "trust_all": 790.2,
+     "ignore": 1121.0,
+     "ours": 651.6,
+     "no_evidence": 835.7,
+     "no_reputation": 690.6
+    },
+    "ours_better_days": 33,
+    "ours_worse_days": 5,
+    "wilcoxon_p": 0.000511
+   },
+   "all": {
+    "days": 600,
+    "voi_captured_pct": {
+     "oracle": 100.0,
+     "trust_all": 64.7,
+     "ignore": 0.0,
+     "ours": 70.6,
+     "no_evidence": 63.8,
+     "no_reputation": 68.3
+    },
+    "mean_cost": {
+     "oracle": 58360.6,
+     "trust_all": 58659.4,
+     "ignore": 59206.1,
+     "ours": 58609.1,
+     "no_evidence": 58666.4,
+     "no_reputation": 58628.4
+    },
+    "regret": {
+     "oracle": 0.0,
+     "trust_all": 298.8,
+     "ignore": 845.5,
+     "ours": 248.4,
+     "no_evidence": 305.7,
+     "no_reputation": 267.7
+    },
+    "ours_better_days": 99,
+    "ours_worse_days": 22,
+    "wilcoxon_p": 7.61e-10
+   }
+  },
+  "robustness": {
+   "catastrophic_days_(regret>10k)": {
+    "oracle": 0,
+    "trust_all": 1,
+    "ignore": 3,
+    "ours": 1,
+    "no_evidence": 2,
+    "no_reputation": 1
+   },
+   "mean_regret_excluding_those_days": {
+    "oracle": 0.0,
+    "trust_all": 222.7,
+    "ignore": 634.9,
+    "ours": 179.0,
+    "no_evidence": 215.2,
+    "no_reputation": 198.5
+   },
+   "days_kept": 596,
+   "median_regret": {
+    "oracle": 0.0,
+    "trust_all": 0.0,
+    "ignore": 0.0,
+    "ours": 0.0,
+    "no_evidence": 0.0,
+    "no_reputation": 0.0
+   }
+  }
+ },
+ "9nodes": {
+  "base_cost": 17807.2,
+  "shipments": 5,
+  "TEU": 350.0,
+  "terminals": 9,
+  "services": 6,
+  "stakeholders": 7,
+  "by_rho": {
+   "0.0": {
+    "days": 120,
+    "voi_captured_pct": {
+     "oracle": 100.0,
+     "trust_all": 96.2,
+     "ignore": 0.0,
+     "ours": 96.1,
+     "no_evidence": 96.1,
+     "no_reputation": 96.4
+    },
+    "mean_cost": {
+     "oracle": 22013.9,
+     "trust_all": 22016.5,
+     "ignore": 22082.5,
+     "ours": 22016.6,
+     "no_evidence": 22016.6,
+     "no_reputation": 22016.4
+    },
+    "regret": {
+     "oracle": 0.0,
+     "trust_all": 2.6,
+     "ignore": 68.7,
+     "ours": 2.7,
+     "no_evidence": 2.7,
+     "no_reputation": 2.5
+    },
+    "ours_better_days": 1,
+    "ours_worse_days": 2,
+    "wilcoxon_p": null
+   },
+   "0.25": {
+    "days": 120,
+    "voi_captured_pct": {
+     "oracle": 100.0,
+     "trust_all": -1106.6,
+     "ignore": 0.0,
+     "ours": 100.0,
+     "no_evidence": -1106.9,
+     "no_reputation": 100.0
+    },
+    "mean_cost": {
+     "oracle": 22915.9,
+     "trust_all": 23334.4,
+     "ignore": 22950.6,
+     "ours": 22915.9,
+     "no_evidence": 23334.5,
+     "no_reputation": 22915.9
+    },
+    "regret": {
+     "oracle": 0.0,
+     "trust_all": 418.4,
+     "ignore": 34.7,
+     "ours": 0.0,
+     "no_evidence": 418.5,
+     "no_reputation": 0.0
+    },
+    "ours_better_days": 4,
+    "ours_worse_days": 0,
+    "wilcoxon_p": null
+   },
+   "0.5": {
+    "days": 120,
+    "voi_captured_pct": {
+     "oracle": 100.0,
+     "trust_all": 77.0,
+     "ignore": 0.0,
+     "ours": 99.8,
+     "no_evidence": 87.9,
+     "no_reputation": 100.0
+    },
+    "mean_cost": {
+     "oracle": 21350.3,
+     "trust_all": 21363.0,
+     "ignore": 21405.4,
+     "ours": 21350.4,
+     "no_evidence": 21356.9,
+     "no_reputation": 21350.3
+    },
+    "regret": {
+     "oracle": 0.0,
+     "trust_all": 12.7,
+     "ignore": 55.1,
+     "ours": 0.1,
+     "no_evidence": 6.6,
+     "no_reputation": 0.0
+    },
+    "ours_better_days": 3,
+    "ours_worse_days": 1,
+    "wilcoxon_p": null
+   },
+   "0.75": {
+    "days": 120,
+    "voi_captured_pct": {
+     "oracle": 100.0,
+     "trust_all": 40.1,
+     "ignore": 0.0,
+     "ours": 100.0,
+     "no_evidence": 58.5,
+     "no_reputation": 100.0
+    },
+    "mean_cost": {
+     "oracle": 20751.5,
+     "trust_all": 20788.1,
+     "ignore": 20812.6,
+     "ours": 20751.5,
+     "no_evidence": 20776.9,
+     "no_reputation": 20751.5
+    },
+    "regret": {
+     "oracle": 0.0,
+     "trust_all": 36.6,
+     "ignore": 61.1,
+     "ours": 0.0,
+     "no_evidence": 25.3,
+     "no_reputation": 0.0
+    },
+    "ours_better_days": 8,
+    "ours_worse_days": 0,
+    "wilcoxon_p": 0.00781
+   },
+   "1.0": {
+    "days": 120,
+    "voi_captured_pct": {
+     "oracle": 100.0,
+     "trust_all": -38.4,
+     "ignore": 0.0,
+     "ours": 78.9,
+     "no_evidence": -8.5,
+     "no_reputation": 33.3
+    },
+    "mean_cost": {
+     "oracle": 21384.0,
+     "trust_all": 21418.1,
+     "ignore": 21408.7,
+     "ours": 21389.2,
+     "no_evidence": 21410.8,
+     "no_reputation": 21400.5
+    },
+    "regret": {
+     "oracle": 0.0,
+     "trust_all": 34.1,
+     "ignore": 24.6,
+     "ours": 5.2,
+     "no_evidence": 26.7,
+     "no_reputation": 16.4
+    },
+    "ours_better_days": 7,
+    "ours_worse_days": 1,
+    "wilcoxon_p": 0.0156
+   },
+   "all": {
+    "days": 600,
+    "voi_captured_pct": {
+     "oracle": 100.0,
+     "trust_all": -106.6,
+     "ignore": 0.0,
+     "ours": 96.7,
+     "no_evidence": -96.6,
+     "no_reputation": 92.2
+    },
+    "mean_cost": {
+     "oracle": 21683.1,
+     "trust_all": 21784.0,
+     "ignore": 21732.0,
+     "ours": 21684.7,
+     "no_evidence": 21779.1,
+     "no_reputation": 21686.9
+    },
+    "regret": {
+     "oracle": 0.0,
+     "trust_all": 100.9,
+     "ignore": 48.8,
+     "ours": 1.6,
+     "no_evidence": 96.0,
+     "no_reputation": 3.8
+    },
+    "ours_better_days": 23,
+    "ours_worse_days": 4,
+    "wilcoxon_p": 1.9e-05
+   }
+  },
+  "robustness": {
+   "catastrophic_days_(regret>10k)": {
+    "oracle": 0,
+    "trust_all": 1,
+    "ignore": 0,
+    "ours": 0,
+    "no_evidence": 1,
+    "no_reputation": 0
+   },
+   "mean_regret_excluding_those_days": {
+    "oracle": 0.0,
+    "trust_all": 19.5,
+    "ignore": 48.9,
+    "ours": 1.6,
+    "no_evidence": 14.6,
+    "no_reputation": 3.8
+   },
+   "days_kept": 599,
+   "median_regret": {
+    "oracle": 0.0,
+    "trust_all": 0.0,
+    "ignore": 0.0,
+    "ours": 0.0,
+    "no_evidence": 0.0,
+    "no_reputation": 0.0
+   }
+  }
+ }
+}

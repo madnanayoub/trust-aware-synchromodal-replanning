@@ -1,0 +1,17 @@
+{
+  "name": "besu-trust-ledger",
+  "version": "1.0.0",
+  "private": true,
+  "description": "On-chain reputation ledger for trust-aware synchromodal replanning on a Hyperledger Besu QBFT network",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "6.1.2",
+    "hardhat": "2.29.1"
+  },
+  "dependencies": {
+    "ethers": "6.17.0"
+  }
+}

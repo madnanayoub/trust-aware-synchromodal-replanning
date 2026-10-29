@@ -1,0 +1,623 @@
+{
+ "by_rho": {
+  "0.0": {
+   "days": 120,
+   "oracle": {
+    "mean_cost": 16022.7,
+    "regret": 0.0,
+    "regret_ci95": [
+     0.0,
+     0.0
+    ],
+    "voi_captured_pct": 100.0
+   },
+   "trust_all": {
+    "mean_cost": 16029.8,
+    "regret": 7.1,
+    "regret_ci95": [
+     0.2,
+     19.8
+    ],
+    "voi_captured_pct": 96.1
+   },
+   "ignore": {
+    "mean_cost": 16205.8,
+    "regret": 183.1,
+    "regret_ci95": [
+     127.6,
+     246.7
+    ],
+    "voi_captured_pct": 0.0
+   },
+   "ours": {
+    "mean_cost": 16030.1,
+    "regret": 7.4,
+    "regret_ci95": [
+     0.2,
+     20.5
+    ],
+    "voi_captured_pct": 96.0
+   },
+   "no_evidence": {
+    "mean_cost": 16031.3,
+    "regret": 8.6,
+    "regret_ci95": [
+     1.2,
+     21.9
+    ],
+    "voi_captured_pct": 95.3
+   },
+   "no_reputation": {
+    "mean_cost": 16029.5,
+    "regret": 6.9,
+    "regret_ci95": [
+     0.0,
+     19.5
+    ],
+    "voi_captured_pct": 96.2
+   },
+   "no_lookahead": {
+    "mean_cost": 16029.5,
+    "regret": 6.9,
+    "regret_ci95": [
+     0.0,
+     19.5
+    ],
+    "voi_captured_pct": 96.2
+   },
+   "attack_ledger": {
+    "mean_cost": 16030.1,
+    "regret": 7.4,
+    "regret_ci95": [
+     0.2,
+     20.5
+    ],
+    "voi_captured_pct": 96.0
+   },
+   "attack_mutable": {
+    "mean_cost": 16030.1,
+    "regret": 7.4,
+    "regret_ci95": [
+     0.2,
+     20.5
+    ],
+    "voi_captured_pct": 96.0
+   },
+   "ours_vs_trust_all": {
+    "better_days": 2,
+    "worse_days": 2,
+    "mean_saving": -0.3,
+    "wilcoxon_p": null
+   },
+   "ours_vs_ignore": {
+    "better_days": 51,
+    "worse_days": 0,
+    "mean_saving": 175.8,
+    "wilcoxon_p": 4.97e-10
+   }
+  },
+  "0.25": {
+   "days": 120,
+   "oracle": {
+    "mean_cost": 15952.8,
+    "regret": 0.0,
+    "regret_ci95": [
+     0.0,
+     0.0
+    ],
+    "voi_captured_pct": 100.0
+   },
+   "trust_all": {
+    "mean_cost": 15964.2,
+    "regret": 11.4,
+    "regret_ci95": [
+     2.1,
+     25.7
+    ],
+    "voi_captured_pct": 91.6
+   },
+   "ignore": {
+    "mean_cost": 16088.4,
+    "regret": 135.5,
+    "regret_ci95": [
+     86.3,
+     196.6
+    ],
+    "voi_captured_pct": 0.0
+   },
+   "ours": {
+    "mean_cost": 15961.9,
+    "regret": 9.1,
+    "regret_ci95": [
+     1.5,
+     22.5
+    ],
+    "voi_captured_pct": 93.3
+   },
+   "no_evidence": {
+    "mean_cost": 15966.6,
+    "regret": 13.8,
+    "regret_ci95": [
+     4.3,
+     28.1
+    ],
+    "voi_captured_pct": 89.8
+   },
+   "no_reputation": {
+    "mean_cost": 15959.9,
+    "regret": 7.0,
+    "regret_ci95": [
+     0.2,
+     19.5
+    ],
+    "voi_captured_pct": 94.8
+   },
+   "no_lookahead": {
+    "mean_cost": 15959.9,
+    "regret": 7.0,
+    "regret_ci95": [
+     0.2,
+     19.5
+    ],
+    "voi_captured_pct": 94.8
+   },
+   "attack_ledger": {
+    "mean_cost": 15961.9,
+    "regret": 9.1,
+    "regret_ci95": [
+     1.5,
+     22.5
+    ],
+    "voi_captured_pct": 93.3
+   },
+   "attack_mutable": {
+    "mean_cost": 15961.9,
+    "regret": 9.1,
+    "regret_ci95": [
+     1.5,
+     22.5
+    ],
+    "voi_captured_pct": 93.3
+   },
+   "ours_vs_trust_all": {
+    "better_days": 4,
+    "worse_days": 4,
+    "mean_saving": 2.3,
+    "wilcoxon_p": 0.609
+   },
+   "ours_vs_ignore": {
+    "better_days": 46,
+    "worse_days": 2,
+    "mean_saving": 126.4,
+    "wilcoxon_p": 7.88e-09
+   }
+  },
+  "0.5": {
+   "days": 120,
+   "oracle": {
+    "mean_cost": 16073.9,
+    "regret": 0.0,
+    "regret_ci95": [
+     0.0,
+     0.0
+    ],
+    "voi_captured_pct": 100.0
+   },
+   "trust_all": {
+    "mean_cost": 16109.4,
+    "regret": 35.4,
+    "regret_ci95": [
+     8.4,
+     77.1
+    ],
+    "voi_captured_pct": 79.4
+   },
+   "ignore": {
+    "mean_cost": 16246.1,
+    "regret": 172.2,
+    "regret_ci95": [
+     113.0,
+     242.7
+    ],
+    "voi_captured_pct": 0.0
+   },
+   "ours": {
+    "mean_cost": 16100.9,
+    "regret": 27.0,
+    "regret_ci95": [
+     3.7,
+     69.3
+    ],
+    "voi_captured_pct": 84.3
+   },
+   "no_evidence": {
+    "mean_cost": 16128.7,
+    "regret": 54.7,
+    "regret_ci95": [
+     20.1,
+     102.5
+    ],
+    "voi_captured_pct": 68.2
+   },
+   "no_reputation": {
+    "mean_cost": 16082.0,
+    "regret": 8.0,
+    "regret_ci95": [
+     0.7,
+     20.9
+    ],
+    "voi_captured_pct": 95.3
+   },
+   "no_lookahead": {
+    "mean_cost": 16097.9,
+    "regret": 24.0,
+    "regret_ci95": [
+     1.2,
+     66.1
+    ],
+    "voi_captured_pct": 86.1
+   },
+   "attack_ledger": {
+    "mean_cost": 16100.9,
+    "regret": 27.0,
+    "regret_ci95": [
+     3.7,
+     69.3
+    ],
+    "voi_captured_pct": 84.3
+   },
+   "attack_mutable": {
+    "mean_cost": 16084.3,
+    "regret": 10.3,
+    "regret_ci95": [
+     2.3,
+     23.3
+    ],
+    "voi_captured_pct": 94.0
+   },
+   "ours_vs_trust_all": {
+    "better_days": 10,
+    "worse_days": 6,
+    "mean_saving": 8.4,
+    "wilcoxon_p": 0.469
+   },
+   "ours_vs_ignore": {
+    "better_days": 46,
+    "worse_days": 1,
+    "mean_saving": 145.2,
+    "wilcoxon_p": 4.73e-09
+   }
+  },
+  "0.75": {
+   "days": 120,
+   "oracle": {
+    "mean_cost": 16216.3,
+    "regret": 0.0,
+    "regret_ci95": [
+     0.0,
+     0.0
+    ],
+    "voi_captured_pct": 100.0
+   },
+   "trust_all": {
+    "mean_cost": 16333.1,
+    "regret": 116.8,
+    "regret_ci95": [
+     61.5,
+     187.6
+    ],
+    "voi_captured_pct": 52.3
+   },
+   "ignore": {
+    "mean_cost": 16461.1,
+    "regret": 244.8,
+    "regret_ci95": [
+     173.7,
+     324.2
+    ],
+    "voi_captured_pct": 0.0
+   },
+   "ours": {
+    "mean_cost": 16249.1,
+    "regret": 32.8,
+    "regret_ci95": [
+     11.7,
+     59.7
+    ],
+    "voi_captured_pct": 86.6
+   },
+   "no_evidence": {
+    "mean_cost": 16316.9,
+    "regret": 100.6,
+    "regret_ci95": [
+     47.8,
+     169.0
+    ],
+    "voi_captured_pct": 58.9
+   },
+   "no_reputation": {
+    "mean_cost": 16260.3,
+    "regret": 44.0,
+    "regret_ci95": [
+     18.0,
+     78.0
+    ],
+    "voi_captured_pct": 82.0
+   },
+   "no_lookahead": {
+    "mean_cost": 16251.0,
+    "regret": 34.7,
+    "regret_ci95": [
+     8.7,
+     69.9
+    ],
+    "voi_captured_pct": 85.8
+   },
+   "attack_ledger": {
+    "mean_cost": 16249.1,
+    "regret": 32.8,
+    "regret_ci95": [
+     11.7,
+     59.7
+    ],
+    "voi_captured_pct": 86.6
+   },
+   "attack_mutable": {
+    "mean_cost": 16260.3,
+    "regret": 44.0,
+    "regret_ci95": [
+     18.0,
+     78.0
+    ],
+    "voi_captured_pct": 82.0
+   },
+   "ours_vs_trust_all": {
+    "better_days": 29,
+    "worse_days": 0,
+    "mean_saving": 84.0,
+    "wilcoxon_p": 2.55e-06
+   },
+   "ours_vs_ignore": {
+    "better_days": 53,
+    "worse_days": 8,
+    "mean_saving": 212.0,
+    "wilcoxon_p": 1.95e-08
+   }
+  },
+  "1.0": {
+   "days": 120,
+   "oracle": {
+    "mean_cost": 16193.7,
+    "regret": 0.0,
+    "regret_ci95": [
+     0.0,
+     0.0
+    ],
+    "voi_captured_pct": 100.0
+   },
+   "trust_all": {
+    "mean_cost": 16365.1,
+    "regret": 171.4,
+    "regret_ci95": [
+     96.9,
+     264.1
+    ],
+    "voi_captured_pct": 9.4
+   },
+   "ignore": {
+    "mean_cost": 16382.8,
+    "regret": 189.2,
+    "regret_ci95": [
+     132.5,
+     256.3
+    ],
+    "voi_captured_pct": 0.0
+   },
+   "ours": {
+    "mean_cost": 16308.3,
+    "regret": 114.7,
+    "regret_ci95": [
+     43.8,
+     204.7
+    ],
+    "voi_captured_pct": 39.4
+   },
+   "no_evidence": {
+    "mean_cost": 16356.4,
+    "regret": 162.7,
+    "regret_ci95": [
+     89.9,
+     252.8
+    ],
+    "voi_captured_pct": 14.0
+   },
+   "no_reputation": {
+    "mean_cost": 16320.2,
+    "regret": 126.5,
+    "regret_ci95": [
+     56.1,
+     216.4
+    ],
+    "voi_captured_pct": 33.1
+   },
+   "no_lookahead": {
+    "mean_cost": 16306.0,
+    "regret": 112.3,
+    "regret_ci95": [
+     40.9,
+     204.0
+    ],
+    "voi_captured_pct": 40.6
+   },
+   "attack_ledger": {
+    "mean_cost": 16308.3,
+    "regret": 114.7,
+    "regret_ci95": [
+     43.8,
+     204.7
+    ],
+    "voi_captured_pct": 39.4
+   },
+   "attack_mutable": {
+    "mean_cost": 16318.0,
+    "regret": 124.4,
+    "regret_ci95": [
+     54.6,
+     213.9
+    ],
+    "voi_captured_pct": 34.3
+   },
+   "ours_vs_trust_all": {
+    "better_days": 40,
+    "worse_days": 4,
+    "mean_saving": 56.8,
+    "wilcoxon_p": 6.54e-05
+   },
+   "ours_vs_ignore": {
+    "better_days": 45,
+    "worse_days": 8,
+    "mean_saving": 74.5,
+    "wilcoxon_p": 4.22e-05
+   }
+  }
+ },
+ "pooled": {
+  "all": {
+   "days": 600,
+   "oracle": {
+    "mean_cost": 16091.9,
+    "regret": 0.0,
+    "regret_ci95": [
+     0.0,
+     0.0
+    ],
+    "voi_captured_pct": 100.0
+   },
+   "trust_all": {
+    "mean_cost": 16160.3,
+    "regret": 68.4,
+    "regret_ci95": [
+     47.7,
+     92.8
+    ],
+    "voi_captured_pct": 63.0
+   },
+   "ignore": {
+    "mean_cost": 16276.8,
+    "regret": 185.0,
+    "regret_ci95": [
+     155.9,
+     215.3
+    ],
+    "voi_captured_pct": 0.0
+   },
+   "ours": {
+    "mean_cost": 16130.1,
+    "regret": 38.2,
+    "regret_ci95": [
+     21.1,
+     58.9
+    ],
+    "voi_captured_pct": 79.4
+   },
+   "no_evidence": {
+    "mean_cost": 16160.0,
+    "regret": 68.1,
+    "regret_ci95": [
+     47.7,
+     91.8
+    ],
+    "voi_captured_pct": 63.2
+   },
+   "no_reputation": {
+    "mean_cost": 16130.4,
+    "regret": 38.5,
+    "regret_ci95": [
+     22.2,
+     58.9
+    ],
+    "voi_captured_pct": 79.2
+   },
+   "no_lookahead": {
+    "mean_cost": 16128.9,
+    "regret": 37.0,
+    "regret_ci95": [
+     19.2,
+     58.7
+    ],
+    "voi_captured_pct": 80.0
+   },
+   "attack_ledger": {
+    "mean_cost": 16130.1,
+    "regret": 38.2,
+    "regret_ci95": [
+     21.1,
+     58.9
+    ],
+    "voi_captured_pct": 79.4
+   },
+   "attack_mutable": {
+    "mean_cost": 16130.9,
+    "regret": 39.0,
+    "regret_ci95": [
+     22.6,
+     59.2
+    ],
+    "voi_captured_pct": 78.9
+   },
+   "ours_vs_trust_all": {
+    "better_days": 85,
+    "worse_days": 16,
+    "mean_saving": 30.2,
+    "wilcoxon_p": 4.73e-09
+   },
+   "ours_vs_ignore": {
+    "better_days": 241,
+    "worse_days": 19,
+    "mean_saving": 146.8,
+    "wilcoxon_p": 2.25e-34
+   }
+  }
+ },
+ "trust_calibration": {
+  "mean_p_real": {
+   "reliable": 0.877,
+   "strategic": 0.522,
+   "noisy": 0.778
+  },
+  "n": {
+   "reliable": 59,
+   "strategic": 22,
+   "noisy": 24
+  },
+  "auc_reliable_vs_unreliable": 0.883
+ },
+ "ledger": {
+  "streams": 15,
+  "days_per_stream": 40,
+  "mean_blocks": 115.9,
+  "mean_entries": 171.6,
+  "mean_kB": 53.0,
+  "max_verify_ms": 7.12,
+  "all_valid": true
+ },
+ "tampering": {
+  "attempts_detected": 171,
+  "streams_with_strategic_attackers": 8
+ },
+ "explanations": {
+  "n": 600,
+  "faithful_pct": 100.0,
+  "mean_words": 53.0
+ },
+ "runtime": {
+  "mean_s_per_day": {
+   "ours": 0.55,
+   "no_evidence": 1.62,
+   "no_reputation": 0.18,
+   "no_lookahead": 0.17,
+   "attack_ledger": 0.56,
+   "attack_mutable": 0.48
+  }
+ }
+}

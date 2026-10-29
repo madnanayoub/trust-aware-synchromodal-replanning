@@ -1,0 +1,68 @@
+{
+ "name": "7nodes reported CPLEX solution",
+ "lcs_flow": [
+  {
+   "service": "v1",
+   "leg": 0,
+   "flows": {
+    "S1": 50.0,
+    "S2": 50.0,
+    "S3": 50.0
+   }
+  },
+  {
+   "service": "v4",
+   "leg": 0,
+   "flows": {
+    "S1": 50.0,
+    "S3": 50.0
+   }
+  },
+  {
+   "service": "v4",
+   "leg": 1,
+   "flows": {
+    "S3": 50.0
+   }
+  },
+  {
+   "service": "v5",
+   "leg": 0,
+   "flows": {
+    "S2": 50.0
+   }
+  },
+  {
+   "service": "v6",
+   "leg": 0,
+   "flows": {
+    "S5": 100.0
+   }
+  },
+  {
+   "service": "v6",
+   "leg": 1,
+   "flows": {
+    "S5": 100.0
+   }
+  }
+ ],
+ "lcs_dep": [],
+ "lcs_arr_override": [],
+ "trucks": [
+  {
+   "lane": "TG2",
+   "shipment": "S4",
+   "teu": 100.0,
+   "dep": 0.0
+  },
+  {
+   "lane": "TG5",
+   "shipment": "S4",
+   "teu": 100.0,
+   "dep": 0.0
+  }
+ ],
+ "unserved": {},
+ "meta": {}
+}

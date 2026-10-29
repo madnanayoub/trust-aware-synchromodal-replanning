@@ -1,0 +1,10 @@
+node_modules/
+artifacts/
+cache/
+typechain-types/
+network/accounts.json
+network/networkFiles/
+network/nodes/
+network/genesis.json
+network/qbftConfigFile.json
+network/docker-compose.yml

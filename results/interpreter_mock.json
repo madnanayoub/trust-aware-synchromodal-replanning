@@ -1,0 +1,394 @@
+{
+ "interpreter": "mock-rule-based",
+ "generated": {
+  "n": 812,
+  "correct": 812,
+  "accuracy_pct": 100.0,
+  "errors": []
+ },
+ "heldout": {
+  "n": 40,
+  "not_understood": 29,
+  "correct": 11,
+  "accuracy_pct": 27.5,
+  "errors": [
+   {
+    "text": "Hi team, S3 containers stuck at customs, earliest pickup now 9:30.",
+    "expected": [
+     "release",
+     "S3",
+     2.5
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "text": "v0001 ETD +1h due to fog on the Oude Maas",
+    "expected": [
+     "lcs_delay",
+     "v0001",
+     1.0
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "text": "Train v0002 will be about forty-five minutes late leaving PoR.",
+    "expected": [
+     "lcs_delay",
+     "v0002",
+     1.0
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "text": "URGENT: shipment S4 grows to 120 TEU (customer added 20 boxes).",
+    "expected": [
+     "volume",
+     "S4",
+     0.2
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "text": "S5 will be 10 TEU less than booked.",
+    "expected": [
+     "volume",
+     "S5",
+     -0.1
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "text": "Barge v0004 vertrekt 2 uur later uit Dordrecht (sluis storing).",
+    "expected": [
+     "lcs_delay",
+     "v0004",
+     2.0
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "text": "v0006 delayed 30mins",
+    "expected": [
+     "lcs_delay",
+     "v0006",
+     0.5
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "text": "Our boxes for S2 will only be ready at 08:30.",
+    "expected": [
+     "release",
+     "S2",
+     1.5
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "text": "Pls note S1 release slips by one and a half hrs",
+    "expected": [
+     "release",
+     "S1",
+     1.5
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "text": "Expect a 1-hour delay on rail service v0003.",
+    "expected": [
+     "lcs_delay",
+     "v0003",
+     1.0
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "text": "v0005 is running late, departure Dordrecht 13:30 instead of 12:00",
+    "expected": [
+     "lcs_delay",
+     "v0005",
+     1.5
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "text": "Shipment S4: volume reduced by 30 percent.",
+    "expected": [
+     "volume",
+     "S4",
+     -0.3
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "text": "Lock maintenance: barge v0001 can only leave PoR at 9 am.",
+    "expected": [
+     "lcs_delay",
+     "v0001",
+     2.0
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "text": "S5 +15 TEU",
+    "expected": [
+     "volume",
+     "S5",
+     0.15
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "text": "s3 delayd 1hr sorry",
+    "expected": [
+     "release",
+     "S3",
+     1.0
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "text": "v0004: ETD Dordrecht 16:00 (was 15:00).",
+    "expected": [
+     "lcs_delay",
+     "v0004",
+     1.0
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "text": "Booking S3 now 40 TEU.",
+    "expected": [
+     "volume",
+     "S3",
+     -0.2
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "text": "S4 boxes released at 8 instead of 7.",
+    "expected": [
+     "release",
+     "S4",
+     1.0
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "text": "Signal failure Tilburg: v0006 +1.5h",
+    "expected": [
+     "lcs_delay",
+     "v0006",
+     1.5
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "text": "Shipper update: S2 is 65 TEU today, not 50.",
+    "expected": [
+     "volume",
+     "S2",
+     0.3
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "text": "v0003 ~2 hrs late out of Rotterdam",
+    "expected": [
+     "lcs_delay",
+     "v0003",
+     2.0
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "text": "For S1 please plan 55 TEU (was 50).",
+    "expected": [
+     "volume",
+     "S1",
+     0.1
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "text": "Release S4 pushed to 09:00 because of a reefer check.",
+    "expected": [
+     "release",
+     "S4",
+     2.0
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "text": "v0002 cancelled the 11:00 slot, new departure 12:00.",
+    "expected": [
+     "lcs_delay",
+     "v0002",
+     1.0
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "text": "Reduce S5 to 80 TEU.",
+    "expected": [
+     "volume",
+     "S5",
+     -0.2
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "text": "Heads-up: v0005 runs one hour behind.",
+    "expected": [
+     "lcs_delay",
+     "v0005",
+     1.0
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "text": "v0006 leaves at 15:30 today.",
+    "expected": [
+     "lcs_delay",
+     "v0006",
+     0.5
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "text": "S4 volume: 70 TEU",
+    "expected": [
+     "volume",
+     "S4",
+     -0.3
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "text": "S5 available from 8.5h onwards.",
+    "expected": [
+     "release",
+     "S5",
+     1.5
+    ],
+    "got": [
+     null,
+     null,
+     null
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,227 @@
+{
+ "0.0": {
+  "days": 120,
+  "mean_cost": {
+   "oracle": 16022.7,
+   "trust_all": 16029.8,
+   "ignore": 16205.8
+  },
+  "disruption_cost": {
+   "oracle": 61.8,
+   "trust_all": 68.9,
+   "ignore": 244.9
+  },
+  "excess_disruption_cost_vs_oracle_pct": {
+   "trust_all": 11.5,
+   "ignore": 296.5
+  },
+  "spot_trucks_per_day": {
+   "oracle": 0.0,
+   "trust_all": 0.29,
+   "ignore": 6.79
+  },
+  "unused_booked_per_day": {
+   "oracle": 0.0,
+   "trust_all": 0.0,
+   "ignore": 0.58
+  },
+  "late_TEUh_per_day": {
+   "oracle": 448.6,
+   "trust_all": 449.0,
+   "ignore": 452.8
+  },
+  "churn_TEU_per_day": {
+   "oracle": 0.0,
+   "trust_all": 2.0,
+   "ignore": 20.7
+  },
+  "trust_worse_than_ignore_days": 2,
+  "reports": {
+   "truthful": 126,
+   "false_alarm": 4,
+   "exaggerated": 1,
+   "understated": 1
+  },
+  "omitted_events": 4
+ },
+ "0.25": {
+  "days": 120,
+  "mean_cost": {
+   "oracle": 15952.8,
+   "trust_all": 15964.2,
+   "ignore": 16088.4
+  },
+  "disruption_cost": {
+   "oracle": -8.1,
+   "trust_all": 3.3,
+   "ignore": 127.5
+  },
+  "excess_disruption_cost_vs_oracle_pct": {
+   "trust_all": -141.2,
+   "ignore": -1679.4
+  },
+  "spot_trucks_per_day": {
+   "oracle": 0.0,
+   "trust_all": 0.25,
+   "ignore": 4.46
+  },
+  "unused_booked_per_day": {
+   "oracle": 0.0,
+   "trust_all": 0.0,
+   "ignore": 0.38
+  },
+  "late_TEUh_per_day": {
+   "oracle": 432.8,
+   "trust_all": 440.1,
+   "ignore": 439.2
+  },
+  "churn_TEU_per_day": {
+   "oracle": 0.0,
+   "trust_all": 1.3,
+   "ignore": 16.3
+  },
+  "trust_worse_than_ignore_days": 6,
+  "reports": {
+   "truthful": 110,
+   "false_alarm": 10,
+   "exaggerated": 6,
+   "understated": 2
+  },
+  "omitted_events": 5
+ },
+ "0.5": {
+  "days": 120,
+  "mean_cost": {
+   "oracle": 16073.9,
+   "trust_all": 16109.4,
+   "ignore": 16246.1
+  },
+  "disruption_cost": {
+   "oracle": 113.0,
+   "trust_all": 148.5,
+   "ignore": 285.2
+  },
+  "excess_disruption_cost_vs_oracle_pct": {
+   "trust_all": 31.3,
+   "ignore": 152.3
+  },
+  "spot_trucks_per_day": {
+   "oracle": 0.0,
+   "trust_all": 1.0,
+   "ignore": 6.12
+  },
+  "unused_booked_per_day": {
+   "oracle": 0.0,
+   "trust_all": 0.04,
+   "ignore": 0.29
+  },
+  "late_TEUh_per_day": {
+   "oracle": 435.6,
+   "trust_all": 440.7,
+   "ignore": 441.2
+  },
+  "churn_TEU_per_day": {
+   "oracle": 0.0,
+   "trust_all": 6.6,
+   "ignore": 18.1
+  },
+  "trust_worse_than_ignore_days": 7,
+  "reports": {
+   "truthful": 103,
+   "false_alarm": 28,
+   "exaggerated": 10,
+   "understated": 3
+  },
+  "omitted_events": 8
+ },
+ "0.75": {
+  "days": 120,
+  "mean_cost": {
+   "oracle": 16216.3,
+   "trust_all": 16333.1,
+   "ignore": 16461.1
+  },
+  "disruption_cost": {
+   "oracle": 255.4,
+   "trust_all": 372.2,
+   "ignore": 500.2
+  },
+  "excess_disruption_cost_vs_oracle_pct": {
+   "trust_all": 45.7,
+   "ignore": 95.9
+  },
+  "spot_trucks_per_day": {
+   "oracle": 0.0,
+   "trust_all": 1.86,
+   "ignore": 9.33
+  },
+  "unused_booked_per_day": {
+   "oracle": 0.0,
+   "trust_all": 0.83,
+   "ignore": 0.46
+  },
+  "late_TEUh_per_day": {
+   "oracle": 454.7,
+   "trust_all": 482.6,
+   "ignore": 456.2
+  },
+  "churn_TEU_per_day": {
+   "oracle": 0.0,
+   "trust_all": 22.2,
+   "ignore": 30.9
+  },
+  "trust_worse_than_ignore_days": 26,
+  "reports": {
+   "exaggerated": 43,
+   "false_alarm": 71,
+   "truthful": 81,
+   "understated": 6
+  },
+  "omitted_events": 25
+ },
+ "1.0": {
+  "days": 120,
+  "mean_cost": {
+   "oracle": 16193.7,
+   "trust_all": 16365.1,
+   "ignore": 16382.8
+  },
+  "disruption_cost": {
+   "oracle": 232.8,
+   "trust_all": 404.2,
+   "ignore": 421.9
+  },
+  "excess_disruption_cost_vs_oracle_pct": {
+   "trust_all": 73.6,
+   "ignore": 81.3
+  },
+  "spot_trucks_per_day": {
+   "oracle": 0.0,
+   "trust_all": 2.86,
+   "ignore": 7.25
+  },
+  "unused_booked_per_day": {
+   "oracle": 0.0,
+   "trust_all": 0.75,
+   "ignore": 0.42
+  },
+  "late_TEUh_per_day": {
+   "oracle": 443.9,
+   "trust_all": 480.4,
+   "ignore": 448.8
+  },
+  "churn_TEU_per_day": {
+   "oracle": 0.0,
+   "trust_all": 28.8,
+   "ignore": 25.4
+  },
+  "trust_worse_than_ignore_days": 33,
+  "reports": {
+   "exaggerated": 50,
+   "false_alarm": 83,
+   "truthful": 60,
+   "understated": 14
+  },
+  "omitted_events": 32
+ }
+}

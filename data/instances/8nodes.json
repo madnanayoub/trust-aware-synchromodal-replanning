@@ -1,0 +1,362 @@
+{
+ "name": "8nodes",
+ "terminals": [
+  "T1",
+  "T2",
+  "T3",
+  "T4",
+  "T5",
+  "T6",
+  "T7",
+  "T8"
+ ],
+ "services": [
+  {
+   "id": "v1",
+   "mode": "barge",
+   "legs": [
+    {
+     "i": "T1",
+     "j": "T3",
+     "run_time": 2.0,
+     "var_cost": 2.45,
+     "planned_dep": null
+    },
+    {
+     "i": "T3",
+     "j": "T6",
+     "run_time": 2.0,
+     "var_cost": 2.45,
+     "planned_dep": null
+    }
+   ],
+   "fixed_cost": 60.0,
+   "capacity": 120,
+   "load_time": 1.0,
+   "unload_time": 1.0,
+   "cancel_cost": 0.0,
+   "preplanned": false
+  },
+  {
+   "id": "v2",
+   "mode": "rail",
+   "legs": [
+    {
+     "i": "T1",
+     "j": "T4",
+     "run_time": 1.5,
+     "var_cost": 30.16,
+     "planned_dep": null
+    },
+    {
+     "i": "T4",
+     "j": "T6",
+     "run_time": 1.5,
+     "var_cost": 30.16,
+     "planned_dep": null
+    }
+   ],
+   "fixed_cost": 30.0,
+   "capacity": 100,
+   "load_time": 1.0,
+   "unload_time": 1.0,
+   "cancel_cost": 0.0,
+   "preplanned": false
+  },
+  {
+   "id": "v3",
+   "mode": "rail",
+   "legs": [
+    {
+     "i": "T1",
+     "j": "T5",
+     "run_time": 1.5,
+     "var_cost": 30.16,
+     "planned_dep": null
+    },
+    {
+     "i": "T5",
+     "j": "T8",
+     "run_time": 1.5,
+     "var_cost": 30.16,
+     "planned_dep": null
+    }
+   ],
+   "fixed_cost": 30.0,
+   "capacity": 60,
+   "load_time": 1.0,
+   "unload_time": 1.0,
+   "cancel_cost": 0.0,
+   "preplanned": false
+  },
+  {
+   "id": "v4",
+   "mode": "barge",
+   "legs": [
+    {
+     "i": "T3",
+     "j": "T5",
+     "run_time": 2.0,
+     "var_cost": 4.29,
+     "planned_dep": null
+    },
+    {
+     "i": "T5",
+     "j": "T7",
+     "run_time": 2.0,
+     "var_cost": 4.29,
+     "planned_dep": null
+    }
+   ],
+   "fixed_cost": 60.0,
+   "capacity": 120,
+   "load_time": 1.0,
+   "unload_time": 1.0,
+   "cancel_cost": 0.0,
+   "preplanned": false
+  },
+  {
+   "id": "v5",
+   "mode": "barge",
+   "legs": [
+    {
+     "i": "T3",
+     "j": "T6",
+     "run_time": 2.0,
+     "var_cost": 6.73,
+     "planned_dep": null
+    }
+   ],
+   "fixed_cost": 60.0,
+   "capacity": 120,
+   "load_time": 1.0,
+   "unload_time": 1.0,
+   "cancel_cost": 0.0,
+   "preplanned": false
+  },
+  {
+   "id": "v6",
+   "mode": "rail",
+   "legs": [
+    {
+     "i": "T6",
+     "j": "T7",
+     "run_time": 2.0,
+     "var_cost": 22.62,
+     "planned_dep": null
+    }
+   ],
+   "fixed_cost": 30.0,
+   "capacity": 100,
+   "load_time": 1.0,
+   "unload_time": 1.0,
+   "cancel_cost": 0.0,
+   "preplanned": false
+  }
+ ],
+ "trucks": [
+  {
+   "id": "TG1",
+   "i": "T1",
+   "j": "T2",
+   "run_time": 1.0,
+   "var_cost": 45.98,
+   "fixed_cost": 15.0,
+   "max_trucks": 500,
+   "load_time": 0.5,
+   "unload_time": 0.5,
+   "capacity_per_truck": 1.0
+  },
+  {
+   "id": "TG2",
+   "i": "T2",
+   "j": "T5",
+   "run_time": 1.0,
+   "var_cost": 45.98,
+   "fixed_cost": 15.0,
+   "max_trucks": 500,
+   "load_time": 0.5,
+   "unload_time": 0.5,
+   "capacity_per_truck": 1.0
+  },
+  {
+   "id": "TG3",
+   "i": "T3",
+   "j": "T4",
+   "run_time": 1.0,
+   "var_cost": 45.98,
+   "fixed_cost": 15.0,
+   "max_trucks": 500,
+   "load_time": 0.5,
+   "unload_time": 0.5,
+   "capacity_per_truck": 1.0
+  },
+  {
+   "id": "TG4",
+   "i": "T2",
+   "j": "T8",
+   "run_time": 1.0,
+   "var_cost": 45.98,
+   "fixed_cost": 15.0,
+   "max_trucks": 500,
+   "load_time": 0.5,
+   "unload_time": 0.5,
+   "capacity_per_truck": 1.0
+  },
+  {
+   "id": "TG5",
+   "i": "T5",
+   "j": "T6",
+   "run_time": 1.0,
+   "var_cost": 45.98,
+   "fixed_cost": 15.0,
+   "max_trucks": 500,
+   "load_time": 0.5,
+   "unload_time": 0.5,
+   "capacity_per_truck": 1.0
+  },
+  {
+   "id": "TG6",
+   "i": "T5",
+   "j": "T7",
+   "run_time": 1.0,
+   "var_cost": 45.98,
+   "fixed_cost": 15.0,
+   "max_trucks": 500,
+   "load_time": 0.5,
+   "unload_time": 0.5,
+   "capacity_per_truck": 1.0
+  }
+ ],
+ "shipments": [
+  {
+   "id": "S1",
+   "o": "T1",
+   "d": "T5",
+   "n": 50.0,
+   "alpha": 7.0,
+   "beta": 18.0,
+   "gamma": 24.0,
+   "rho_early": 0.5,
+   "rho_late": 1.5
+  },
+  {
+   "id": "S2",
+   "o": "T1",
+   "d": "T6",
+   "n": 50.0,
+   "alpha": 7.0,
+   "beta": 18.0,
+   "gamma": 24.0,
+   "rho_early": 0.5,
+   "rho_late": 1.5
+  },
+  {
+   "id": "S3",
+   "o": "T3",
+   "d": "T7",
+   "n": 50.0,
+   "alpha": 7.0,
+   "beta": 18.0,
+   "gamma": 24.0,
+   "rho_early": 0.5,
+   "rho_late": 1.5
+  },
+  {
+   "id": "S4",
+   "o": "T2",
+   "d": "T8",
+   "n": 100.0,
+   "alpha": 7.0,
+   "beta": 18.0,
+   "gamma": 24.0,
+   "rho_early": 0.5,
+   "rho_late": 1.5
+  },
+  {
+   "id": "S5",
+   "o": "T4",
+   "d": "T7",
+   "n": 100.0,
+   "alpha": 7.0,
+   "beta": 18.0,
+   "gamma": 24.0,
+   "rho_early": 0.5,
+   "rho_late": 1.5
+  }
+ ],
+ "transshipment": [
+  {
+   "from": "barge",
+   "to": "barge",
+   "cost": 23.89,
+   "time": 1.0
+  },
+  {
+   "from": "barge",
+   "to": "rail",
+   "cost": 23.89,
+   "time": 1.0
+  },
+  {
+   "from": "barge",
+   "to": "truck",
+   "cost": 23.89,
+   "time": 1.0
+  },
+  {
+   "from": "rail",
+   "to": "barge",
+   "cost": 23.89,
+   "time": 1.0
+  },
+  {
+   "from": "rail",
+   "to": "rail",
+   "cost": 23.89,
+   "time": 1.0
+  },
+  {
+   "from": "rail",
+   "to": "truck",
+   "cost": 23.89,
+   "time": 1.0
+  },
+  {
+   "from": "truck",
+   "to": "barge",
+   "cost": 23.89,
+   "time": 1.0
+  },
+  {
+   "from": "truck",
+   "to": "rail",
+   "cost": 23.89,
+   "time": 1.0
+  },
+  {
+   "from": "truck",
+   "to": "truck",
+   "cost": 0.0,
+   "time": 0.0
+  }
+ ],
+ "barge_buffer": 3.0,
+ "rail_step": 1.0,
+ "rail_max_shift": 1.0,
+ "horizon_start": 0.0,
+ "horizon_end": 24.0,
+ "has_timetable": false,
+ "source": "4TU workbook 8nodes.xlsx",
+ "notes": [
+  "Input sheet has no capacity column -> capacity by sequence number {1: 120, 2: 100, 3: 60, 4: 120, 5: 120, 6: 100}, else by mode {'barge': 120, 'rail': 100}.",
+  "vehicle 5: unloading time blank -> set equal to loading time",
+  "vehicle 6: unloading time blank -> set equal to loading time",
+  "Truck groups numbered as 5 arcs (e.g. '11--15'), but Sheet2 shows single truck arcs carrying up to 100 TEU with fixed cost 15/TEU -> modelled as 500 one-TEU trucks per lane (identical cost structure, as in paper Sec. 6.1).",
+  "S4: destination T9 invalid in the 8-terminal network; set to T8 (the reported Sheet2 flows deliver S4 at T8, the last terminal)",
+  "S5: destination T8 invalid in the 8-terminal network; set to T7 (T8 is unreachable from T4 on any arc; the reported Sheet2 flows deliver S5 at T7)",
+  "Sheet2 flow rows not matching any Sheet1 leg/lane (ignored): ['<\"T7\" \"T8\" \"barge\" 5>']",
+  "v4: Sheet2 labels inconsistent {'barge': 1, 'rail': 2}; keeping Sheet1 mode 'barge'",
+  "v5: Sheet1 mode 'rail' but every Sheet2 label says 'barge' (fixed 60, var 6.73) -> mode set to 'barge'"
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "llm": "anthropic:claude-haiku-5-5",
+ "value_of_information_captured_pct": {
+  "0.0": {
+   "trust_all": 95.2,
+   "ours_mock": 98.9,
+   "ours_llm": 98.9,
+   "days": 120,
+   "llm_explanations_faithful_pct": 99.2
+  },
+  "0.25": {
+   "trust_all": 71.4,
+   "ours_mock": 93.6,
+   "ours_llm": 93.6,
+   "days": 120,
+   "llm_explanations_faithful_pct": 100.0
+  },
+  "0.5": {
+   "trust_all": 54.3,
+   "ours_mock": 86.2,
+   "ours_llm": 86.2,
+   "days": 120,
+   "llm_explanations_faithful_pct": 100.0
+  },
+  "0.75": {
+   "trust_all": 39.4,
+   "ours_mock": 58.1,
+   "ours_llm": 58.1,
+   "days": 120,
+   "llm_explanations_faithful_pct": 100.0
+  },
+  "1.0": {
+   "trust_all": 17.7,
+   "ours_mock": 51.6,
+   "ours_llm": 51.6,
+   "days": 120,
+   "llm_explanations_faithful_pct": 100.0
+  },
+  "all": {
+   "trust_all": 55.8,
+   "ours_mock": 77.3,
+   "ours_llm": 77.3,
+   "days": 600,
+   "llm_explanations_faithful_pct": 99.8
+  }
+ }
+}

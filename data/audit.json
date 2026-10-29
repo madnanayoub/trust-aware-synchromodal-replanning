@@ -1,0 +1,553 @@
+{
+ "rotterdam": {
+  "base": {
+   "ours": {
+    "total": 15960.9,
+    "fixed": 1320.0,
+    "variable": 10476.3,
+    "transshipment": 3344.6,
+    "early": 205.0,
+    "late": 615.0,
+    "unserved_TEU": 0.0,
+    "trucks": 70,
+    "transshipped_TEU": 140.0,
+    "feasible": true
+   },
+   "paper": {
+    "fixed": 1320,
+    "variable": 10476,
+    "transshipment": 3345,
+    "early": 205,
+    "late": 615,
+    "total": 15961
+   },
+   "violations": []
+  },
+  "table9_STP": {
+   "ours": {
+    "total": 17261.8,
+    "fixed": 1770.0,
+    "variable": 11332.2,
+    "transshipment": 3344.6,
+    "early": 200.0,
+    "late": 615.0,
+    "unserved_TEU": 0.0,
+    "trucks": 100,
+    "transshipped_TEU": 140.0,
+    "feasible": true
+   },
+   "paper": {
+    "total": 17261.8,
+    "fixed": 1770,
+    "variable": 11332.2,
+    "transshipment": 3344.6,
+    "early": 200,
+    "late": 615
+   },
+   "violations": []
+  },
+  "table9_N-STP": {
+   "ours": {
+    "total": 20043.0,
+    "fixed": 3240.0,
+    "variable": 10600.0,
+    "transshipment": 4778.0,
+    "early": 75.0,
+    "late": 1350.0,
+    "unserved_TEU": 0.0,
+    "trucks": 200,
+    "transshipped_TEU": 200.0,
+    "feasible": true
+   },
+   "paper": {
+    "total": 20043,
+    "fixed": 3240,
+    "variable": 10600,
+    "transshipment": 4778,
+    "early": 75,
+    "late": 1350
+   },
+   "violations": []
+  },
+  "table9_R-STP": {
+   "ours": {
+    "total": 19078.0,
+    "fixed": 2370.0,
+    "variable": 12473.4,
+    "transshipment": 3344.6,
+    "early": 275.0,
+    "late": 615.0,
+    "unserved_TEU": 0.0,
+    "trucks": 140,
+    "transshipped_TEU": 140.0,
+    "feasible": true
+   },
+   "paper": {
+    "total": 19078,
+    "fixed": 2370,
+    "variable": 12473.4,
+    "transshipment": 3344.6,
+    "early": 275,
+    "late": 615
+   },
+   "violations": []
+  }
+ },
+ "4tu": {
+  "7nodes": {
+   "summary": "7nodes: 7 terminals, 6 LCS (8 legs), 6 truck lanes, 5 shipments (350 TEU)",
+   "issues": [
+    "Input sheet has no capacity column -> capacity by sequence number {1: 120, 2: 100, 3: 60, 4: 120, 5: 120, 6: 100}, else by mode {'barge': 120, 'rail': 100}.",
+    "vehicle 1: unloading time blank -> set equal to loading time",
+    "vehicle 2: unloading time blank -> set equal to loading time",
+    "vehicle 3: unloading time blank -> set equal to loading time",
+    "vehicle 5: unloading time blank -> set equal to loading time",
+    "Truck groups numbered as 5 arcs (e.g. '11--15'), but Sheet2 shows single truck arcs carrying up to 100 TEU with fixed cost 15/TEU -> modelled as 500 one-TEU trucks per lane (identical cost structure, as in paper Sec. 6.1).",
+    "v4: Sheet2 labels inconsistent {'rail': 2, 'barge': 1}; keeping Sheet1 mode 'barge'",
+    "v5: Sheet1 mode 'rail' but every Sheet2 label says 'barge' (fixed 60, var 6.73) -> mode set to 'barge'"
+   ],
+   "reported": {
+    "variable": 15067.5,
+    "fixed": 3150.0,
+    "transshipment": 1194.5,
+    "early": 0.0,
+    "late": 150.0,
+    "total": 19562.0
+   },
+   "recomputed_from_reported_flows": {
+    "variable": 15067.5,
+    "fixed_excl_cancel": 3210.0
+   },
+   "reported_flow_violations": [
+    "capacity v1 leg0: 150 > 120",
+    "flow conservation S5@T6: net 0, required 100",
+    "flow conservation S5@T7: net 100, required 0"
+   ],
+   "reported_solution_consistent": false
+  },
+  "8nodes": {
+   "summary": "8nodes: 8 terminals, 6 LCS (10 legs), 6 truck lanes, 5 shipments (350 TEU)",
+   "issues": [
+    "Input sheet has no capacity column -> capacity by sequence number {1: 120, 2: 100, 3: 60, 4: 120, 5: 120, 6: 100}, else by mode {'barge': 120, 'rail': 100}.",
+    "vehicle 5: unloading time blank -> set equal to loading time",
+    "vehicle 6: unloading time blank -> set equal to loading time",
+    "Truck groups numbered as 5 arcs (e.g. '11--15'), but Sheet2 shows single truck arcs carrying up to 100 TEU with fixed cost 15/TEU -> modelled as 500 one-TEU trucks per lane (identical cost structure, as in paper Sec. 6.1).",
+    "S4: destination T9 invalid in the 8-terminal network; set to T8 (the reported Sheet2 flows deliver S4 at T8, the last terminal)",
+    "S5: destination T8 invalid in the 8-terminal network; set to T7 (T8 is unreachable from T4 on any arc; the reported Sheet2 flows deliver S5 at T7)",
+    "Sheet2 flow rows not matching any Sheet1 leg/lane (ignored): ['<\"T7\" \"T8\" \"barge\" 5>']",
+    "v4: Sheet2 labels inconsistent {'barge': 1, 'rail': 2}; keeping Sheet1 mode 'barge'",
+    "v5: Sheet1 mode 'rail' but every Sheet2 label says 'barge' (fixed 60, var 6.73) -> mode set to 'barge'"
+   ],
+   "reported": {
+    "variable": 9990.5,
+    "fixed": 2370.0,
+    "transshipment": 0.0,
+    "early": 0.0,
+    "late": 0.0,
+    "total": 12360.5
+   },
+   "recomputed_from_reported_flows": {
+    "variable": 9317.5,
+    "fixed_excl_cancel": 2370.0
+   },
+   "reported_flow_violations": [
+    "capacity v1 leg0: 150 > 120",
+    "capacity v4 leg0: 200 > 120",
+    "capacity v4 leg1: 250 > 120",
+    "flow conservation S1@T6: net 50, required 0",
+    "flow conservation S1@T5: net 0, required 50",
+    "flow conservation S2@T2: net -50, required 0",
+    "flow conservation S2@T1: net 0, required -50",
+    "flow conservation S3@T2: net -50, required 0",
+    "flow conservation S3@T3: net 0, required -50",
+    "flow conservation S4@T8: net 0, required 100",
+    "flow conservation S4@T2: net 0, required -100",
+    "flow conservation S4@T1: net -100, required 0",
+    "flow conservation S4@T7: net 100, required 0",
+    "flow conservation S5@T4: net 0, required -100",
+    "flow conservation S5@T3: net -100, required 0"
+   ],
+   "reported_solution_consistent": false
+  },
+  "9nodes": {
+   "summary": "9nodes: 9 terminals, 6 LCS (12 legs), 8 truck lanes, 5 shipments (350 TEU)",
+   "issues": [
+    "vehicle 5: no variable cost for leg 2 -> reuse leg-1 value 6.73",
+    "vehicle 6: no variable cost for leg 2 -> reuse leg-1 value 22.62",
+    "Truck groups numbered as 5 arcs (e.g. '11--15'), but Sheet2 shows single truck arcs carrying up to 100 TEU with fixed cost 15/TEU -> modelled as 500 one-TEU trucks per lane (identical cost structure, as in paper Sec. 6.1).",
+    "v4: Sheet2 labels inconsistent {'barge': 1, 'rail': 2}; keeping Sheet1 mode 'barge'",
+    "v5: Sheet1 mode 'rail' but every Sheet2 label says 'barge' (fixed 60, var 6.73) -> mode set to 'barge'"
+   ],
+   "reported": {
+    "variable": 1650.0,
+    "fixed": 2389.0,
+    "transshipment": 0.0,
+    "early": 0.0,
+    "total": 0.0
+   },
+   "recomputed_from_reported_flows": {
+    "variable": 9982.0,
+    "fixed_excl_cancel": 1710.0
+   },
+   "reported_flow_violations": [
+    "capacity v4 leg1: 150 > 120",
+    "capacity v5 leg0: 200 > 120"
+   ],
+   "reported_solution_consistent": false
+  },
+  "10nodes": {
+   "summary": "10nodes: 10 terminals, 8 LCS (14 legs), 8 truck lanes, 5 shipments (350 TEU)",
+   "issues": [
+    "Input sheet has no run-time / loading-time columns -> mode defaults {'barge': 2.0, 'rail': 1.5, 'truck': 1.0}, load/unload {'barge': 1.0, 'rail': 1.0, 'truck': 0.5} (values from the 9-node file and the 10-node Sheet2 'RunT' column).",
+    "Input sheet has no capacity column -> capacity by sequence number {1: 120, 2: 100, 3: 60, 4: 120, 5: 120, 6: 100}, else by mode {'barge': 120, 'rail': 100}.",
+    "Sheet1 lists 6 shipments but Sheet2 (and Table 10) correspond to 5; using S1-S5.",
+    "v4: Sheet2 labels inconsistent {'barge': 1, 'rail': 2}; keeping Sheet1 mode 'barge'",
+    "v5: Sheet1 mode 'rail' but every Sheet2 label says 'barge' (fixed 60, var 6.73) -> mode set to 'barge'"
+   ],
+   "reported": {
+    "variable": 13740.5,
+    "fixed": 1770.0,
+    "transshipment": 4778.0,
+    "early": 0.0,
+    "late": 525.0,
+    "total": 20813.5
+   },
+   "recomputed_from_reported_flows": {
+    "variable": 13740.5,
+    "fixed_excl_cancel": 1830.0
+   },
+   "reported_flow_violations": [],
+   "reported_solution_consistent": true
+  },
+  "10nodes_6S": {
+   "summary": "10nodes_6S: 10 terminals, 8 LCS (14 legs), 8 truck lanes, 6 shipments (400 TEU)",
+   "issues": [
+    "Input sheet has no run-time / loading-time columns -> mode defaults {'barge': 2.0, 'rail': 1.5, 'truck': 1.0}, load/unload {'barge': 1.0, 'rail': 1.0, 'truck': 0.5} (values from the 9-node file and the 10-node Sheet2 'RunT' column).",
+    "Input sheet has no capacity column -> capacity by sequence number {1: 120, 2: 100, 3: 60, 4: 120, 5: 120, 6: 100}, else by mode {'barge': 120, 'rail': 100}.",
+    "Truck groups numbered as 5 arcs (e.g. '11--15'), but Sheet2 shows single truck arcs carrying up to 100 TEU with fixed cost 15/TEU -> modelled as 500 one-TEU trucks per lane (identical cost structure, as in paper Sec. 6.1).",
+    "v4: Sheet2 labels inconsistent {'barge': 1, 'rail': 2}; keeping Sheet1 mode 'barge'",
+    "v5: Sheet1 mode 'rail' but every Sheet2 label says 'barge' (fixed 60, var 6.73) -> mode set to 'barge'"
+   ],
+   "reported": {
+    "transshipment": 4778.0,
+    "early": 0.0,
+    "late": 525.0,
+    "total": 21365.0
+   },
+   "recomputed_from_reported_flows": {
+    "variable": 14292.0,
+    "fixed_excl_cancel": 1830.0
+   },
+   "reported_flow_violations": [],
+   "reported_solution_consistent": true
+  },
+  "10nodes_7S": {
+   "summary": "10nodes_7S: 10 terminals, 8 LCS (14 legs), 8 truck lanes, 7 shipments (450 TEU)",
+   "issues": [
+    "Input sheet has no run-time / loading-time columns -> mode defaults {'barge': 2.0, 'rail': 1.5, 'truck': 1.0}, load/unload {'barge': 1.0, 'rail': 1.0, 'truck': 0.5} (values from the 9-node file and the 10-node Sheet2 'RunT' column).",
+    "Input sheet has no capacity column -> capacity by sequence number {1: 120, 2: 100, 3: 60, 4: 120, 5: 120, 6: 100}, else by mode {'barge': 120, 'rail': 100}.",
+    "Truck groups numbered as 5 arcs (e.g. '11--15'), but Sheet2 shows single truck arcs carrying up to 100 TEU with fixed cost 15/TEU -> modelled as 500 one-TEU trucks per lane (identical cost structure, as in paper Sec. 6.1).",
+    "v4: Sheet2 labels inconsistent {'barge': 1, 'rail': 2}; keeping Sheet1 mode 'barge'",
+    "v5: Sheet1 mode 'rail' but every Sheet2 label says 'barge' (fixed 60, var 6.73) -> mode set to 'barge'"
+   ],
+   "reported": {
+    "transshipment": 4778.0,
+    "early": 0.0,
+    "late": 787.5,
+    "total": 22545.5
+   },
+   "recomputed_from_reported_flows": {
+    "variable": 15180.0,
+    "fixed_excl_cancel": 1830.0
+   },
+   "reported_flow_violations": [
+    "capacity v1 leg0: 150 > 120",
+    "capacity v4 leg0: 150 > 120",
+    "capacity v4 leg1: 150 > 120",
+    "capacity v5 leg0: 150 > 120"
+   ],
+   "reported_solution_consistent": false
+  },
+  "10nodes_8S": {
+   "summary": "10nodes_8S: 10 terminals, 8 LCS (14 legs), 8 truck lanes, 8 shipments (500 TEU)",
+   "issues": [
+    "Input sheet has no run-time / loading-time columns -> mode defaults {'barge': 2.0, 'rail': 1.5, 'truck': 1.0}, load/unload {'barge': 1.0, 'rail': 1.0, 'truck': 0.5} (values from the 9-node file and the 10-node Sheet2 'RunT' column).",
+    "Input sheet has no capacity column -> capacity by sequence number {1: 120, 2: 100, 3: 60, 4: 120, 5: 120, 6: 100}, else by mode {'barge': 120, 'rail': 100}.",
+    "Truck groups numbered as 5 arcs (e.g. '11--15'), but Sheet2 shows single truck arcs carrying up to 100 TEU with fixed cost 15/TEU -> modelled as 500 one-TEU trucks per lane (identical cost structure, as in paper Sec. 6.1).",
+    "v4: Sheet2 labels inconsistent {'barge': 1, 'rail': 2}; keeping Sheet1 mode 'barge'",
+    "v5: Sheet1 mode 'rail' but every Sheet2 label says 'barge' (fixed 60, var 6.73) -> mode set to 'barge'"
+   ],
+   "reported": {
+    "transshipment": 4778.0,
+    "early": 0.0,
+    "late": 787.5,
+    "total": 23783.0
+   },
+   "recomputed_from_reported_flows": {
+    "variable": 17361.5,
+    "fixed_excl_cancel": 1830.0
+   },
+   "reported_flow_violations": [
+    "capacity v1 leg0: 200 > 120",
+    "capacity v3 leg1: 100 > 60",
+    "capacity v4 leg0: 200 > 120",
+    "capacity v4 leg1: 150 > 120",
+    "capacity v5 leg0: 150 > 120"
+   ],
+   "reported_solution_consistent": false
+  },
+  "10nodes_9S": {
+   "summary": "10nodes_9S: 10 terminals, 8 LCS (14 legs), 8 truck lanes, 9 shipments (550 TEU)",
+   "issues": [
+    "Input sheet has no run-time / loading-time columns -> mode defaults {'barge': 2.0, 'rail': 1.5, 'truck': 1.0}, load/unload {'barge': 1.0, 'rail': 1.0, 'truck': 0.5} (values from the 9-node file and the 10-node Sheet2 'RunT' column).",
+    "Input sheet has no capacity column -> capacity by sequence number {1: 120, 2: 100, 3: 60, 4: 120, 5: 120, 6: 100}, else by mode {'barge': 120, 'rail': 100}.",
+    "Truck groups numbered as 5 arcs (e.g. '11--15'), but Sheet2 shows single truck arcs carrying up to 100 TEU with fixed cost 15/TEU -> modelled as 500 one-TEU trucks per lane (identical cost structure, as in paper Sec. 6.1).",
+    "v4: Sheet2 labels inconsistent {'barge': 1, 'rail': 2}; keeping Sheet1 mode 'barge'",
+    "v5: Sheet1 mode 'rail' but every Sheet2 label says 'barge' (fixed 60, var 6.73) -> mode set to 'barge'"
+   ],
+   "reported": {
+    "transshipment": 4778.0,
+    "early": 0.0,
+    "late": 787.5,
+    "total": 23783.0
+   },
+   "recomputed_from_reported_flows": {
+    "variable": 18492.5,
+    "fixed_excl_cancel": 1860.0
+   },
+   "reported_flow_violations": [
+    "capacity v1 leg0: 200 > 120",
+    "capacity v3 leg1: 100 > 60",
+    "capacity v4 leg0: 200 > 120",
+    "capacity v4 leg1: 150 > 120",
+    "capacity v5 leg0: 150 > 120",
+    "flow conservation S9@T10: net 50, required 0",
+    "flow conservation S9@T7: net 0, required 50"
+   ],
+   "reported_solution_consistent": false
+  },
+  "10nodes_10S": {
+   "summary": "10nodes_10S: 10 terminals, 8 LCS (14 legs), 8 truck lanes, 10 shipments (600 TEU)",
+   "issues": [
+    "Input sheet has no run-time / loading-time columns -> mode defaults {'barge': 2.0, 'rail': 1.5, 'truck': 1.0}, load/unload {'barge': 1.0, 'rail': 1.0, 'truck': 0.5} (values from the 9-node file and the 10-node Sheet2 'RunT' column).",
+    "Input sheet has no capacity column -> capacity by sequence number {1: 120, 2: 100, 3: 60, 4: 120, 5: 120, 6: 100}, else by mode {'barge': 120, 'rail': 100}.",
+    "Truck groups numbered as 5 arcs (e.g. '11--15'), but Sheet2 shows single truck arcs carrying up to 100 TEU with fixed cost 15/TEU -> modelled as 500 one-TEU trucks per lane (identical cost structure, as in paper Sec. 6.1).",
+    "v4: Sheet2 labels inconsistent {'barge': 1, 'rail': 2}; keeping Sheet1 mode 'barge'",
+    "v5: Sheet1 mode 'rail' but every Sheet2 label says 'barge' (fixed 60, var 6.73) -> mode set to 'barge'"
+   ],
+   "reported": {
+    "transshipment": 4778.0,
+    "early": 0.0,
+    "late": 787.5,
+    "total": 26102.899999999998
+   },
+   "recomputed_from_reported_flows": {
+    "variable": 20237.4,
+    "fixed_excl_cancel": 1860.0
+   },
+   "reported_flow_violations": [
+    "capacity v1 leg0: 210 > 120",
+    "capacity v3 leg1: 100 > 60",
+    "capacity v4 leg0: 210 > 120",
+    "capacity v4 leg1: 160 > 120",
+    "capacity v5 leg0: 160 > 120",
+    "flow conservation S9@T10: net 50, required 0",
+    "flow conservation S9@T7: net 0, required 50",
+    "flow conservation S10@T9: net 10, required 50",
+    "flow conservation S10@T1: net -10, required -50"
+   ],
+   "reported_solution_consistent": false
+  },
+  "10nodes_15S": {
+   "summary": "10nodes_15S: 10 terminals, 8 LCS (14 legs), 8 truck lanes, 15 shipments (610 TEU)",
+   "issues": [
+    "Input sheet has no run-time / loading-time columns -> mode defaults {'barge': 2.0, 'rail': 1.5, 'truck': 1.0}, load/unload {'barge': 1.0, 'rail': 1.0, 'truck': 0.5} (values from the 9-node file and the 10-node Sheet2 'RunT' column).",
+    "Input sheet has no capacity column -> capacity by sequence number {1: 120, 2: 100, 3: 60, 4: 120, 5: 120, 6: 100}, else by mode {'barge': 120, 'rail': 100}.",
+    "Truck groups numbered as 5 arcs (e.g. '11--15'), but Sheet2 shows single truck arcs carrying up to 100 TEU with fixed cost 15/TEU -> modelled as 500 one-TEU trucks per lane (identical cost structure, as in paper Sec. 6.1).",
+    "v4: Sheet2 labels inconsistent {'barge': 1, 'rail': 2}; keeping Sheet1 mode 'barge'",
+    "v5: Sheet1 mode 'rail' but every Sheet2 label says 'barge' (fixed 60, var 6.73) -> mode set to 'barge'"
+   ],
+   "reported": {
+    "transshipment": 5255.799999999999,
+    "early": 0.0,
+    "late": 892.5,
+    "total": 28983.4
+   },
+   "recomputed_from_reported_flows": {
+    "variable": 22835.1,
+    "fixed_excl_cancel": 2160.0
+   },
+   "reported_flow_violations": [
+    "capacity v1 leg0: 210 > 120",
+    "capacity v2 leg1: 110 > 100",
+    "capacity v3 leg1: 100 > 60",
+    "capacity v4 leg0: 220 > 120",
+    "capacity v4 leg1: 180 > 120",
+    "capacity v5 leg0: 190 > 120",
+    "capacity v6 leg0: 120 > 100",
+    "flow conservation S9@T10: net 50, required 0",
+    "flow conservation S9@T7: net 0, required 50"
+   ],
+   "reported_solution_consistent": false
+  },
+  "line_ntw": {
+   "summary": "line_ntw: 6 terminals, 6 LCS (13 legs), 5 truck lanes, 5 shipments (350 TEU)",
+   "issues": [],
+   "reported": {
+    "variable": 13052.199999999999,
+    "fixed": 240.0,
+    "transshipment": 5016.9,
+    "early": 0.0,
+    "late": 150.0,
+    "total": 18459.1
+   },
+   "recomputed_from_reported_flows": {
+    "variable": 13052.2,
+    "fixed_excl_cancel": 240.0
+   },
+   "reported_flow_violations": [
+    "capacity v1 leg1: 250 > 120",
+    "capacity v2 leg0: 240 > 100",
+    "capacity v4 leg0: 210 > 120",
+    "capacity v4 leg1: 150 > 120",
+    "flow conservation S2@T2: net 0, required -50",
+    "flow conservation S2@T1: net -50, required 0",
+    "flow conservation S3@T4: net 0, required 50",
+    "flow conservation S3@T5: net 50, required 0",
+    "flow conservation S4@T4: net 100, required 0",
+    "flow conservation S4@T5: net 0, required 100"
+   ],
+   "reported_solution_consistent": false
+  },
+  "ring_ntw": {
+   "summary": "ring_ntw: 6 terminals, 6 LCS (14 legs), 5 truck lanes, 5 shipments (350 TEU)",
+   "issues": [],
+   "reported": {
+    "variable": 13052.199999999999,
+    "fixed": 240.0,
+    "transshipment": 6928.099999999999,
+    "early": 112.5,
+    "late": 0.0,
+    "total": 20332.8
+   },
+   "recomputed_from_reported_flows": {
+    "variable": 12555.6,
+    "fixed_excl_cancel": 240.0
+   },
+   "reported_flow_violations": [
+    "capacity v1 leg0: 350 > 120",
+    "capacity v2 leg0: 110 > 100",
+    "capacity v5 leg0: 180 > 120",
+    "capacity v5 leg1: 180 > 120",
+    "capacity v6 leg1: 150 > 100",
+    "flow conservation S2@T2: net 0, required -50",
+    "flow conservation S2@T1: net -50, required 0",
+    "flow conservation S3@T4: net 0, required 50",
+    "flow conservation S3@T5: net 50, required 0",
+    "flow conservation S4@T4: net 100, required 0",
+    "flow conservation S4@T5: net 0, required 100"
+   ],
+   "reported_solution_consistent": false
+  },
+  "star_ntw": {
+   "summary": "star_ntw: 6 terminals, 6 LCS (12 legs), 5 truck lanes, 5 shipments (350 TEU)",
+   "issues": [
+    "Sheet2 flow rows not matching any Sheet1 leg/lane (ignored): ['<\"T6\" \"T2\" \"barge\" 1>']"
+   ],
+   "reported": {
+    "variable": 3449.1,
+    "fixed": 210.0,
+    "transshipment": 0.0,
+    "early": 0.0,
+    "late": 0.0,
+    "total": 3659.1
+   },
+   "recomputed_from_reported_flows": {
+    "variable": 3326.6,
+    "fixed_excl_cancel": 210.0
+   },
+   "reported_flow_violations": [
+    "capacity v1 leg0: 310 > 120",
+    "flow conservation S1@T2: net 0, required 50",
+    "flow conservation S1@T6: net 50, required 0",
+    "flow conservation S2@T2: net 0, required -50",
+    "flow conservation S2@T1: net -50, required 0",
+    "flow conservation S3@T4: net 0, required 50",
+    "flow conservation S3@T5: net 50, required 0",
+    "flow conservation S4@T4: net 100, required 0",
+    "flow conservation S4@T5: net 0, required 100"
+   ],
+   "reported_solution_consistent": false
+  },
+  "tree_ntw": {
+   "summary": "tree_ntw: 6 terminals, 6 LCS (12 legs), 5 truck lanes, 5 shipments (350 TEU)",
+   "issues": [],
+   "reported": {
+    "variable": 7137.5,
+    "fixed": 240.0,
+    "transshipment": 0.0,
+    "early": 0.0,
+    "late": 0.0,
+    "total": 7377.5
+   },
+   "recomputed_from_reported_flows": {
+    "variable": 7137.5,
+    "fixed_excl_cancel": 240.0
+   },
+   "reported_flow_violations": [
+    "capacity v1 leg0: 200 > 120",
+    "capacity v4 leg1: 150 > 120",
+    "capacity v5 leg1: 150 > 120",
+    "flow conservation S1@T2: net 0, required 50",
+    "flow conservation S1@T3: net 50, required 0",
+    "flow conservation S2@T2: net 0, required -50",
+    "flow conservation S2@T4: net 50, required 0",
+    "flow conservation S2@T1: net -50, required 0",
+    "flow conservation S2@T3: net 0, required 50",
+    "flow conservation S3@T4: net 0, required 50",
+    "flow conservation S3@T6: net 50, required 0",
+    "flow conservation S4@T1: net 0, required -100",
+    "flow conservation S4@T3: net -100, required 0",
+    "flow conservation S5@T4: net 100, required 0",
+    "flow conservation S5@T6: net 0, required 100",
+    "flow conservation S5@T1: net 0, required -100",
+    "flow conservation S5@T5: net -100, required 0"
+   ],
+   "reported_solution_consistent": false
+  },
+  "fully_connected": {
+   "summary": "fully_connected: 6 terminals, 6 LCS (12 legs), 5 truck lanes, 5 shipments (350 TEU)",
+   "issues": [
+    "Sheet2 flow rows not matching any Sheet1 leg/lane (ignored): ['<\"T4\" \"T5\" \"barge\" 4>', '<\"T5\" \"T6\" \"barge\" 4>', '<\"T5\" \"T6\" \"barge\" 5>', '<\"T6\" \"T1\" \"barge\" 5>']"
+   ],
+   "reported": {
+    "variable": 11557.1,
+    "fixed": 210.0,
+    "transshipment": 0.0,
+    "early": 0.0,
+    "late": 0.0,
+    "total": 7377.5
+   },
+   "recomputed_from_reported_flows": {
+    "variable": 8397.5,
+    "fixed_excl_cancel": 90.0
+   },
+   "reported_flow_violations": [
+    "capacity v1 leg0: 200 > 120",
+    "capacity v1 leg1: 150 > 120",
+    "capacity v2 leg0: 250 > 100",
+    "flow conservation S2@T4: net 50, required 0",
+    "flow conservation S2@T5: net 0, required 50",
+    "flow conservation S3@T4: net 50, required 0",
+    "flow conservation S3@T1: net 0, required 50",
+    "flow conservation S4@T4: net 100, required 0",
+    "flow conservation S4@T3: net -100, required 100",
+    "flow conservation S4@T5: net 0, required -100",
+    "flow conservation S5@T2: net 100, required -100",
+    "flow conservation S5@T4: net 0, required 100",
+    "flow conservation S5@T1: net -100, required 0"
+   ],
+   "reported_solution_consistent": false
+  }
+ }
+}

@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+# Editors / OS
+.idea/
+.DS_Store
+Thumbs.db
+# Secrets - never commit API keys
+.env
+*.key
+# Scratch output
+*.log
+results/_check*.json
